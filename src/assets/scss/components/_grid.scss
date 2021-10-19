@@ -1,0 +1,59 @@
+//==============================================================================
+// Layout grid
+//==============================================================================
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "aside"
+    "article"
+    "footer";
+  grid-template-rows: repeat(2, minmax(48px, 1fr)) auto minmax(48px, 1fr);
+
+  @include large-breakpoint {
+    grid-template-areas:
+      "header header header"
+      "aside article article"
+      "footer footer footer";
+    grid-template-rows: 64px auto 64px;
+    grid-template-columns: 25vw auto;
+  }
+}
+
+header {
+  background: tomato;
+  grid-area: header;
+}
+
+article {
+  background: gold;
+  grid-area: article;
+}
+
+aside {
+  background: lightgreen;
+  grid-area: aside;
+}
+
+footer {
+  background: lightblue;
+  grid-area: footer;
+}
+
+//==============================================================================
+// Card grid
+//==============================================================================
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  padding: 1rem;
+}
+
+.card {
+  height: 20vh;
+  background: lightcyan;
+}
