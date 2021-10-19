@@ -1,0 +1,17 @@
+header {
+  background: blue;
+  width: 100%;
+  height: 20%;
+}
+
+main {
+  background: red;
+  width: 100%;
+  height: 60%;
+}
+
+footer {
+  background: yellow;
+  width: 100%;
+  height: 20%;
+}
