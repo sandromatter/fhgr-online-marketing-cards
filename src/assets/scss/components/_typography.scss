@@ -1,0 +1,111 @@
+/**
+//==============================================================================
+// CSS Typography styling
+//==============================================================================
+*/
+
+html {
+  color: $font-color;
+  font: $font-weight $font-size $font-family;
+  line-height: $line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-font-color;
+  font-weight: $heading-font-weight;
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+}
+
+h1 {
+  font-size: $h1-mobile;
+}
+
+h2 {
+  font-size: $h2-mobile;
+}
+
+h3 {
+  font-size: $h3-mobile;
+}
+
+h4 {
+  font-size: $h4-mobile;
+}
+
+h5 {
+  font-size: $h5-mobile;
+}
+
+// Media queries
+
+@include small-breakpoint {
+  h1 {
+    font-size: $h1-mobile;
+  }
+
+  h2 {
+    font-size: $h2-mobile;
+  }
+
+  h3 {
+    font-size: $h3-mobile;
+  }
+
+  h4 {
+    font-size: $h4-mobile;
+  }
+
+  h5 {
+    font-size: $h5-mobile;
+  }
+}
+
+@include medium-breakpoint {
+  h1 {
+    font-size: $h1-mobile;
+  }
+
+  h2 {
+    font-size: $h2-mobile;
+  }
+
+  h3 {
+    font-size: $h3-mobile;
+  }
+
+  h4 {
+    font-size: $h4-mobile;
+  }
+
+  h5 {
+    font-size: $h5-mobile;
+  }
+}
+
+@include large-breakpoint {
+  h1 {
+    font-size: $h1;
+  }
+
+  h2 {
+    font-size: $h2;
+  }
+
+  h3 {
+    font-size: $h3;
+  }
+
+  h4 {
+    font-size: $h4;
+  }
+
+  h5 {
+    font-size: $h5;
+  }
+}

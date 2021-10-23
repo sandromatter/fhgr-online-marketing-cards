@@ -1,44 +1,39 @@
+/**
 //==============================================================================
-// Layout grid
+// Layout and CSS-Grid properties
 //==============================================================================
+*/
 
-.container {
-  height: 100vh;
+.grid__container {
   display: grid;
+  height: 100vh;
   grid-template-areas:
     "header"
     "aside"
     "article"
     "footer";
-  grid-template-rows: repeat(2, minmax(48px, 1fr)) auto minmax(48px, 1fr);
+  grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
 
   @include large-breakpoint {
-    grid-template-areas:
-      "header header header"
-      "aside article article"
-      "footer footer footer";
-    grid-template-rows: 64px auto 64px;
-    grid-template-columns: 25vw auto;
+    padding: 1rem 2.5rem;
   }
 }
 
 header {
-  background: tomato;
   grid-area: header;
 }
 
-article {
-  background: gold;
-  grid-area: article;
-}
-
 aside {
-  background: lightgreen;
   grid-area: aside;
 }
 
+article {
+  grid-area: article;
+}
+
 footer {
-  background: lightblue;
   grid-area: footer;
 }
 
@@ -46,14 +41,8 @@ footer {
 // Card grid
 //==============================================================================
 
-.card-grid {
+.grid__card {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   padding: 1rem;
-}
-
-.card {
-  height: 20vh;
-  background: lightcyan;
 }

@@ -1,0 +1,302 @@
+/**
+//==============================================================================
+// Responsive CSS Navigation Luxbar
+// https://balzss.github.io/luxbar/ | luxbar.css v0.3.0 | MIT License
+//==============================================================================
+*/
+
+nav {
+  display: block;
+}
+
+// Luxbar Logo
+.luxbar-brand {
+  height: 35px;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+
+  @include large-breakpoint {
+    height: 50px;
+  }
+}
+
+// Luxbar Static
+.luxbar-static {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  .luxbar-checkbox {
+    &:checked ~ .luxbar-menu {
+      position: relative;
+    }
+  }
+}
+
+// Luxbar Mobile
+%general-hamburger-span {
+  display: block;
+  height: $hamburger-line-height;
+  width: $hamburger-width;
+  transition: $luxbar-transition;
+}
+
+%hamburger-lines {
+  span {
+    background-color: transparent;
+
+    &::before,
+    &::after {
+      margin-top: 0;
+    }
+  }
+}
+
+.luxbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: $luxbar-height;
+}
+
+.luxbar-menu-left {
+  .luxbar-navigation,
+  .luxbar-header {
+    justify-content: flex-start;
+  }
+}
+
+.luxbar-menu-right {
+  .luxbar-hamburger {
+    margin-left: auto;
+  }
+}
+
+.luxbar-menu {
+  min-height: $luxbar-height;
+  transition: $luxbar-transition;
+  width: 100%;
+}
+
+.luxbar-navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.luxbar-menu,
+.luxbar-item {
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+}
+
+.luxbar-item {
+  height: $luxbar-height;
+  padding: 1.25rem 1.25rem 0;
+
+  a {
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.luxbar-hamburger {
+  padding: 0.5rem;
+  position: relative;
+  cursor: pointer;
+
+  span {
+    @extend %general-hamburger-span;
+
+    &::before,
+    &::after {
+      @extend %general-hamburger-span;
+      content: "";
+      position: absolute;
+    }
+
+    &::before {
+      margin-top: -8px;
+    }
+
+    &::after {
+      margin-top: 8px;
+    }
+  }
+}
+
+.luxbar-checkbox {
+  display: none;
+
+  &:not(:checked) ~ .luxbar-menu {
+    overflow: hidden;
+    height: $luxbar-height;
+  }
+
+  &:checked ~ .luxbar-menu {
+    transition: height $luxbar-transition;
+    overflow: auto;
+
+    li {
+      .luxbar-hamburger {
+        @extend %hamburger-lines;
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+  height: auto;
+  min-height: $luxbar-height;
+
+  &:hover > ul {
+    position: relative;
+    display: block;
+    min-width: 100%;
+  }
+
+  & > a {
+    &::after {
+      $expand-arrow-height: 5px;
+      position: absolute;
+      content: "";
+      right: 10px;
+      top: calc(#{$luxbar-height} / 2 - #{$expand-arrow-height} + 1px);
+      border-width: $expand-arrow-height $expand-arrow-height 0;
+      border-color: transparent;
+      border-style: solid;
+    }
+  }
+
+  & > ul {
+    display: block;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 0;
+
+    .luxbar-item {
+      min-width: 100%;
+      height: calc(#{$luxbar-height} / 2);
+      padding: 5px 10px 5px 40px;
+
+      a {
+        min-height: calc(#{$luxbar-height} / 2);
+        line-height: calc(#{$luxbar-height} / 2);
+        padding: 0;
+      }
+    }
+  }
+}
+
+// Luxbar non-mobile
+@include large-breakpoint {
+  .luxbar-navigation {
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+
+  .luxbar-hamburger {
+    display: none;
+  }
+
+  .luxbar-checkbox {
+    &:not(:checked) ~ .luxbar-menu {
+      overflow: visible;
+    }
+
+    &:checked ~ .luxbar-menu {
+      height: $luxbar-height;
+    }
+  }
+
+  .luxbar-menu {
+    .luxbar-item {
+      border-top: 0;
+    }
+  }
+
+  .luxbar-menu-right .luxbar-header {
+    margin-right: auto;
+  }
+
+  .dropdown {
+    height: $luxbar-height;
+
+    &:hover > ul {
+      position: absolute;
+      left: 0;
+      top: $luxbar-height;
+      padding: 0;
+    }
+
+    & > ul {
+      display: none;
+
+      .luxbar-item {
+        padding: 5px 10px;
+
+        a {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+// Luxbar Hamburger animation
+.luxbar-checkbox {
+  &:checked {
+    + .luxbar-menu {
+      .luxbar-hamburger-spin {
+        span {
+          &::before {
+            transform: rotate(120deg);
+          }
+
+          &::after {
+            transform: rotate(-120deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Luxbar Theme
+.luxbar-menu-light {
+  .dropdown {
+    ul {
+      background-color: $background;
+      color: $black;
+    }
+  }
+
+  .luxbar-hamburger {
+    span {
+      background-color: $black;
+      color: $background;
+
+      &::before,
+      &::after {
+        background-color: $black;
+        color: $background;
+      }
+    }
+  }
+}

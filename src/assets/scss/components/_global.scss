@@ -1,4 +1,15 @@
 /**
- * Global CSS additional to bootstrap CSS.
- *
- */
+//==============================================================================
+// CSS global styling
+//==============================================================================
+*/
+
+aside {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: $padding;
+  border-top: $borders;
+  border-bottom: $borders;
+  height: 64px;
+}
