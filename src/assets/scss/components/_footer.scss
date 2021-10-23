@@ -1,0 +1,58 @@
+/**
+//==============================================================================
+// Footer CSS Styles
+//==============================================================================
+*/
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    font-family: $icon;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: $font-color;
+  }
+
+  .footer-social {
+    padding: 0;
+  }
+
+  .footer-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #444 solid;
+
+    li {
+      margin: 0.5rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.footer-legal {
+  margin: 0.5rem auto 1rem;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $font-color;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

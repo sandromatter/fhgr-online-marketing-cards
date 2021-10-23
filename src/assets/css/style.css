@@ -2,10 +2,10 @@
  * Additional CSS
  */
 /**
- * Variables
- *
- * The majority of the configuration for the toolkit.
- */
+//==============================================================================
+// Variables
+//==============================================================================
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,61 +352,11 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 figure {
   margin: 0;
-}
-
-/**
- * Global CSS additional to bootstrap CSS.
- *
- */
-.container {
-  height: 100vh;
-  display: grid;
-  grid-template-areas: "header" "aside" "article" "footer";
-  grid-template-rows: repeat(2, minmax(48px, 1fr)) auto minmax(48px, 1fr);
-}
-@media (min-width: 960px) {
-  .container {
-    grid-template-areas: "header header header" "aside article article" "footer footer footer";
-    grid-template-rows: 64px auto 64px;
-    grid-template-columns: 25vw auto;
-  }
-}
-
-header {
-  background: tomato;
-  grid-area: header;
-}
-
-article {
-  background: gold;
-  grid-area: article;
-}
-
-aside {
-  background: lightgreen;
-  grid-area: aside;
-}
-
-footer {
-  background: lightblue;
-  grid-area: footer;
-}
-
-.card-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  padding: 1rem;
-}
-
-.card {
-  height: 20vh;
-  background: lightcyan;
 }
 
 /**
@@ -420,40 +370,6 @@ footer {
 
 .clearfix:after {
   clear: both;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.block {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
-.vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .responsive-image {
@@ -473,57 +389,441 @@ footer {
   visibility: hidden;
 }
 
-.float-left {
-  float: left;
+/**
+//==============================================================================
+// Layout and CSS-Grid properties
+//==============================================================================
+*/
+.grid__container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header" "aside" "article" "footer";
+  grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+}
+@media (min-width: 960px) {
+  .grid__container {
+    padding: 1rem 2.5rem;
+  }
 }
 
-.float-right {
-  float: right;
+header {
+  grid-area: header;
 }
 
-.no-padding-top {
-  padding-top: 0;
+aside {
+  grid-area: aside;
 }
 
-.no-padding-bottom {
-  padding-bottom: 0;
+article {
+  grid-area: article;
 }
 
-.padding-top {
-  padding-top: 2rem;
+footer {
+  grid-area: footer;
 }
 
-.padding-bottom {
-  padding-bottom: 2rem;
+.grid__card {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-.no-margin-top {
+/**
+//==============================================================================
+// CSS global styling
+//==============================================================================
+*/
+aside {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-top: 1px solid #dadadc;
+  border-bottom: 1px solid #dadadc;
+  height: 64px;
+}
+
+/**
+//==============================================================================
+// CSS Typography styling
+//==============================================================================
+*/
+html {
+  color: #000;
+  font: 400 1rem "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212529;
+  font-weight: 300;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.625rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.625rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.625rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
+/**
+//==============================================================================
+// Responsive CSS Navigation Luxbar
+// https://balzss.github.io/luxbar/ | luxbar.css v0.3.0 | MIT License
+//==============================================================================
+*/
+nav {
+  display: block;
+}
+
+.luxbar-brand {
+  height: 35px;
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 960px) {
+  .luxbar-brand {
+    height: 50px;
+  }
+}
+
+.luxbar-static {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.luxbar-static .luxbar-checkbox:checked ~ .luxbar-menu {
+  position: relative;
+}
+
+.luxbar-hamburger span::before, .luxbar-hamburger span::after, .luxbar-hamburger span {
+  display: block;
+  height: 2px;
+  width: 26px;
+  transition: 0.6s ease;
+}
+
+.luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+  background-color: transparent;
+}
+.luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span::before, .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span::after {
   margin-top: 0;
 }
 
-.no-margin-bottom {
-  margin-bottom: 0;
+.luxbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
 }
 
-.margin-top {
-  margin-top: 2rem;
+.luxbar-menu-left .luxbar-navigation,
+.luxbar-menu-left .luxbar-header {
+  justify-content: flex-start;
 }
 
-.margin-bottom {
-  margin-bottom: 2rem;
+.luxbar-menu-right .luxbar-hamburger {
+  margin-left: auto;
 }
 
-.alternate-background {
-  background: #fafafa;
-  color: #404040;
+.luxbar-menu {
+  min-height: 58px;
+  transition: 0.6s ease;
+  width: 100%;
 }
 
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
+.luxbar-navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.luxbar-menu a,
+.luxbar-item a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.luxbar-item {
+  height: 58px;
+  padding: 1.25rem 1.25rem 0;
+}
+.luxbar-item a {
+  display: block;
+}
+.luxbar-item a:hover {
+  text-decoration: underline;
+}
+.luxbar-item:last-child {
+  padding-right: 0;
+}
+
+.luxbar-hamburger {
+  padding: 0.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.luxbar-hamburger span::before, .luxbar-hamburger span::after {
+  content: "";
+  position: absolute;
+}
+.luxbar-hamburger span::before {
+  margin-top: -8px;
+}
+.luxbar-hamburger span::after {
+  margin-top: 8px;
+}
+
+.luxbar-checkbox {
+  display: none;
+}
+.luxbar-checkbox:not(:checked) ~ .luxbar-menu {
   overflow: hidden;
+  height: 58px;
+}
+.luxbar-checkbox:checked ~ .luxbar-menu {
+  transition: height 0.6s ease;
+  overflow: auto;
+}
+.dropdown {
+  position: relative;
+  height: auto;
+  min-height: 58px;
+}
+.dropdown:hover > ul {
+  position: relative;
+  display: block;
+  min-width: 100%;
+}
+.dropdown > a::after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: calc(58px / 2 - 5px + 1px);
+  border-width: 5px 5px 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.dropdown > ul {
+  display: block;
+  overflow-x: hidden;
+  list-style: none;
+  padding: 0;
+}
+.dropdown > ul .luxbar-item {
+  min-width: 100%;
+  height: calc(58px / 2);
+  padding: 5px 10px 5px 40px;
+}
+.dropdown > ul .luxbar-item a {
+  min-height: calc(58px / 2);
+  line-height: calc(58px / 2);
+  padding: 0;
+}
+
+@media (min-width: 960px) {
+  .luxbar-navigation {
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+
+  .luxbar-hamburger {
+    display: none;
+  }
+
+  .luxbar-checkbox:not(:checked) ~ .luxbar-menu {
+    overflow: visible;
+  }
+  .luxbar-checkbox:checked ~ .luxbar-menu {
+    height: 58px;
+  }
+
+  .luxbar-menu .luxbar-item {
+    border-top: 0;
+  }
+
+  .luxbar-menu-right .luxbar-header {
+    margin-right: auto;
+  }
+
+  .dropdown {
+    height: 58px;
+  }
+  .dropdown:hover > ul {
+    position: absolute;
+    left: 0;
+    top: 58px;
+    padding: 0;
+  }
+  .dropdown > ul {
+    display: none;
+  }
+  .dropdown > ul .luxbar-item {
+    padding: 5px 10px;
+  }
+  .dropdown > ul .luxbar-item a {
+    white-space: nowrap;
+  }
+}
+.luxbar-checkbox:checked + .luxbar-menu .luxbar-hamburger-spin span::before {
+  transform: rotate(120deg);
+}
+.luxbar-checkbox:checked + .luxbar-menu .luxbar-hamburger-spin span::after {
+  transform: rotate(-120deg);
+}
+
+.luxbar-menu-light .dropdown ul {
+  background-color: #fff;
+  color: #000;
+}
+.luxbar-menu-light .luxbar-hamburger span {
+  background-color: #000;
+  color: #fff;
+}
+.luxbar-menu-light .luxbar-hamburger span::before, .luxbar-menu-light .luxbar-hamburger span::after {
+  background-color: #000;
+  color: #fff;
+}
+
+/**
+//==============================================================================
+// Footer CSS Styles
+//==============================================================================
+*/
+.footer div {
+  display: flex;
+  flex-direction: column;
+}
+.footer div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer div a {
+  text-decoration: none;
+}
+.footer div i {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000;
+}
+.footer div .footer-social {
+  padding: 0;
+}
+.footer div .footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px #444 solid;
+}
+.footer div .footer-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.footer-legal {
+  margin: 0.5rem auto 1rem;
+  align-items: center;
+}
+.footer-legal a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-legal p {
+  margin: 0;
+  padding: 0;
 }
 
 .card {
@@ -534,13 +834,15 @@ footer {
   overflow: hidden;
 }
 
-.card-header img {
+.card__header {
   width: 100%;
   height: 200px;
+}
+.card__header img {
   object-fit: cover;
 }
 
-.card-body {
+.card__body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -548,51 +850,7 @@ footer {
   padding: 20px;
   min-height: 250px;
 }
-
-.tag {
-  background: #cccccc;
-  border-radius: 50px;
-  font-size: 12px;
-  margin: 0;
-  color: #fff;
-  padding: 2px 10px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.tag-teal {
-  background-color: #47bcd4;
-}
-
-.tag-purple {
-  background-color: #5e76bf;
-}
-
-.tag-pink {
-  background-color: #cd5b9f;
-}
-
-.card-body p {
+.card__body p {
   font-size: 13px;
   margin: 0 0 40px;
-}
-
-.user {
-  display: flex;
-  margin-top: auto;
-}
-
-.user img {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
-.user-info h5 {
-  margin: 0;
-}
-
-.user-info small {
-  color: #545d7a;
 }
