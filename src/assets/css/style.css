@@ -394,18 +394,21 @@ figure {
 // Layout and CSS-Grid properties
 //==============================================================================
 */
+article, header {
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+}
+@media (min-width: 960px) {
+  article, header {
+    padding: 1rem 2.5rem;
+  }
+}
+
 .grid__container {
   display: grid;
   height: 100vh;
   grid-template-areas: "header" "aside" "article" "footer";
   grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
-  padding: 0.75rem 1.25rem;
-  margin: 0 auto;
-}
-@media (min-width: 960px) {
-  .grid__container {
-    padding: 1rem 2.5rem;
-  }
 }
 
 header {
@@ -436,13 +439,31 @@ footer {
 //==============================================================================
 */
 aside {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
-  padding: 1rem;
   border-top: 1px solid #dadadc;
   border-bottom: 1px solid #dadadc;
-  height: 64px;
+  height: 68px;
+  background-color: #f7f8fb;
+}
+
+.filter__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  height: inherit;
+}
+
+select {
+  background: transparent;
+  border: 1px solid #535151;
+  padding: 4px 0 4px 36px;
+  font-size: 20px;
+  line-height: 42px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 50%;
 }
 
 /**
