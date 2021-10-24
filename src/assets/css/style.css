@@ -394,12 +394,12 @@ figure {
 // Layout and CSS-Grid properties
 //==============================================================================
 */
-.footer__container, .filter__container, article, header {
+.footer__container, .filter__container, .arrow__back, .content__wrapper, article, header {
   padding: 0.75rem 1.25rem;
   margin: 0 auto;
 }
 @media (min-width: 960px) {
-  .footer__container, .filter__container, article, header {
+  .footer__container, .filter__container, .arrow__back, .content__wrapper, article, header {
     padding: 1rem 2.5rem;
   }
 }
@@ -429,6 +429,10 @@ footer {
 
 .grid__card {
   display: grid;
+}
+
+.content__wrapper {
+  max-width: 900px;
 }
 
 /**
@@ -542,6 +546,38 @@ h5 {
 // CSS global styling
 //==============================================================================
 */
+.card__button--light {
+  margin-top: 1rem;
+  padding: 15px 32px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #dadadc;
+  border-style: solid;
+  color: #fff;
+  text-align: center;
+}
+.card__button--light:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.arrow__back {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+.arrow__back a {
+  color: #000;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+.arrow__back a:hover {
+  text-decoration: underline;
+}
+
 /**
 //==============================================================================
 // Responsive CSS Navigation Luxbar
@@ -803,32 +839,52 @@ select {
   width: 100%;
 }
 
+.card__wrapper {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .card {
-  background-color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  background-color: #4b92a4;
+}
+.card h2 {
+  color: #fff;
+}
+.card p {
+  color: #fff;
 }
 
 .card__header {
   width: 100%;
-  height: 200px;
-}
-.card__header img {
+  height: 250px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2) url("../img/image-2.png") no-repeat fixed center;
   object-fit: cover;
 }
 
 .card__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  min-height: 250px;
+  width: 100%;
+  height: 300px;
+  padding: 0 2rem;
 }
 .card__body p {
-  font-size: 13px;
-  margin: 0 0 40px;
+  margin-bottom: 0 1rem;
 }
 
 /**
@@ -848,7 +904,6 @@ select {
 
 .footer__wrapper {
   display: block;
-  height: 20%;
   background-color: #7a7760;
 }
 
@@ -862,6 +917,7 @@ select {
 }
 .footer__container p {
   color: #fff;
+  max-width: 65ch;
 }
 .footer__container ul {
   padding: 0;
@@ -878,9 +934,10 @@ select {
 }
 
 .footer__project {
-  flex: 3;
+  flex: 2;
 }
 
 .footer__links {
   flex: 1;
+  margin-left: 2rem;
 }

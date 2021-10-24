@@ -16,7 +16,6 @@
 
 .footer__wrapper {
   display: block;
-  height: 20%;
   background-color: $primary-color;
 }
 
@@ -29,8 +28,10 @@
   h3 {
     color: $background;
   }
+
   p {
     color: $background;
+    max-width: 65ch;
   }
 
   ul {
@@ -52,9 +53,10 @@
 }
 
 .footer__project {
-  flex: 3;
+  flex: 2;
 }
 
 .footer__links {
   flex: 1;
+  margin-left: 2rem;
 }
