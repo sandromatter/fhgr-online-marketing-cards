@@ -3,6 +3,14 @@
 // Layout and CSS-Grid properties
 //==============================================================================
 */
+%grid-content-padding {
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+
+  @include large-breakpoint {
+    padding: 1rem 2.5rem;
+  }
+}
 
 .grid__container {
   display: grid;
@@ -13,16 +21,11 @@
     "article"
     "footer";
   grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
-  padding: 0.75rem 1.25rem;
-  margin: 0 auto;
-
-  @include large-breakpoint {
-    padding: 1rem 2.5rem;
-  }
 }
 
 header {
   grid-area: header;
+  @extend %grid-content-padding;
 }
 
 aside {
@@ -31,6 +34,7 @@ aside {
 
 article {
   grid-area: article;
+  @extend %grid-content-padding;
 }
 
 footer {
