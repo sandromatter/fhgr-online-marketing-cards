@@ -100,7 +100,7 @@ nav {
 
 .luxbar-item {
   height: $luxbar-height;
-  padding: 1.25rem 1.25rem 0;
+  padding: 1.25rem 1.25rem 0 0;
 
   a {
     display: block;
@@ -110,8 +110,10 @@ nav {
     }
   }
 
-  &:last-child {
-    padding-right: 0;
+  @include large-breakpoint {
+    &:last-child {
+      padding-right: 0;
+    }
   }
 }
 

@@ -394,12 +394,12 @@ figure {
 // Layout and CSS-Grid properties
 //==============================================================================
 */
-article, header {
+.footer__container, .filter__container, article, header {
   padding: 0.75rem 1.25rem;
   margin: 0 auto;
 }
 @media (min-width: 960px) {
-  article, header {
+  .footer__container, .filter__container, article, header {
     padding: 1rem 2.5rem;
   }
 }
@@ -429,41 +429,6 @@ footer {
 
 .grid__card {
   display: grid;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-/**
-//==============================================================================
-// CSS global styling
-//==============================================================================
-*/
-aside {
-  border-top: 1px solid #dadadc;
-  border-bottom: 1px solid #dadadc;
-  height: 68px;
-  background-color: #f7f8fb;
-}
-
-.filter__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 900px;
-  margin: 0 auto;
-  height: inherit;
-}
-
-select {
-  background: transparent;
-  border: 1px solid #535151;
-  padding: 4px 0 4px 36px;
-  font-size: 20px;
-  line-height: 42px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 50%;
 }
 
 /**
@@ -574,6 +539,11 @@ h5 {
 }
 /**
 //==============================================================================
+// CSS global styling
+//==============================================================================
+*/
+/**
+//==============================================================================
 // Responsive CSS Navigation Luxbar
 // https://balzss.github.io/luxbar/ | luxbar.css v0.3.0 | MIT License
 //==============================================================================
@@ -658,7 +628,7 @@ nav {
 
 .luxbar-item {
   height: 58px;
-  padding: 1.25rem 1.25rem 0;
+  padding: 1.25rem 1.25rem 0 0;
 }
 .luxbar-item a {
   display: block;
@@ -666,8 +636,10 @@ nav {
 .luxbar-item a:hover {
   text-decoration: underline;
 }
-.luxbar-item:last-child {
-  padding-right: 0;
+@media (min-width: 960px) {
+  .luxbar-item:last-child {
+    padding-right: 0;
+  }
 }
 
 .luxbar-hamburger {
@@ -799,56 +771,39 @@ nav {
 
 /**
 //==============================================================================
-// Footer CSS Styles
+// CSS search & sort bar styling
 //==============================================================================
 */
-.footer div {
-  display: flex;
-  flex-direction: column;
-}
-.footer div ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.footer div a {
-  text-decoration: none;
-}
-.footer div i {
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-size: 1.5rem;
-  color: #000;
-}
-.footer div .footer-social {
-  padding: 0;
-}
-.footer div .footer-social-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px #444 solid;
-}
-.footer div .footer-social-list li {
-  margin: 0.5rem;
-  font-size: 1.25rem;
+aside {
+  border-top: 1px solid #dadadc;
+  border-bottom: 1px solid #dadadc;
+  height: 68px;
+  background-color: #f7f8fb;
+  margin-bottom: 1rem;
 }
 
-.footer-legal {
-  margin: 0.5rem auto 1rem;
+.filter__container {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  height: inherit;
 }
-.footer-legal a {
-  text-decoration: none;
-  color: #000;
-}
-.footer-legal p {
-  margin: 0;
-  padding: 0;
+
+select {
+  background: transparent;
+  border: 1px solid #535151;
+  padding: 4px 0 4px 36px;
+  font-size: 20px;
+  line-height: 42px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
 }
 
 .card {
-  margin: 10px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
@@ -874,4 +829,58 @@ nav {
 .card__body p {
   font-size: 13px;
   margin: 0 0 40px;
+}
+
+/**
+//==============================================================================
+// Footer CSS Styles
+//==============================================================================
+*/
+.footer__triangle {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: 1.5rem;
+  border-bottom: 5vw solid #7a7760;
+  border-left: 100vw solid transparent;
+}
+
+.footer__wrapper {
+  display: block;
+  height: 20%;
+  background-color: #7a7760;
+}
+
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer__container h3 {
+  color: #fff;
+}
+.footer__container p {
+  color: #fff;
+}
+.footer__container ul {
+  padding: 0;
+}
+.footer__container li {
+  list-style: none;
+}
+.footer__container a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__container a:hover {
+  text-decoration: underline;
+}
+
+.footer__project {
+  flex: 3;
+}
+
+.footer__links {
+  flex: 1;
 }
