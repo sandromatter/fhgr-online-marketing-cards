@@ -1,0 +1,7 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+sass:
+  sass_dir: "./assets/scss"
+  style: "compressed"
