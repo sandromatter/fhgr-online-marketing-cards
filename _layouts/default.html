@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<html lang="{{ site.lang | default: "de" }}">
+
+<head>
+    <!-- Head -->
+    {% include head.html %}
+</head>
+
+<body>
+
+    <div class="grid__container">
+
+        <!-- Navbar -->
+        {% include navbar.html %}
+
+        <!-- Main content -->
+        <main role="main">
+
+            {{ content }}
+            
+            <!-- Footer  -->
+            {% include footer.html%}
+
+        </main>
+
+    </div>
+
 </html>
