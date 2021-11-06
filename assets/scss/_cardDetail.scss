@@ -1,0 +1,89 @@
+/**
+//==============================================================================
+// Card Detail Styles
+//==============================================================================
+*/
+
+.cardDetailGrid {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "beschreibung"
+    "vorteile"
+    "nachteile"
+    "kosten"
+    "effektivitaet"
+    "wichtigeEigenschaften"
+    "ziele"
+    "kostenpunkte"
+    "checkliste"
+    "kpi"
+    "tools"
+    "bestPractice";
+
+  @include medium-breakpoint {
+    grid-template-areas:
+      "title title"
+      "beschreibung beschreibung"
+      "vorteile nachteile"
+      "kosten effektivitaet"
+      "wichtigeEigenschaften ziele"
+      "kostenpunkte checkliste"
+      "kpi kpi"
+      "tools tools"
+      "bestPractice bestPractice";
+    grid-gap: 1.5rem;
+  }
+}
+
+.cardsDetail__section--title {
+  grid-area: title;
+}
+
+.cardsDetail__section--beschreibung {
+  grid-area: beschreibung;
+}
+
+.cardsDetail__section--vorteile {
+  grid-area: vorteile;
+}
+
+.cardsDetail__section--nachteile {
+  grid-area: nachteile;
+}
+
+.cardsDetail__section--kosten {
+  grid-area: kosten;
+}
+
+.cardsDetail__section--effektivitaet {
+  grid-area: effektivitaet;
+}
+
+.cardsDetail__section--wichtigeEigenschaften {
+  grid-area: wichtigeEigenschaften;
+}
+
+.cardsDetail__section--ziele {
+  grid-area: ziele;
+}
+
+.cardsDetail__section--kostenpunkte {
+  grid-area: kostenpunkte;
+}
+
+.cardsDetail__section--checkliste {
+  grid-area: checkliste;
+}
+
+.cardsDetail__section--kpi {
+  grid-area: kpi;
+}
+
+.cardsDetail__section--tools {
+  grid-area: tools;
+}
+
+.cardsDetail__section--bestPractice {
+  grid-area: bestPractice;
+}

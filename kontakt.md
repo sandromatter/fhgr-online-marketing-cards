@@ -10,4 +10,4 @@ Sie haben eine Anmerkung oder einen Verbesserungsvorschlag? Gerne dürfen Sie si
 
 **Hans Muster**  
 [hans@muster.ch](mailtto: hans@muster.ch)  
-[Tel.: +41 83 000 00 00](tel: +41 83 000 00 00)  
+[Tel.: +41 83 000 00 00](tel: +41 83 000 00 00)
