@@ -3,15 +3,16 @@ layout: cardsArchive
 title: "Online Marketing Cards"
 ---
 
+{% for cardsDetail in site.posts %}
 <section class="grid__card">
   <div class="card__wrapper">
     <div class="card">
       <div class="card__header"><img src="" alt="" /></div>
       <div class="card__body">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.description }}</p>
+        <h2>{{ cardsDetail.title}}</h2>
+        <p>{{ cardsDetail.description }}</p>
         <button
-          onClick="location.href='/facebook-page'"
+          onClick="location.href='{{ cardsDetail.permalink }}'"
           value="mehr erfahren"
           type="button"
           class="card__button--light"
@@ -22,3 +23,4 @@ title: "Online Marketing Cards"
     </div>
   </div>
 </section>
+{% endfor %}

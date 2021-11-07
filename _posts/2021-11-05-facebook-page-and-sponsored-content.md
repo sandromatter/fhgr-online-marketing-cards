@@ -2,10 +2,12 @@
 
 layout: cardsDetail
 
-permalink: /facebook-page
+permalink: /facebook-page-and-sponsored-content
+
+# Card
 
 title: >
-    # Facebook Page & Sponsored Content
+    Facebook Page & Sponsored Content
 
 beschreibung: >
     ## Beschreibung  
