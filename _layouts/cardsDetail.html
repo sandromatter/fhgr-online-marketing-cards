@@ -9,41 +9,20 @@ layout: default
 <article role="article">
   <section class="content__wrapper">
     <div class="cardDetailGrid">
-      <h1 class="cardsDetail__section--title">{{ page.title }}</h1>
+      <div class="cardsDetail__section--title"><h1>{{ page.title }}</h1></div>
       <div class="cardsDetail__section--beschreibung">
-        {{ page.beschreibung | markdownify }}
+        <h2>Beschreibung</h2>
+        {{ page.description }}
       </div>
-      <div class="cardsDetail__section--vorteile">
-        {{ page.vorteile | markdownify }}
+      <div class="">
+        <h2>Kosten</h2>
+        <p>{{ page.kosten }}</p>
       </div>
-      <div class="cardsDetail__section--nachteile">
-        {{ page.nachteile | markdownify }}
+      <div class="">
+        <h2>Effektivität</h2>
+        <p>{{ page.effektivitaet }}</p>
       </div>
-      <div class="cardsDetail__section--kosten">
-        {{ page.kosten | markdownify }}
-      </div>
-      <div class="cardsDetail__section--effektivitaet">
-        {{ page.effektivitaet | markdownify }}
-      </div>
-      <div class="cardsDetail__section--wichtigeEigenschaften">
-        {{ page.wichtigeEigenschaften | markdownify }}
-      </div>
-      <div class="cardsDetail__section--ziele">
-        {{ page.ziele | markdownify }}
-      </div>
-      <div class="cardsDetail__section--kostenpunkte">
-        {{ page.kostenpunkte | markdownify }}
-      </div>
-      <div class="cardsDetail__section--checkliste">
-        {{ page.checkliste | markdownify }}
-      </div>
-      <div class="cardsDetail__section--kpi">{{ page.kpi | markdownify }}</div>
-      <div class="cardsDetail__section--tools">
-        {{ page.tools | markdownify }}
-      </div>
-      <div class="cardsDetail__section--bestPractice">
-        {{ page.bestPractice | markdownify }}
-      </div>
+      <div>{{ content }}</div>
     </div>
   </section>
 </article>

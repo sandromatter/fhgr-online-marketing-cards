@@ -1,12 +1,9 @@
 ---
 
-layout: cardsDetail2
+layout: cardsDetail
+permalink: /facebook-page-and-sponsored-content
 
-permalink: /facebook-page
-
-# Card excerpt
-
-title: Facebook Page
+title: Facebook Page & Sponsored Content
 description: Facebook ist der Platzhirsch schlechthin.
 kosten: 1.5/5
 effektivitaet: 3.5/5
@@ -21,7 +18,6 @@ description: >
 - Grosse Reichweite aufgrund vieler Nutzer
 - Direkter Dialog mit der Zielgruppe
 - Interaktion mit relevanten Inhalten möglich
-
 
 ## Nachteile  
 - Datenschutzskandale
@@ -72,15 +68,13 @@ description: >
 ## Tools/Instrumente  
 
 **Facebook Business Manager**  
-Dieses Tool ermöglicht die Integrierung von Marke- tingaufwänden des eigenen Unternehmens und kann mit externen Tools verknüpft werden. Zudem ermöglicht es das Management von Facebook Pages, ohne in den privaten Account einzugreifen.  
-
+Dieses Tool ermöglicht die Integrierung von Marketingaufwänden des eigenen Unternehmens und kann mit externen Tools verknüpft werden. Zudem ermöglicht es das Management von Facebook Pages, ohne in den privaten Account einzugreifen.  
 
 **Werbeanzeigenmanager**  
-Hierbei handelt es sich ebenfalls um ein Tool von Facebook, mit dem Werbung erstellt und geschal- tet werden kann, Segmentierung vorgenommen wird und die Performance des bezahlten Contents getrackt werden kann. Ausserdem befinden sich in diesem Tool alle Zahlungsabwicklungen und Rechnungen.  
-
+Hierbei handelt es sich ebenfalls um ein Tool von Facebook, mit dem Werbung erstellt und geschaltet werden kann, Segmentierung vorgenommen wird und die Performance des bezahlten Contents getrackt werden kann. Ausserdem befinden sich in diesem Tool alle Zahlungsabwicklungen und Rechnungen.  
 
 **Canva**  
-Canva ermöglicht einfache Content-Kreation. Prä- sentationen, Grafiken oder Bilder können entweder mit vorhandenen Vorlagen erstellt oder nach Belieben verändert werden.  
+Canva ermöglicht einfache Content-Kreation. Präsentationen, Grafiken oder Bilder können entweder mit vorhandenen Vorlagen erstellt oder nach Belieben verändert werden.  
 
 ## Best Practice 
 
