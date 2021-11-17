@@ -8,21 +8,13 @@ layout: default
 <!-- Article  -->
 <article role="article">
   <section class="content__wrapper">
-    <div class="cardDetailGrid">
-      <div class="cardsDetail__section--title"><h1>{{ page.title }}</h1></div>
-      <div class="cardsDetail__section--beschreibung">
-        <h2>Beschreibung</h2>
-        {{ page.description }}
-      </div>
-      <div class="">
-        <h2>Kosten</h2>
-        <p>{{ page.kosten }}</p>
-      </div>
-      <div class="">
-        <h2>Effektivität</h2>
-        <p>{{ page.effektivitaet }}</p>
-      </div>
-      <div>{{ content }}</div>
-    </div>
+    <h1>{{ page.title }}</h1>
+    <h2>Beschreibung</h2>
+    {{ page.description }}
+    <h2>Kosten</h2>
+    <p>{{ page.kosten }}</p>
+    <h2>Effektivität</h2>
+    <p>{{ page.effektivitaet }}</p>
+    <div>{{ content }}</div>
   </section>
 </article>
