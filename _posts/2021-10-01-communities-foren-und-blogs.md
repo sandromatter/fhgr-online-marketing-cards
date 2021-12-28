@@ -41,6 +41,7 @@ description: >
 - Redaktion der Inhalte
 
 ## Checkliste
+
 **Was braucht es für einen Blog oder ein Forum?**
 - Domain inkl. SSL-Zertifikat
 - Server
@@ -57,6 +58,7 @@ description: >
 - Interaktionsrate (Kommentare, Likes, Shares)
 
 ## Tools/Instrumente
+
 **WordPress**
 WordPress ist ein kostenfreies Content-Management-System (CMS), das ursprünglich für Blogs entwickelt wurde, heute aber auch als Basis gewöhnlicher Websites verwendet wird. Weltweit ist WordPress das am meisten eingesetzte CMS. Es überzeugt durch seine einfache Bedienbarkeit und die unendlichen Erweiterungsmöglichkeiten.
 

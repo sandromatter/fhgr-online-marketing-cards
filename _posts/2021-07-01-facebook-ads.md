@@ -64,10 +64,10 @@ Der Werbeanzeigenmanager dient hauptsächlich dazu, eine gute Übersicht über a
 Facebook Analytics ist ein Tool, mit dem sich ermitteln lässt, wie die Kundinnen und Kunden Desktop- und Mobile-Websites, iOS- und Android-Apps und Bots für Messenger verwenden. Zur Kundenbindung oder Interaktion mit der Kundschaft bietet Facebook Analytics vielseitige Tools, einschliesslich Segmentierung, Aufschlüsselungstabellen, automatisierte Push-Kampagnen und mehr.
 
 **Events Manager**
-Der Events Manager bietet drei Tools: Eines, um den Erfolg der Facebook Werbung messen zu können, ein anderes, um mit den Kundinnen und Kunden direkt in Kontakt treten zu können, sowie ein drittes Tool mit der Möglichkeit, sich mit verschiedenen Partnern zu verlinken (z. B. im Bereich E-Commerce, mit Marketing-Software usw.).
+Der Events Manager bietet drei Tools: Eines, um den Erfolg der Facebook Werbung messen zu können, ein anderes, um mit den Kundinnen und Kunden direkt in Kontakt treten zu können, sowie ein drittes Tool mit der Möglichkeit, sich mit verschiedenen Partnern zu verlinken (z.B. im Bereich E-Commerce, mit Marketing-Software usw.).
 
-## Best Practice
-https://benjaminseuss.de/10-facebook-ads-beispiele Eine private Website, die zehn gelungene Beispiele aufzählt. Link zu einer anderen Website mit über 1200 Beispielen.
+## Best Practice  
+[www.benjaminseuss.de/10-facebook-ads-beispiele](https://benjaminseuss.de/10-facebook-ads-beispiele) Eine private Website, die zehn gelungene Beispiele aufzählt. Link zu einer anderen Website mit über 1200 Beispielen.
 
-Eigendarstellung von Facebook:
-https://www.facebook.com/business/success
+Eigendarstellung von Facebook:  
+[www.facebook.com/business/success](https://www.facebook.com/business/success)

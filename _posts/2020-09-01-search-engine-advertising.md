@@ -71,12 +71,12 @@ Mit diesen kann man das Verhalten der Nutzerinnen und Nutzer im Web analysieren 
 Neben Google Ads gibt es auch andere Anbieter wie Bing Ads oder Yahoo! Search Marketing. Aufgrund der Monopolstellung von Google Ads ist der Marktanteil der anderen Suchmaschinen aber nur sehr klein. Im chinesischen Markt dominiert die Suchmaschine Baidu mit Baidu Tuiguang.
 
 ## Best Practice
-Das Google Help Center bietet einen umfassenden Leitfaden für Google Ads. Das Gleiche gilt für Bing Ads.
+Das Google Help Center bietet einen umfassenden Leitfaden für Google Ads. Das Gleiche gilt für Bing Ads.  
 
-https://onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen
+[www.onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen](https://onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen)  
 
-https://www.salesfusion.com/resource/8-best-practices-using-google-adwords
+[www.salesfusion.com/resource/8-best-practices-using-google-adwords](https://www.salesfusion.com/resource/8-best-practices-using-google-adwords)  
 
-https://robnicolas.ch/blog/adwords-kickstart-tipps
+[www.robnicolas.ch/blog/adwords-kickstart-tipps](https://robnicolas.ch/blog/adwords-kickstart-tipps)  
 
-https://robnicolas.ch/blog/google-ads-qualitaetsfaktor
+[www.robnicolas.ch/blog/google-ads-qualitaetsfaktor](https://robnicolas.ch/blog/google-ads-qualitaetsfaktor)

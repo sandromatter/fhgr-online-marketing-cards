@@ -3,23 +3,34 @@ layout: cardsArchive
 title: "Online Marketing Cards"
 ---
 
-{% for cardsDetail in site.posts %}
-<section class="grid__card">
-  <div class="card__wrapper">
-    <div class="card">
-      <div class="card__header"><img src="" alt="" /></div>
-      <div class="card__body">
-        <h2>{{ cardsDetail.title}}</h2>
-        <button
-          onClick="location.href='{{ cardsDetail.permalink }}'"
-          value="mehr erfahren"
-          type="button"
-          class="card__button--light"
-        >
-          Mehr erfahren
-        </button>
+<div class="content__wrapper--swiper">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for cardsDetail in site.posts %}
+      <div class="swiper-slide">
+        <section class="grid__card">
+          <div class="card__wrapper">
+            <div class="card">
+              <div class="card__header"><img src="" alt="" /></div>
+              <div class="card__body">
+                <h2>{{ cardsDetail.title}}</h2>
+                <button
+                  onClick="location.href='{{ cardsDetail.permalink }}'"
+                  value="mehr erfahren"
+                  type="button"
+                  class="card__button--light"
+                >
+                  Mehr erfahren
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
+      {% endfor %}
     </div>
   </div>
-</section>
-{% endfor %}
+</div>

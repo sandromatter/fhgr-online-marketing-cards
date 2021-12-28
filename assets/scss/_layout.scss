@@ -58,3 +58,18 @@ footer {
   max-width: 900px;
   @extend %grid-content-padding;
 }
+
+.content__wrapper--swiper {
+  max-width: 100%;
+  box-sizing: content-box;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 1rem;
+
+  @include medium-breakpoint {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+
+  @include large-breakpoint {
+    padding: 2rem 0 2rem 2rem;
+  }
+}

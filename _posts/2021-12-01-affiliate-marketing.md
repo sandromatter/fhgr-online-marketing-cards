@@ -41,7 +41,7 @@ description: >
 
 ## Checkliste
 - Ziele und Budget der Affiliate-Kampagne definieren
-- Passende Website-Betreiber / passendes Netzwerk suchen
+- Passende Website-Betreiber/passendes Netzwerk suchen
 - Landingpage erstellen
 - Affiliate-Programm lancieren
 - Konstante Überprüfung und Optimierung der Kampagne
@@ -55,19 +55,21 @@ description: >
 ## Tools/Instrumente
 
 **Akquise der Affiliates**
-Es gibt verschiedene Möglichkeiten, um passende Partner für das Affiliate-Programm zu finden. Netz- werke wie Affilinet.de, Tradedoubler oder Belboon sind Dienstleister, über welche Unternehmen schnell und einfach passende Publisher finden können.
+Es gibt verschiedene Möglichkeiten, um passende Partner für das Affiliate-Programm zu finden. Netzwerke wie Affilinet.de, Tradedoubler oder Belboon sind Dienstleister, über welche Unternehmen schnell und einfach passende Publisher finden können.
 
 **Partnerpotenzial-Analyse**
 Partnerpotenzial-Analysen dienen zur Einschätzung, welches Potenzial ein Partner hat. Dazu gehören zum Beispiel Analysen über den organischen Traffic über Suchmaschinen und die Anzahl der Indexierungen auf Google. Ein bekanntes Tool ist das Browser-Plugin «SimilarWeb», welches die Traffic-Quellen, die verwendeten Keywords sowie die Kennzahlen der Website aufzeigt.
 
 ## Tracking
-Die Tracking-Überprüfung ist ein wichtiges Tool für das Affiliate-Marketing. Tracking-Tools überprüfen, ob Tracking-Skripte beim Publisher eingebunden wurden oder der Retargeting-Pixel auf jeder Seite geladen wird. Die Tools lesen ab, welche Traffic-Dienstleister, Conversion Trackings etc. auf einer Website eingebunden sind. Ein bekanntes Tool ist das kos- tenlose Browser-Plugin "Ghostery".
+Die Tracking-Überprüfung ist ein wichtiges Tool für das Affiliate-Marketing. Tracking-Tools überprüfen, ob Tracking-Skripte beim Publisher eingebunden wurden oder der Retargeting-Pixel auf jeder Seite geladen wird. Die Tools lesen ab, welche Traffic-Dienstleister, Conversion Trackings etc. auf einer Website eingebunden sind. Ein bekanntes Tool ist das kostenlose Browser-Plugin «Ghostery».
 
 
 ## Best Practice
 
 **Amazon**
-Das wohl bekannteste Unternehmen, das Affiliate-Marketing betreibt und als Pionier dafür gilt, ist Amazon. Es stellt eine Vielzahl an Affiliate-Links zur Verfügung, welche sowohl von anderen Unterneh- men als auch von Privatpersonen eingebettet werden können. Vergütet wird bei Amazon jeweils mit dem Modell «Pay-per-Sale». https://partnernet.amazon.de/
+Das wohl bekannteste Unternehmen, das Affiliate-Marketing betreibt und als Pionier dafür gilt, ist Amazon. Es stellt eine Vielzahl an Affiliate-Links zur Verfügung, welche sowohl von anderen Unternehmen als auch von Privatpersonen eingebettet werden können. Vergütet wird bei Amazon jeweils mit dem Modell «Pay-per-Sale».  
+[partnernet.amazon.de](https://partnernet.amazon.de/)
 
 **This is why I'm broke**
-thisiswhyimbroke.com ist ein gutes Beispiel für einen Publisher. Auf dessen Website werden unzählige Amazon-Angebote gelistet, alle als Affiliate-Links. https://www.thisiswhyimbroke.com/new/
+thisiswhyimbroke.com ist ein gutes Beispiel für einen Publisher. Auf dessen Website werden unzählige Amazon-Angebote gelistet, alle als Affiliate-Links.  
+[www.thisiswhyimbroke.com/new](https://www.thisiswhyimbroke.com/new/)
