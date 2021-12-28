@@ -1,68 +1,71 @@
 ---
 
 layout: cardsDetail
-permalink: /facebook-ads
+permalink: /instagram-profile-and-content
 
-title: Facebook Ads
-description: Facebook ist der Platzhirsch schlechthin.
+title: Instagram Profile & Content (Stories und Feed)
 kosten: 1.5/5
 effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Instagram ist eine Social-Media-App zum Teilen von Fotos und Videos. Hashtags (#) verschlagworten die Beiträge, sodass diese gefunden werden können. Mit gezieltem Einsatz der Hashtags oder Local Tags wird die Zielgruppe akquiriert. Content kann als Story oder als Beitrag im Feed geteilt werden. Die Story ist für 24 Stunden online, kann aber als Highlight im Feed gespeichert werden. Der Feed ist die persönliche Beitragsliste eines Profils. Zudem ermöglicht Instagram TV (IGTV) das Teilen von Videos mit einer Dauer von mehr als 60 Sekunden. Mit Instagram kann man Unternehmen, Dienstleistungen, Produkte, Blogs und den Lifestyle von Personen vermarkten.
 
 ---
 
+## Vorteile
+- Content durch visuelles Storytelling in Szene setzen
+- Interaktive Funktionen
+- Potenzial für Zuwachs aktiver Nutzenden
+
+## Nachteile
+- Zeitintensiv (Content-/Community-Pflege)
+- Freischaltung von Features abhängig von Followerzahl
+- Anspruchsvolle Anwendung von Hashtags
+
 ## Wichtige Eigenschaften
-- Virales Marketing
-- Zielgruppenspezifisch
-- Kostenflexibilität
-- Facebook Business Manager
-- Facebook Pixel
+- Interaktion und Kommunikation mit Community
+- Schwerpunkt liegt beim Storytelling durch Fotos und Videos
+- Instagram-Nutzerinnen und -Nutzer grösstenteils unter 35 Jahre
+- Starker Kanal für Influencerinnen und Influencer
+- Business Account ermöglicht Analyse und Produktverlinkung
 
 ## Ziele
-- Zielgruppengerechte Anzeigen
-- Direktes Feedback durch Interaktionsmöglichkeiten
-- Hoher ROI
+- Unternehmen und Brand bekannt machen
+- Umsatz von Produkten und Dienstleistungen erhöhen
+- «Muss-ich-haben»-Gefühl kreieren
+- Traffic auf weitere Kanäle generieren
 
 ## Zu beachtende Kostenpunkte
-- Initialkosten für die Aufsetzung der Kampagnen
-- Kosten für die Werbemittelerstellung
-- Ausgabenlimit pro Kampagne
-- Ausgabenlimit pro Konto
-- Gebotsstrategien über Auktionen
+- Personalaufwand (Social Media Manager, Content Producer, Influencer etc.)
+- Schaltung von Werbung (siehe Instagram Ads)
+- Allenfalls Toolkosten
 
 ## Checkliste
-- Facebook Business Manager erstellen
-- Werbeanzeige gestalten
-- Zielgruppe(n) und Reichweite definieren
-- Budget festlegen
-- Zahlungsart festlegen
-- Prüfung und Freischaltung
-- Monitoring und Optimierung
+- Instagramstrategie
+- Hashtag-Analyse
+- Profil erstellen/Businessprofil
+- Content erstellen
+- Content teilen und Funktionalitäten einsetzen (#, Tags etc.)
+- Profilen folgen und kommentieren
+- Performance überwachen
 
 ## KPI
-- Impressions (Impressionen)
-- Cost per Mille (CPM, Kosten pro 1000 Klicks oder Impressionen)
+- Engagement-Rate (Interaktionsrate)
+- View-Through-Rate (VTR, Reichweite)
 - Click-Through-Rate (CTR, Klickrate)
-- Click Conversion Rate (CCR, Klick-Konversionsrate)
-- Cost per Click/Conversion (Kosten pro Klick/Konversion)
-
+- Conversion-Rate (CR/CVR, Anzahl Abschlüsse)
+ 
 ## Tools/Instrumente
 
-**Werbeanzeigenmanager**
-Der Werbeanzeigenmanager dient hauptsächlich dazu, eine gute Übersicht über aktuelle Werbekampagnen zu bieten: aktuelle Reichweite, Budget sowie Statistik, wie oft die geschalteten Werbeanzei- gen für die Zielgruppe auf deren Bildschirmen zu sehen waren.
+**Canva**
+Bearbeitung von Bildern, mit Einsatz von Grafiken Bilder aufpeppen, eigenes wiedererkennbares Layout sowie Filter erstellen. Stories mit Text ergänzen und wiedererkennbares Layout erstellen (Corporate Design).
 
-**Facebook Analytics**
-Facebook Analytics ist ein Tool, mit dem sich ermitteln lässt, wie die Kundinnen und Kunden Desktop- und Mobile-Websites, iOS- und Android-Apps und Bots für Messenger verwenden. Zur Kundenbindung oder Interaktion mit der Kundschaft bietet Facebook Analytics vielseitige Tools, einschliesslich Segmentierung, Aufschlüsselungstabellen, automatisierte Push-Kampagnen und mehr.
+Diverse Postingtools: swat.io, Storrito, Later
 
-**Events Manager**
-Der Events Manager bietet drei Tools: Eines, um den Erfolg der Facebook Werbung messen zu können, ein anderes, um mit den Kundinnen und Kunden direkt in Kontakt treten zu können, sowie ein drittes Tool mit der Möglichkeit, sich mit verschiedenen Partnern zu verlinken (z.B. im Bereich E-Commerce, mit Marketing-Software usw.).
+Vom Einsatz von Bots für automatisiertes Liken, Kommentieren, Followen etc. sollte man nicht Gebraucht machen, da diese gegen die Richtlinien verstossen und geahndet werden können.
 
 ## Best Practice
-https://benjaminseuss.de/10-facebook-ads-beispiele Eine private Website, die zehn gelungene Beispiele aufzählt.  
-Link zu einer anderen Website mit über 1200 Beispielen.
+National Geographic betreibt einen informativen Micro-Blog mit Bildern und naturwissenschaftlichen Erklärungen in der Bildunterschrift. https://www.instagram.com/natgeo
 
-**Eigendarstellung von Facebook:**
-www.facebook.com/business/success
+Mercedes erstellte 2014 einen Auto-Konfigurator auf Instagram. https://www.instagram.com/gla_build_your_own
+
+ZDF Info veröffentlichte bereits zwei Staffeln einer Instagramserie: https://www.instagram.com/zdfinfo

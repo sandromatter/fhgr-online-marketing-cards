@@ -4,11 +4,8 @@ layout: cardsDetail
 permalink: /e-mail-marketing
 
 title: E-Mail-Marketing
-description: Facebook ist der Platzhirsch schlechthin.
 kosten: 1/5
 effektivitaet: 3/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
     Bei E-Mail-Marketing werden Nachrichten in Form von E-Mails versendet, um bestehende Kundenbeziehungen auszubauen, zu festigen und die Empfängerinnen und Empfänger über Produkte und Dienstleistungen zu informieren. Da die Zielgruppen direkt angesprochen werden, handelt es sich hierbei um Direktmarketing. Besteht eine qualitativ hochwertige Empfängerliste, ist diese Form des Marketings sehr effektiv.
     
@@ -75,5 +72,4 @@ Nebst dem Versenden von Textnachrichten gibt es hier auch die Möglichkeit, Vide
 Zalando betreibt im Bereich der Follow-up-Newsletters sehr erfolgreiche Kampagnen. Dabei setzt das Unternehmen auf eine sorgfältige Segmentierung der verschiedenen Gruppen. Basierend auf dem Geschlecht, den bisherigen Einkäufen und Interessen werden den Kundinnen und Kunden via Newsletter passende Angebote zugeschickt.
 
 **Sammlung**
-(https://mailbakery.com/blog/
-email-marketing-campaign-examples/)
+(https://mailbakery.com/blog/email-marketing-campaign-examples/)

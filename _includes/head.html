@@ -2,6 +2,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ page.title }} - {{ site.title }}</title>
+<link
+  rel="sitemap"
+  type="application/xml"
+  title="Sitemap"
+  href="/sitemap.xml"
+/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
@@ -13,4 +19,7 @@
   rel="stylesheet"
 />
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+<script type="application/json" id="search-data">
+  {% include searchResults.html %}
+</script>
 <script src="./assets/js/script.js"></script>

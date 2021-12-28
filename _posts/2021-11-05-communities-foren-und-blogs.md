@@ -4,15 +4,21 @@ layout: cardsDetail
 permalink: /communities-foren-und-blogs
 
 title: Communities, Foren und Blogs
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
+kosten: 3.5/5
 effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Communities sind Gemeinschaften von Individuen mit ähnlichen Vorlieben und Problemen, die sich auf Blogs und Foren untereinander austauschen. Während bei Blogs die Kommunikation von der schreibenden Person in Richtung Leserschaft stattfindet, sind Foren darauf ausgelegt, dass die Kommunikation in beide Richtungen stattfindet. Die Kundschaft bzw. Leserschaft kann sich so selbständig informieren und ggf. Hilfe einholen. In Foren regulieren die Administratoren den Informationsfluss und überprüfen die Inhalte sowie das Nutzungsverhalten. Bei Blogs liegt die Regulation hingegen bei der Redaktion. Beides eignet sich gut für die Betreibung von Content-Marketing und Online-PR.
 
 ---
+## Vorteile
+- Austausch zwischen Gleichgesinnten/Kunden
+- Positive Aussenwirkung des Unternehmens
+- Nachhaltigere Wirkung der Botschaften
+
+## Nachteile
+- Hoher Aufwand (Moderation, Administration)
+- Usability-Herausforderungen
+- Verhalten der Nutzerinnen und Nutzer (Anonymität/Trolling)
 
 ## Wichtige Eigenschaften
 - Gehören teilweise zu Owned und zu Earned Media
@@ -35,7 +41,7 @@ description: >
 - Redaktion der Inhalte
 
 ## Checkliste
-Was braucht es für einen Blog oder ein Forum?
+**Was braucht es für einen Blog oder ein Forum?**
 - Domain inkl. SSL-Zertifikat
 - Server
 - Software

@@ -4,11 +4,8 @@ layout: cardsDetail
 permalink: /facebook-page-and-sponsored-content
 
 title: Facebook Page & Sponsored Content
-description: Facebook ist der Platzhirsch schlechthin.
 kosten: 1.5/5
 effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
     Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
 
@@ -73,7 +70,7 @@ Dieses Tool ermöglicht die Integrierung von Marketingaufwänden des eigenen Unt
 **Werbeanzeigenmanager**  
 Hierbei handelt es sich ebenfalls um ein Tool von Facebook, mit dem Werbung erstellt und geschaltet werden kann, Segmentierung vorgenommen wird und die Performance des bezahlten Contents getrackt werden kann. Ausserdem befinden sich in diesem Tool alle Zahlungsabwicklungen und Rechnungen.  
 
-**Canva**  
+**Canva**
 Canva ermöglicht einfache Content-Kreation. Präsentationen, Grafiken oder Bilder können entweder mit vorhandenen Vorlagen erstellt oder nach Belieben verändert werden.  
 
 ## Best Practice 

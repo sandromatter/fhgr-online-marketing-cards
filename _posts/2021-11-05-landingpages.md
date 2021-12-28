@@ -3,17 +3,23 @@
 layout: cardsDetail
 permalink: /landingpages
 
-
 title: Landingpages
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 3.5/5
+effektivitaet: 5/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Auf einer Landingpage «landen» diejenigen Userinnen und User, die über einen Link zum betreffenden Webauftritt gelangen. Sie ist eine fokussierte Webseite, welche ein Produkt/eine Dienstleistung mit dem klaren Ziel bewirbt, dass eine Aktion (Call-to-Action) ausgeführt wird. Dies kann eine Kontaktaufnahme (Formular), eine (Newsletter-)Anmeldung, ein Download oder ein Kauf sein. Die Userinnen und User werden durch verschiedene Marketing-Aktivitäten wie Google Ads oder Newsletter auf diese Zielseite weitergeleitet. So ist es möglich, zielgruppenspezifische oder sogar personalisierte Inhalte zu erstellen.
 
 ---
+
+## Vorteile
+- Steigerung der Conversion Rate
+- Gezielte Bewerbung von Produkt/Angebot
+- Auswertung der verlinkten Marketing-Kampagnen
+
+## Nachteile
+- Falsch vermittelte Erwartungshaltung (Absprung)
+- Erarbeitung mit viel Aufwand verbunden
+- Abstimmung mit Marketing-Kampagne nötig
 
 ## Wichtige Eigenschaften
 - Optimierung des Verkaufsprozesses/der Verkäufe

@@ -4,15 +4,22 @@ layout: cardsDetail
 permalink: /voice-search
 
 title: Voice Search
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 1/5
+effektivitaet: 2.5/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
-
+    Voice Search kommt überall zum Einsatz. Jedoch spielen dabei nicht die Smartphones die wichtigste Rolle, sondern die Home-Assistenten wie Google Home, Alexa oder Microsoft Cortana. Bei der Suche werden keine Keywords verwendet, sondern ganze Sätze. Die Sätze haben eine Struktur wie bei zwischenmenschlichen Gesprächen. Dabei wird den angezeigten Resultaten grosses Vertrauen geschenkt. Die Technologie verbessert sich laufend. Zurzeit liegt die Word Recognition Accuracy bei 90%.
+                
 ---
+
+## Vorteile
+- Suchanfrage ist vergleichbar mit menschlichen Gesprächen
+- Grosses Vertrauen in die Antwort
+- Weniger Aufwand als textbasierte Interaktion
+
+## Nachteile
+- Noch in den Kinderschuhen
+- Limitierte Anzeige der Resultate
+- Keine spezifischen Leitsätze für Website-Optimierung
 
 ## Wichtige Eigenschaften
 - Steuerung via Suchplattform/Sprachassistent

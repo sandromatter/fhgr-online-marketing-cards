@@ -1,21 +1,25 @@
 ---
 
 layout: cardsDetail
-
 permalink: /search-engine-optimization
 
-# Card excerpt
-
 title: Search Engine Optimization (SEO)
-description: Facebook ist der Platzhirsch schlechthin.
 kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+effektivitaet: 3/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Mit SEO unterstützt man mit technischen und inhaltlichen Elementen einer Website oder einzelnen Landingpage deren Auffindbarkeit in Suchmaschinen. Dadurch kann man bei einer Suchanfrage zum jeweiligen Keyword möglichst möglichst weit oben in den organischen (unbezahlten) Suchresultaten erscheinen.
 
 ---
+
+## Vorteile
+- Bessere Sichtbarkeit in organischen Suchresultaten
+- Ideen für Blogs und Landingpages erhalten
+- Keine Werbekosten
+
+## Nachteile
+- Rankingfaktoren sind nicht bekannt
+- Laufende Anpassungen in Algorithmen
+- Grosse Konkurrenz bei suchanfragestarken Keywords
 
 ## Wichtige Eigenschaften
 - Inbound-Marketingmethode
@@ -45,7 +49,7 @@ description: >
 ## Tools/Instrumente
 
 **Google Keyword-Planer**
-Mit dem Google Keyword-Planer kann die Anzahl Suchanfragen zu einzelnen Keywords abgefragt werden. Dies hilft bei der Aufsetzung einer Keyword- Liste, für welche Landingpages erstellt werden sollten.
+Mit dem Google Keyword-Planer kann die Anzahl Suchanfragen zu einzelnen Keywords abgefragt werden. Dies hilft bei der Aufsetzung einer Keyword-Liste, für welche Landingpages erstellt werden sollten.
 
 **AnswerThePublic**
 Dieses Tool bietet Content-Ideen zu verschiedenen Keywords.
@@ -54,8 +58,6 @@ Dieses Tool bietet Content-Ideen zu verschiedenen Keywords.
 Es gibt verschiedene SEO-Tools wie XOVI oder Searchmetrics, welche die Arbeiten rund um SEO unterstützen.
 
 ## Best Practice
-Microspot hat mit der Content-Marketingkampagne
-"Die Legoslative" das SEO-Ranking der Lego-Ver- kaufsseite verbessert:
-www.blueglass.ch/case-studies/legoslative
+Microspot hat mit der Content-Marketingkampagne «Die Legoslative» das SEO-Ranking der Lego-Verkaufsseite verbessert: https://www.blueglass.ch/case-studies/legoslative
 
-Auf moz.com finden sich laufend Tipps rund um das Thema SEO.
+Auf https://moz.com finden sich laufend Tipps rund um das Thema SEO.
