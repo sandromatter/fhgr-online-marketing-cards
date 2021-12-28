@@ -4,16 +4,22 @@ layout: cardsDetail
 permalink: /facebook-ads
 
 title: Facebook Ads
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
+kosten: 2.5/5
 effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Facebook Ads sind für Unternehmen eine sehr interessante Möglichkeit, auf die Zielgruppe abgestimmte Werbung zu schalten und so die eigenen Produkte und Dienstleistungen bekannt zu machen. Erfolgreiches Facebook Marketing setzt den Einsatz von Facebook Ads zwingend voraus.
 
 ---
+## Vorteile  
+- Grosse Reichweite möglich
+- Erschwinglich
+- Flexibel auf Nutzergruppen eingrenzbar (Targeting)
 
+## Nachteile  
+- Spezielle Werbemittel benötigt
+- Nicht jeder nutzt Facebook (immer weniger Junge)
+- Schwankende Kosten wegen Auktionen
+          
 ## Wichtige Eigenschaften
 - Virales Marketing
 - Zielgruppenspezifisch
@@ -64,4 +70,4 @@ Der Events Manager bietet drei Tools: Eines, um den Erfolg der Facebook Werbung 
 https://benjaminseuss.de/10-facebook-ads-beispiele Eine private Website, die zehn gelungene Beispiele aufzählt. Link zu einer anderen Website mit über 1200 Beispielen.
 
 Eigendarstellung von Facebook:
-www.facebook.com/business/success
+https://www.facebook.com/business/success

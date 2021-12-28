@@ -1,21 +1,24 @@
 ---
 
 layout: cardsDetail
-
 permalink: /pinterest-profile-und-ads
 
-# Card excerpt
-
 title: Pinterest (Profil und Ads)
-description: Facebook ist der Platzhirsch schlechthin.
 kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+effektivitaet: 3/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Mittels eines «Promoted Pin» kann auf Pinterest Werbung geschaltet werden. Promoted Pins können gezielt an bestimmte Zielgruppen gerichtet werden: Es besteht einerseits die Möglichkeit, das Targeting aufgrund demografischer oder geografischer Merkmale zu schalten, andererseits aber auch über die angegebenen Interessen der Nutzerinnen und Nutzer sowie anhand der eingegebenen Keywords bei der Suchanfrage.
 
 ---
+## Vorteile
+- Exaktes Targeting der Zielgruppe
+- Emotionale Ansprache
+- Kostengünstig
+
+## Nachteile
+- Zeitintensiv (Content-Erstellung, Community-Management)
+- Views bringen wenig, nur Klicks sind relevant
+- Viel Spam
 
 ## Wichtige Eigenschaften
 - Steigende Bedeutung der Plattform

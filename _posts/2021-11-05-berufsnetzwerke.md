@@ -4,15 +4,22 @@ layout: cardsDetail
 permalink: /berufsnetzwerke
 
 title: Berufsnetzwerke
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
+kosten: 2/5
 effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Unternehmen wie auch Privatpersonen verwenden Berufsnetzwerke zum Knüpfen von überbetrieblichen Kontakten, für die Stellensuche bei passenden Arbeitgebenden oder zur Rekrutierung von Talenten. Mittels dieser Plattformen schaffen alle Mitglieder damit Vertrauen bei künftigen Bewerberinnen und Bewerbern, Partnerinnen und Partnern. Ausser im B2B-Bereich werden damit jedoch selten Produkte vertrieben. Filtereinstellungen je nach Position, Interesse und Branche ermöglichen eine sehr genaue Adressierung der Nutzer zwecks Rekrutierung, Einschaltung von Werbung und Privatnachrichten.
 
 ---
+
+## Vorteile
+- Image stärken, Vertrauen schaffen
+- Gute Segmentierung nach Kriterien
+- Bewährtes und ausgereiftes Rekrutierungswerkzeug
+
+## Nachteile
+- Zur Generierung von Verkäufen ungeeignet
+- Plattformen meist auf eine Sprache ausgerichtet
+- Hervorstechen nur mit grossem Aufwand
 
 ## Wichtige Eigenschaften
 - Schwerpunkt Rekrutierungswerkzeug

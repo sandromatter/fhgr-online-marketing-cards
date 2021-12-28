@@ -4,15 +4,21 @@ layout: cardsDetail
 permalink: /display-werbung
 
 title: Display-Werbung
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 2/5
+effektivitaet: 3/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Display-Werbung umfasst alle elektronischen Werbemittel in Form von Bildern, Videos, Animationen oder Ähnlichem, welche auf einem Online-Werbeträger gezielt für die definierten Zielgruppen eingeblendet werden. Am effektivsten wirkt Display-Werbung auf Personen, welche nicht aktiv nach einem Angebot suchen. Dank Remarketing können bestehende Kundinnen und Kunden sowie Interessentinnen und Interessenten kostengünstig mit gezielter Werbung angesprochen werden. Auch für Branding-Kampagnen und für die Erhöhung der Markenpräsenz kann die Display-Werbung gewinnbringend eingesetzt werden.
 
 ---
+## Vorteile
+- Grosse Reichweite der Kampagnen
+- Zielgruppe nach Merkmalen definierbar
+- Steigerung von Markenbekanntheit und -wahrnehmung
+
+## Nachteile
+- Ad-Blocker und Banner Blindness
+- Sehr geringe Klickraten (ca. 0,1%)
+- Auf mobilen Endgeräten sind Klicks häufig zufällig
 
 ## Wichtige Eigenschaften
 - Ideal für Remarketing geeignet

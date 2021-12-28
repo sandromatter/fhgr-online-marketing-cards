@@ -1,21 +1,25 @@
 ---
 
 layout: cardsDetail
-
 permalink: /in-app-advertising
 
-# Card excerpt
-
 title: In-App-Advertising
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 4/5
+effektivitaet: 2.5/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    In-App-Advertising steht für die Anzeige unterschiedlicher Werbemittel innerhalb einer mobilen App. Die Werbemittel können dabei Banner, Rich Media Ads oder Interstitials umfassen. In-App-Advertisting wird oft von kostenfreien Apps genutzt, um diese doch noch zu monetarisieren sowie deren Entwicklungs- und Wartungskosten ausgleichen zu können. Da der mobile Markt stetig wächst und bereits einen grossen Umfang erreicht hat, ist das Potenzial von In-App-Werbung gross. Im Vergleich zur normalen Online-Werbung müssen Werbemittel bei In-App Ads noch besser in die Applikation integriert und auf deren Design abgestimmt werden.
 
 ---
+
+## Vorteile  
+- Sehr effektiv (CTR bei ca. 0,23 %)
+- Nutzungserlebnis wird nicht gestört
+- Ads werden als Bestandteil der App wahrgenommen
+
+## Nachteile  
+- Ad-Blocker und Banner Blindness
+- Ad ist je nach App nur schwer zu sehen
+- Nicht immer klar, in welchen Apps die Werbung ausgespielt wird
 
 ## Wichtige Eigenschaften
 - Steigende Bedeutung von der App-Nutzung

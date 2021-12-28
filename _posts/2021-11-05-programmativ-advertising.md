@@ -1,21 +1,25 @@
 ---
 
 layout: cardsDetail
-
 permalink: /programmatic-advertising
 
-# Card excerpt
-
 title: Programmatic Advertising
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 5/5
+effektivitaet: 4.5/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Programmatic Advertising (PA) ist eine automatisierte, softwarebasierte Methode, um individualisierte Online-Werbeflächen in Echtzeit zu buchen, auszuspielen und zu optimieren. Eine DSP ermöglicht Advertisern, einzelne Einblendungen über eine virtuelle Auktion zu ersteigern. Auf Basis von Nutzerdaten und Datenquellen überprüft eine Software die Nutzerrelevanz und entscheidet in Echtzeit, welches Werbemittel welcher Userin bzw. welchem User auf welcher Website angezeigt werden soll. Anhand der gemessenen Daten optimiert sich die Kampagne selbst und findet die am besten geeigneten Werbeflächen.
 
 ---
+
+## Vorteile
+- Weniger Streuverluste durch gezieltes Targeting
+- Plattformübergreifende Kampagnensteuerung
+- Effizienzsteigerung durch Automatisierung
+
+## Nachteile
+- Undurchsichtige und komplexe Wertschöpfungskette
+- Ad-Fraud- und Brand-Safety-Problematik
+- Ad-Blocker und Banner Blindness
 
 ## Wichtige Eigenschaften
 - Real Time Bidding
@@ -72,7 +76,7 @@ Eine Data-Management-Plattform ist eine technische Infrastruktur. Sie unterstüt
 ## Best Practice
 
 **SBB**
-Dank einer PA-Kampagne konnte die SBB über mehrere Touchpoints effizient und gezielt ein breites, hochrelevantes Publikum erreichen. Ziel: eine möglichst hohe Teilnahmequote von SBB-Kundinnen und -Kunden an einer Online-Umfrage. Fazit: Conversion Rate 75 %.
+Dank einer PA-Kampagne konnte die SBB über mehrere Touchpoints effizient und gezielt ein breites, hochrelevantes Publikum erreichen. Ziel: eine möglichst hohe Teilnahmequote von SBB-Kundinnen und -Kunden an einer Online-Umfrage. Fazit: Conversion Rate 75%.
 https://bit.ly/2zu68sj
 
 **Tchibo**

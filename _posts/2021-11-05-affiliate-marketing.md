@@ -4,15 +4,22 @@ layout: cardsDetail
 permalink: /affiliate-marketing
 
 title: Affiliate Marketing
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 2/5
+effektivitaet: 3/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Affiliate Marketing ist ein internetbasiertes Provisionssystem und Instrument des Performance Marketings, bei dem ein Publisher (auch Affiliate genannt) Werbemittel eines Advertisers (auch Merchant genannt) auf seiner Website integriert und vom Advertiser erfolgsbasiert dafür vergütet wird. Affiliates veröffentlichen den Link auf ihrer Website. Die potenziellen Kundinnen und Kunden klicken ihn an und gelangen so zur gewünschten Seite. Wichtig dabei ist, dass die Vergütung nur im Erfolgsfall erfolgt. Es gibt unterschiedliche Vergütungsmodelle, die unter «Wichtige Eigenschaften» erläutert werden.
 
 ---
+
+## Vorteile
+- Provision nur im Erfolgsfall fällig
+- Bekanntheit der Marke wird gesteigert
+- Für Affiliates relativ geringer Aufwand, können Provision verdienen
+
+## Nachteile
+- Potenzieller Imageschaden bei falscher Platzierung
+- Hoher Aufwand für Merchant (Betreuung)
+- Zum Teil hohe Setup-Gebühren
 
 ## Wichtige Eigenschaften
 - Pay-per-Click: Provision bei Klick auf den Link

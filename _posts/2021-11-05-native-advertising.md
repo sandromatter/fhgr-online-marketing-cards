@@ -4,15 +4,22 @@ layout: cardsDetail
 permalink: /native-advertising
 
 title: Native Advertising (News Platforms)
-description: Facebook ist der Platzhirsch schlechthin.
-kosten: 1.5/5
-effektivitaet: 3.5/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 3.5/5
+effektivitaet: 4/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
+    Native Advertising ist eine Methode, bei der verschiedene Werbeformen oder Medieninhalte in einem redaktionellen Umfeld platziert werden. Von unterschiedlichen Werbeformen kann gesprochen werden, weil Native Advertising einerseits vom Umfeld – das heisst der Plattform, auf der es umgesetzt wird – und andererseits vom werbenden Medium – dem Content, mit dem geworben wird – abhängig ist. Native Advertising ist Werbung, die sich an das Design der Plattform und an die erwartete User Experience anpasst und nicht selten die Eigenschaften viraler Werbung aufweist.
 
 ---
+
+## Vorteile
+- Hochwertiges Content-Marketing
+- Weniger aufdringlich als Werbebanner
+- Werbung ist an die Lesegewohnheiten der Nutzerinnen und Nutzer angepasst
+
+## Nachteile
+- Views bringen wenig, nur Klicks sind relevant
+- Vertrauensbruch bei unklarer Deklarierung
+- Aufwand für Content-Erstellung
 
 ## Wichtige Eigenschaften
 - Paid Media
@@ -52,15 +59,15 @@ description: >
 Die Userinnen und User wollen während des Surfens auf einer Seite nicht von nerviger Pop-up-Werbung gestört werden. Zudem will die werbende Firma auch nicht als nervige Werbung wahrgenommen werden. Deshalb ist gutes Storytelling für Native Advertising essenziell, denn so generiert die Angebotsseite einen Mehrwert für die Userinnen und User.
 
 **Content-Serien-Marketing**
-Mit Native Advertising lassen sich mehrteilige Cont- ent-Serien hervorragend bewerben. Leserinnen und Leser, die sich den ersten Teil der Serie angeschaut haben, werden sich höchstwahrscheinlich auch den zweiten und dritten Teil ansehen, sofern der Content spannend und auf die Zielgruppe zugeschnitten ist.
+Mit Native Advertising lassen sich mehrteilige Content-Serien hervorragend bewerben. Leserinnen und Leser, die sich den ersten Teil der Serie angeschaut haben, werden sich höchstwahrscheinlich auch den zweiten und dritten Teil ansehen, sofern der Content spannend und auf die Zielgruppe zugeschnitten ist.
 
 **Adserver**
-True Native Advertising ist die skalierbare Form, die gleichzeitig in unzähligen Publikationen veröffent- licht werden kann. Die Inhalte werden automatisch aufbereitet, so dass sich diese redaktionell an die entsprechende Plattform anpassen, ohne manuelle Bearbeitung und ohne Rücksprache mit den jeweili- gen Redaktionen. Möglich macht dies ein spezieller Adserver statt eines CMS.
+True Native Advertising ist die skalierbare Form, die gleichzeitig in unzähligen Publikationen veröffentlicht werden kann. Die Inhalte werden automatisch aufbereitet, so dass sich diese redaktionell an die entsprechende Plattform anpassen, ohne manuelle Bearbeitung und ohne Rücksprache mit den jeweiligen Redaktionen. Möglich macht dies ein spezieller Adserver statt eines CMS.
 
 ## Best Practice
 
 **Netflix**
-Zum Start der zweiten Staffel "Orange is the new Black" hat Netflix in der New York Times online eine Native Ad zum Thema Frauengefängnisse geschal- tet. Die ästhetische Aufbereitung sowie die inhaltli- che Tiefe sind auf den hohen Anspruch der New York Times-Leserschaft abgestimmt. Der Content kratzt nicht nur an der Oberfläche, sondern setzt sich in- tensiv mit der Thematik auseinander.
+Zum Start der zweiten Staffel «Orange is the new Black» hat Netflix in der New York Times online eine Native Ad zum Thema Frauengefängnisse geschaltet. Die ästhetische Aufbereitung sowie die inhaltliche Tiefe sind auf den hohen Anspruch der New York Times-Leserschaft abgestimmt. Der Content kratzt nicht nur an der Oberfläche, sondern setzt sich intensiv mit der Thematik auseinander.
 
 **Guiness**
-Die Biermarke Guiness hat einen "Guiness Guide to Oysters" erstellt, in welchem sie alle Austern-Arten vorstellt. Zum Schluss wird erwähnt, dass alle Aus- tern am besten schmecken, wenn man sie zusam- men mit einem Guiness geniesst.
+Die Biermarke Guiness hat einen «Guiness Guide to Oysters» erstellt, in welchem sie alle Austern-Arten vorstellt. Zum Schluss wird erwähnt, dass alle Austern am besten schmecken, wenn man sie zusammen mit einem Guiness geniesst.

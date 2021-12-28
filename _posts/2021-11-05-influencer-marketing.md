@@ -4,11 +4,8 @@ layout: cardsDetail
 permalink: /influencer-marketing
 
 title: Influencer-Marketing
-description: Facebook ist der Platzhirsch schlechthin.
 kosten: 3.5/5
 effektivitaet: 4/5
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
 description: >
     Influencerinnen und Influencer sind Personen, die durch ihr Tun und Handeln in sozialen Medien andere Userinnen und User beeinflussen. Sie verbreiten über ihre Kommunikationskanäle auch Werbebotschaften für Unternehmen. Diese Marketingmassnahme basiert auf der Zusammenarbeit von Unternehmen und Influencerinnen/Influencern. Sie wird hauptsächlich für die Vermarktung eines Produkts und die Steigerung seines Bekanntheitsgrads eingesetzt.
 
@@ -21,8 +18,7 @@ description: >
 
 ## Nachteile
 - Kosten/Nutzen nicht abschätzbar
-- Community springt nicht immer auf die
-Werbebotschaft der Influencer auf
+- Community springt nicht immer auf die Werbebotschaft der Influencer auf
 - Kontrollverlust, Imageschaden möglich
 
 ## Wichtige Eigenschaften

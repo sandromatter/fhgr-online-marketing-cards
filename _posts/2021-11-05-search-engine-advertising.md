@@ -1,18 +1,25 @@
 ---
 
 layout: cardsDetail
+permalink: /search-engine-advertising
 
-permalink: /search-engine-advertising)
 title: Search Engine Advertising (SEA)
-description: Facebook ist der Platzhirsch schlechthin.
-excerpt: >
-    Das etablierte und grösste soziale Netzwerk mit sehr grosser Reichweite.
+kosten: 3/5
+effektivitaet: 5/5
 description: >
-    Im kommerziellen Sinne dienen Facebook Pages als Landingpage. Dank «Page-Tabs» sowie einem Call-to-Action-Button kann auf Buchungstools, Telefonnummern, Messenger oder Websites verlinkt werden. Auf der Facebook Page werden Posts in vielen möglichen Formaten mit der Community geteilt. Zusätzlich kann mit Hilfe von «Sponsored Content» Reichweite für Posts eingekauft werden.
-kosten: 1.5/5
-effektivitaet: 3.5/5
+    Mit SEA werden bezahlte Anzeigen in den Suchanzeigen von Suchmaschinen prominent aufgeführt. Die Userin bzw. der User wird dabei in dem Moment abgeholt, in welchem sie/er das Bedürfnis hat. Bei den Anzeigen handelt es sich um Texte mit Links zu gewünschten Landingpages auf der Unternehmenswebsite. Diese sind mit ausgewählten Keywords verbunden; deshalb werden die Anzeigen nur eingeblendet, wenn sie inhaltlich mit der Suchanfrage zusammenhängen. SEA wird eingesetzt, um Internet-Nutzerinnen und -Nutzer mit möglichst wenig Streuverlusten anzusprechen. Die Zielgruppe kann gezielt definiert werden.
 
 ---
+
+## Vorteile
+- Bedarfsorientierte Einblendung von Anzeigen
+- Kosten entstehen nur bei Anzeigenklick
+- Lerneffekt in Bezug auf Angebot/Anzeige, Landingpage und ganzes Unternehmen
+
+## Nachteile
+- Click Fraud (Click Spamming) durch Konkurrenten
+- Hohe Komplexität (Know-how erforderlich) 
+- Keine grafische Ausgestaltung der Anzeige
 
 ## Wichtige Eigenschaften
 - Platziert die eigene Anzeige prominent in Google, Bing oder anderen Suchmaschinen
@@ -28,10 +35,11 @@ effektivitaet: 3.5/5
 ## Zu beachtende Kostenpunkte
 - Initialkosten für die Aufsetzung der Kampagnen
 - Kosten durch professionelle Betreuung
-- Keywords gemäss Tages- oder Monatslimits - abhängig vom Gebotssystem (Cost-per-Click/-Action/-Impression)
+- Keywords gemäss Tages- oder Monatslimits – abhängig vom Gebotssystem (Cost-per-Click/-Action/-Impression)
 - Kosten für konstantes Monitoring
 
 ## Checkliste
+
 **Beispiel Google**
 - Keyword-Recherche und Aufteilung nach Themen
 - Kampagnen erstellen
@@ -65,10 +73,10 @@ Neben Google Ads gibt es auch andere Anbieter wie Bing Ads oder Yahoo! Search Ma
 ## Best Practice
 Das Google Help Center bietet einen umfassenden Leitfaden für Google Ads. Das Gleiche gilt für Bing Ads.
 
-https://onlinemarketing.de/news/ 5-teure-fehler-adwords-kampagnen
+https://onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen
 
-https://www.salesfusion.com/resource/ 8-best-practices-using-google-adwords
+https://www.salesfusion.com/resource/8-best-practices-using-google-adwords
 
-https://robnicolas.ch/blog/ adwords-kickstart-tipps
+https://robnicolas.ch/blog/adwords-kickstart-tipps
 
-https://robnicolas.ch/blog/ google-ads-qualitaetsfaktor
+https://robnicolas.ch/blog/google-ads-qualitaetsfaktor
