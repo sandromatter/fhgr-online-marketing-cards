@@ -63,6 +63,7 @@ description: >
 - Conversion Rate
 
 ## Tools/Instrumente
+
 **Google Ads**
 Google Ads ist ein Unternehmen von Google LLC. Die Software schaltet auf über zwei Millionen Websites und in über 650 000 Apps die gewünschte Werbung. Es gibt vier unterschiedliche Formen von Onlinewerbung, die Google Ads anbietet: Text, Banner, Gmail und App. Mit Hilfe von Google Ads sollen zielgerichtete Werbeanzeigen geschaltet werden.
 
@@ -74,6 +75,7 @@ Zur Eingrenzung der geografischen Zielgruppe werden für eine Werbekampagne Poly
 
 
 ## Best Practice
+
 **Zalando**
 Zalando hat als einer der ersten Onlinehändler gross angelegte Retargeting-Display-Kampagnen durchgeführt und konnte sich so innerhalb kürzester Zeit eine extreme Markenbekanntheit aufbauen.
 

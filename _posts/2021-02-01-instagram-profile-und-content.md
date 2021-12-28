@@ -64,8 +64,8 @@ Diverse Postingtools: swat.io, Storrito, Later
 Vom Einsatz von Bots für automatisiertes Liken, Kommentieren, Followen etc. sollte man nicht Gebraucht machen, da diese gegen die Richtlinien verstossen und geahndet werden können.
 
 ## Best Practice
-National Geographic betreibt einen informativen Micro-Blog mit Bildern und naturwissenschaftlichen Erklärungen in der Bildunterschrift. https://www.instagram.com/natgeo
+National Geographic betreibt einen informativen Micro-Blog mit Bildern und naturwissenschaftlichen Erklärungen in der Bildunterschrift. [www.instagram.com/natgeo](https://www.instagram.com/natgeo)
 
-Mercedes erstellte 2014 einen Auto-Konfigurator auf Instagram. https://www.instagram.com/gla_build_your_own
+Mercedes erstellte 2014 einen Auto-Konfigurator auf Instagram. [www.instagram.com/gla_build_your_own](https://www.instagram.com/gla_build_your_own)
 
-ZDF Info veröffentlichte bereits zwei Staffeln einer Instagramserie: https://www.instagram.com/zdfinfo
+ZDF Info veröffentlichte bereits zwei Staffeln einer Instagramserie: [www.instagram.com/zdfinfo](https://www.instagram.com/zdfinfo)
