@@ -8,7 +8,7 @@ aside {
   border-top: $borders;
   border-bottom: $borders;
   height: 68px;
-  background-color: #f7f8fb;
+  background-color: $alternate-background;
   margin-bottom: 1rem;
 }
 
@@ -74,4 +74,19 @@ select {
       opacity: 0;
     }
   }
+}
+
+.results__container {
+  list-style: none;
+  position: relative;
+  top: -2px;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-y: auto;
+  background-color: $alternate-background;
+  border: 1px solid #535151;
+  padding: 4px 0 4px 36px;
+  font-size: 20px;
+  line-height: 200%;
+  z-index: 99999;
 }

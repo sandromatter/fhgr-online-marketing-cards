@@ -1,7 +1,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "FHGR Online Marketing Cards" # the name of your site, e.g. ACME Corp.
-description: ""
+description: "Die Onlineausgabe der Online Marketing Cards der FH Graubünden. Die Lernkarten, welche die Vorzüge und Nachteile der meistgebrauchten Tools und Plattformen im digitalen Marketing erklären."
 organization-name: "Fachhochschule Graubünden"
 organization-link: "https://www.fhgr.ch"
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

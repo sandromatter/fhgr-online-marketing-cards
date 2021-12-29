@@ -1,12 +1,22 @@
 <div class="filter__container">
-  <form class="search__container">
+  <form class="search__container" id="search-container">
     <i class="ri-search-line"></i>
     <input
       class="search__bar"
-      id="search-bar"
+      type="text"
+      id="search-input"
       type="search"
-      placeholder="Suche …"
+      placeholder="Suche ..."
     />
-    <div id="search-result"></div>
   </form>
 </div>
+<ul class="results__container" id="results-container"></ul>
+
+<!-- Configuration -->
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "{{ 'search.json' | relative_url }}",
+  });
+</script>
