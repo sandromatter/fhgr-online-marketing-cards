@@ -1,0 +1,75 @@
+/**
+//==============================================================================
+// Layout and CSS-Grid properties
+//==============================================================================
+*/
+
+%grid-content-padding {
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+
+  @include large-breakpoint {
+    padding: 1rem 2.5rem;
+  }
+}
+
+.grid__container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    "header"
+    "aside"
+    "article"
+    "footer";
+  grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
+}
+
+header {
+  grid-area: header;
+  @extend %grid-content-padding;
+}
+
+aside {
+  grid-area: aside;
+}
+
+article {
+  grid-area: article;
+  @extend %grid-content-padding;
+}
+
+footer {
+  grid-area: footer;
+}
+
+//==============================================================================
+// Card grid
+//==============================================================================
+
+.grid__card {
+  display: grid;
+}
+
+//==============================================================================
+// Content styles
+//==============================================================================
+
+.content__wrapper {
+  max-width: 900px;
+  @extend %grid-content-padding;
+}
+
+.content__wrapper--swiper {
+  max-width: 100%;
+  box-sizing: content-box;
+  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 1rem;
+
+  @include medium-breakpoint {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+
+  @include large-breakpoint {
+    padding: 2rem 0 2rem 2rem;
+  }
+}

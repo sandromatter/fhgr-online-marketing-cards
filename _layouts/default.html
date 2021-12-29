@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "de" }}">
+
+<head>
+    <!-- Head -->
+    {% include head.html %}
+</head>
+
+<body>
+
+    <div class="grid__container">
+
+        <!-- Navbar -->
+        {% include nav_bar.html %}
+
+        <!-- Main content -->
+        <main role="main">
+
+            {{ content }}
+            
+            <!-- Footer  -->
+            {% include footer.html%}
+
+        </main>
+
+    </div>
+
+   <!-- Scripts Body  -->
+   {% include scripts_body.html%}   
+
+   </body>
+
+</html>

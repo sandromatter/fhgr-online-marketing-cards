@@ -1,0 +1,106 @@
+/**
+//==============================================================================
+// Card Archive Styles
+//==============================================================================
+*/
+
+.card__wrapper {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include medium-breakpoint {
+    width: 400px;
+    height: 600px;
+  }
+
+  @include large-breakpoint {
+    width: 425px;
+    height: 650px;
+  }
+}
+
+.card {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: $secondary-color;
+
+  h2 {
+    color: $background;
+  }
+
+  p {
+    color: $background;
+  }
+}
+
+.card__button--light {
+  margin-top: 1rem;
+  padding: 12px 24px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: $borders;
+  border-style: solid;
+  color: $background;
+  text-align: center;
+
+  &:hover {
+    background-color: transparentize($background, 0.75);
+  }
+
+  @include medium-breakpoint {
+    padding: 16px 32px;
+  }
+}
+
+.card__header {
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  object-fit: cover;
+
+  @include medium-breakpoint {
+    height: 180px;
+  }
+
+  @include large-breakpoint {
+    height: 225px;
+  }
+}
+
+.card__body {
+  width: 100%;
+  padding: 0 2rem;
+
+  p {
+    margin-bottom: 0 1rem;
+  }
+}
+
+.card__title {
+  font-size: $h3-mobile;
+
+  @include medium-breakpoint {
+    font-size: $h2;
+  }
+
+  @include large-breakpoint {
+    font-size: 2.5rem;
+  }
+}

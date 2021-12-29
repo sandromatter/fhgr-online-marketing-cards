@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- Filter aside -->
+<aside>{% include back_bar.html %}</aside>
+
+<!-- Article  -->
+<article role="article">
+  <section class="content__wrapper">
+    <h1>{{ page.title }}</h1>
+    <h2>Beschreibung</h2>
+    {{ page.description }}
+    <h2>Kosten</h2>
+    <p>{{ page.kosten }}</p>
+    <h2>Effektivität</h2>
+    <p>{{ page.effektivitaet }}</p>
+    <div>{{ content }}</div>
+  </section>
+</article>

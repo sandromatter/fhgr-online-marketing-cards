@@ -1,0 +1,80 @@
+/**
+//==============================================================================
+// Footer CSS Styles
+//==============================================================================
+*/
+
+.footer__triangle {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: 1.5rem;
+  border-bottom: 5vw solid $primary-color;
+  border-left: 99vw solid transparent;
+}
+
+.footer__wrapper {
+  display: block;
+  background-color: $primary-color;
+}
+
+.footer__container {
+  @extend %grid-content-padding;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: $background;
+  }
+
+  p {
+    color: $background;
+    max-width: 65ch;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $background;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include small-breakpoint {
+    h3 {
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @include medium-breakpoint {
+    flex-direction: row;
+    .footer__project {
+      flex: 2;
+    }
+
+    .footer__links {
+      flex: 1;
+      margin-left: 2rem;
+    }
+  }
+
+  @include large-breakpoint {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}

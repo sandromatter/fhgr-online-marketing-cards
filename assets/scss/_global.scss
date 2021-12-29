@@ -1,0 +1,27 @@
+/**
+//==============================================================================
+// CSS global styling
+//==============================================================================
+*/
+
+a {
+  color: $primary-color;
+}
+
+.arrow__back {
+  @extend %grid-content-padding;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+
+  a {
+    color: $black;
+    text-decoration: none;
+    margin: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

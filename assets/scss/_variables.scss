@@ -1,0 +1,102 @@
+/**
+//==============================================================================
+// Variables
+//==============================================================================
+*/
+
+//==============================================================================
+// Containers
+//==============================================================================
+
+$x-small: 480px;
+$small: 720px;
+$medium: 960px;
+$large: 1200px;
+
+//==============================================================================
+// Breakpoints
+//==============================================================================
+
+$mobile: $x-small;
+$tablet: $small;
+$desktop: $medium;
+
+//==============================================================================
+// Global Colors
+//==============================================================================
+
+$background: #fff;
+$black: #000;
+$primary-color: #7a7760;
+$secondary-color: #4b92a4;
+$accent-color: #c60219;
+$alternate-background: #f7f8fb;
+$link-color: $black;
+$link-hover-color: lighten($link-color, 15%);
+$highlight: lighten($primary-color, 15%);
+$error: #c60219;
+
+//==============================================================================
+// Typography
+//==============================================================================
+
+// Body
+$font-size: 1rem;
+$font-weight: 400;
+$font-color: $black;
+$font-family: "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$line-height: 1.6;
+
+// Font Awesome
+$icon: "FontAwesome";
+
+// Headings
+$heading-font-weight: 300;
+$heading-font-color: #212529;
+$heading-font-family: "Roboto", "Helvetica Neue", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$heading-line-height: 1.25;
+
+// Mobile heading font size
+$h1-mobile: 2rem;
+$h2-mobile: 1.625rem;
+$h3-mobile: 1.375rem;
+$h4-mobile: 1.2rem;
+$h5-mobile: 1rem;
+
+// Heading font size
+$h1: 3rem;
+$h2: 2.25rem;
+$h3: 1.75rem;
+$h4: 1.25rem;
+$h5: 1rem;
+
+//==============================================================================
+// Spacing
+//==============================================================================
+
+$padding: 1rem;
+$margins: 1.5rem;
+
+//==============================================================================
+// Borders
+//==============================================================================
+
+$border-width: 1px;
+$border-style: solid;
+$border-color: #dadadc;
+$border-radius: 0;
+$borders: $border-width $border-style $border-color;
+
+//==============================================================================
+// Luxbar Variables
+//==============================================================================
+
+$luxbar-height: 58px;
+$luxbar-transition: 0.6s ease;
+$hamburger-line-height: 2px;
+$hamburger-width: 26px;
+$luxbar-bg: $background;
+$luxbar-hl: $highlight;
+$luxbar-fg: $black;
