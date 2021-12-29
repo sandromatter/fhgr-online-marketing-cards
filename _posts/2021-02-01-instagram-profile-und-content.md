@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /instagram-profile-and-content
 tags: instagram, storys, stories, reels, feed, alle
+img: "/instagram-profile-and-content.jpg"
 
 title: Instagram Profile & Content (Stories und Feed)
 kosten: 1.5/5

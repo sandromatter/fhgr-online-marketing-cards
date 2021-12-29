@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /programmatic-advertising
 tags: goldbach, audienzz, adsense, google adsense, amazon ads, alle
+img: "/programmatic-advertising.jpg"
 
 title: Programmatic Advertising
 kosten: 5/5

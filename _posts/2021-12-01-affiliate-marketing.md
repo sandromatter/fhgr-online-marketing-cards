@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /affiliate-marketing
 tags: amazon, affiliate, bezahllinks, alle
+img: "/affiliate-marketing.jpg"
 
 title: Affiliate Marketing
 kosten: 2/5

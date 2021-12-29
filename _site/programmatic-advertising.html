@@ -2,6 +2,7 @@
 <html lang="de">
 
 <head>
+
     <!-- Head -->
     <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,31 +26,31 @@
 />
 <link
   rel="shortcut icon"
-  href="/assets/img/favicon.ico"
+  href="/assets/img/pages/favicon.ico"
 />
 <link rel="stylesheet" href="/assets/css/style.css" />
-<!-- Scripts  -->
-<script
-  src="/assets/js/simple-jekyll-search.min.js"
-  type="text/javascript"
-></script>
 
+
+    
 
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <div class="grid__container">
 
-        <!-- Navbar -->
-        <header id="luxbar" class="luxbar-static">
+            <!-- Navbar -->
+            <header id="luxbar" class="luxbar-static">
   <nav role="navigation" id="luxbar" class="luxbar-static scroll">
     <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
       <ul class="luxbar-navigation">
         <li class="luxbar-header">
           <a href="/"
-            ><img class="luxbar-brand" src="./assets/img/fhgr.svg" alt=""
+            ><img
+              class="luxbar-brand"
+              src="/assets/img/pages/fhgr.svg"
+              alt=""
           /></a>
           <label
             class="luxbar-hamburger luxbar-hamburger-spin"
@@ -74,10 +75,14 @@
 </header>
 
 
-        <!-- Main content -->
-        <main role="main">
+            <!-- Main content -->
+            <main role="main">
 
-            <!-- Filter aside -->
+                
+                    <div class="post__wrapper">
+                
+
+                <!-- Filter aside -->
 <aside><!-- Filter back aside -->
 <div class="arrow__back">
   <i class="ri-arrow-left-s-line"></i>
@@ -87,16 +92,31 @@
 
 <!-- Article  -->
 <article role="article">
-  <section class="content__wrapper">
-    <h1>Programmatic Advertising</h1>
-    <h2>Beschreibung</h2>
-    Programmatic Advertising (PA) ist eine automatisierte, softwarebasierte Methode, um individualisierte Online-Werbeflächen in Echtzeit zu buchen, auszuspielen und zu optimieren. Eine DSP ermöglicht Advertisern, einzelne Einblendungen über eine virtuelle Auktion zu ersteigern. Auf Basis von Nutzerdaten und Datenquellen überprüft eine Software die Nutzerrelevanz und entscheidet in Echtzeit, welches Werbemittel welcher Userin bzw. welchem User auf welcher Website angezeigt werden soll. Anhand der gemessenen Daten optimiert sich die Kampagne selbst und findet die am besten geeigneten Werbeflächen.
+  <div class="post__content__box">
+    <div class="post__header">
+      <img
+        class="post__header__img"
+        src="./assets/img/posts//programmatic-advertising.jpg"
+        alt="Programmatic Advertising"
+      />
+    </div>
+    <section class="content__wrapper--900">
+      <div class="post__body">
+        <h1>Programmatic Advertising</h1>
+        <h2>Beschreibung</h2>
+        Programmatic Advertising (PA) ist eine automatisierte, softwarebasierte Methode, um individualisierte Online-Werbeflächen in Echtzeit zu buchen, auszuspielen und zu optimieren. Eine DSP ermöglicht Advertisern, einzelne Einblendungen über eine virtuelle Auktion zu ersteigern. Auf Basis von Nutzerdaten und Datenquellen überprüft eine Software die Nutzerrelevanz und entscheidet in Echtzeit, welches Werbemittel welcher Userin bzw. welchem User auf welcher Website angezeigt werden soll. Anhand der gemessenen Daten optimiert sich die Kampagne selbst und findet die am besten geeigneten Werbeflächen.
 
-    <h2>Kosten</h2>
-    <p>5/5</p>
-    <h2>Effektivität</h2>
-    <p>4.5/5</p>
-    <div><h2 id="vorteile">Vorteile</h2>
+        <div class="post__body__box">
+          <div>
+            <h2>Kosten</h2>
+            <p id="post-cost">5/5</p>
+          </div>
+          <div>
+            <h2>Effektivität</h2>
+            <p id="post-effect">4.5/5</p>
+          </div>
+        </div>
+        <div><h2 id="vorteile">Vorteile</h2>
 
 <ul>
   <li>Weniger Streuverluste durch gezieltes Targeting</li>
@@ -189,12 +209,26 @@ Dank einer PA-Kampagne konnte die SBB über mehrere Touchpoints effizient und ge
 PA-Testkampagne mit einer Kombination aus Wetter-Targeting und dynamischen Werbemitteln. Wetter-Targeting bezeichnet die Werbeausstrahlung zu festgelegten Wetterlagen. Ziel: Die Produktkategorie Garten bewerben und den Verkauf steigern. Fazit: Click-Rate Frauen +43%, Männer +53% und Warenkorbwert +29%.<br />
 <a href="https://bit.ly/2Odnyi5">www.bit.ly/2Odnyi5</a></p>
 </div>
-  </section>
+        <hr class="post__seperator" />
+        <div class="post__navigation">
+          
+          <a class="prev" href="/search-engine-advertising"
+            >&laquo; Search Engine Advertising (SEA)</a
+          >
+           
+          <a class="next" href="/pinterest-profile-und-ads"
+            >Pinterest (Profil und Ads) &raquo;</a
+          >
+          
+        </div>
+      </div>
+    </section>
+  </div>
 </article>
 
-            
-            <!-- Footer  -->
-            <!-- Footer  -->
+                
+                <!-- Footer  -->
+                <!-- Footer  -->
 <div class="footer__triangle"></div>
 <footer class="footer__wrapper">
   <div class="footer__container">
@@ -223,15 +257,19 @@ PA-Testkampagne mit einer Kombination aus Wetter-Targeting und dynamischen Werbe
 </footer>
 
 
-        </main>
+                
+                    </div>
+                
 
-    </div>
+            </main>
 
-   <!-- Scripts Body  -->
-   <script src="/assets/js/swiper-bundle.min.js"></script>
+        </div>
+
+        <!-- Scripts Body  -->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
 <script src="/assets/js/script.js"></script>
    
 
-   </body>
+    </body>
 
 </html>

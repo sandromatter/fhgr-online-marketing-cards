@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /communities-foren-und-blogs
 tags: content marketing, contentmarketing, blog, vlog, forum, podcasts, alle
+img: "/communities-foren-und-blogs.jpg"
 
 title: Communities, Foren und Blogs
 kosten: 3.5/5

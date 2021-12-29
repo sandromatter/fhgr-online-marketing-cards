@@ -2,32 +2,47 @@
 <html lang="{{ site.lang | default: "de" }}">
 
 <head>
+
     <!-- Head -->
     {% include head.html %}
+
+    {% if page.title == "Online Marketing Cards" %}
+        <!-- Scripts  -->
+        {% include scripts_head.html%}
+    {% endif %}
+
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <div class="grid__container">
 
-        <!-- Navbar -->
-        {% include nav_bar.html %}
+            <!-- Navbar -->
+            {% include nav_bar.html %}
 
-        <!-- Main content -->
-        <main role="main">
+            <!-- Main content -->
+            <main role="main">
 
-            {{ content }}
-            
-            <!-- Footer  -->
-            {% include footer.html%}
+                {% if page.layout != "page" %}
+                    <div class="post__wrapper">
+                {% endif %}
 
-        </main>
+                {{ content }}
+                
+                <!-- Footer  -->
+                {% include footer.html%}
 
-    </div>
+                {% if page.layout != "page" %}
+                    </div>
+                {% endif %}
 
-   <!-- Scripts Body  -->
-   {% include scripts_body.html%}   
+            </main>
 
-   </body>
+        </div>
+
+        <!-- Scripts Body  -->
+        {% include scripts_body.html%}   
+
+    </body>
 
 </html>

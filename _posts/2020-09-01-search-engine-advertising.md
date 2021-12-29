@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /search-engine-advertising
 tags: google ads, ads, paid ads, bing ads, apple ads, alle
+img: "/search-engine-advertising.jpg"
 
 title: Search Engine Advertising (SEA)
 kosten: 3/5

@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /pinterest-profile-und-ads
 tags: pinterest, pins, alle
+img: "/pinterest-profile-und-ads.jpg"
 
 title: Pinterest (Profil und Ads)
 kosten: 1.5/5

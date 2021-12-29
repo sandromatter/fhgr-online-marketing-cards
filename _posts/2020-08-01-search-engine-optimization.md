@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /search-engine-optimization
 tags: ryte, ubersuggest, content marketing, suchmaschinenoptimierung, optimierung, alle
+img: "/search-engine-optimization.jpg"
 
 title: Search Engine Optimization (SEO)
 kosten: 1.5/5

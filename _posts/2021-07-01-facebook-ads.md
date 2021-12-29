@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /facebook-ads
 tags: facebook, facebook ads, alle
+img: "/facebook-ads.jpg"
 
 title: Facebook Ads
 kosten: 2.5/5

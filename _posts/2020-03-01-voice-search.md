@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /voice-search
 tags: google assistant, siri, alexa, cordova, assistant, alle
+img: "/voice-search.jpg"
 
 title: Voice Search
 kosten: 1/5

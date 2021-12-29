@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /display-werbung
 tags: google ads, display werbung, display ads, alle
+img: "/display-werbung.jpg"
 
 title: Display-Werbung
 kosten: 2/5

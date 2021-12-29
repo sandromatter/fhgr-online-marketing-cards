@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /facebook-page-and-sponsored-content
 tags: facebook, feed, alle
+img: "/facebook-page-and-sponsored-content.jpg"
 
 title: Facebook Page & Sponsored Content
 kosten: 1.5/5

@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /influencer-marketing
 tags: influencer, influencerinnen, partnerschaft, alle
+img: "/influencer-marketing.jpg"
 
 title: Influencer-Marketing
 kosten: 3.5/5

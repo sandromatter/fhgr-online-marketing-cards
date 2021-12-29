@@ -8,34 +8,36 @@ const swiper = new Swiper(".swiper", {
 });
 
 // Jekyll Search
-SimpleJekyllSearch({
-  searchInput: document.getElementById("search-input"),
-  resultsContainer: document.getElementById("results-container"),
-  json: "/search.json",
-  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-  noResultsText: "<p>Hoppla, kein Treffer.</p>",
-  limit: 50,
-  fuzzy: false,
-  exclude: ["Welcome"],
-});
+if (typeof SimpleJekyllSearch === "function") {
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "/search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "<p>Hoppla, kein Treffer.</p>",
+    limit: 50,
+    fuzzy: false,
+    exclude: ["Welcome"],
+  });
 
-// Check if the results have an input and display it
-let searchInput = document.getElementById("search-input");
-let resultsContainer = document.getElementById("results-container");
+  // Check if the results have an input and display it
+  let searchInput = document.getElementById("search-input");
+  let resultsContainer = document.getElementById("results-container");
 
-searchInput.onkeyup = (elem) => {
-  let userInput = elem.target.value;
+  searchInput.onkeyup = (elem) => {
+    let userInput = elem.target.value;
 
-  let hide = function (elem) {
-    elem.style.display = "none";
+    let hide = function (elem) {
+      elem.style.display = "none";
+    };
+    let show = function (elem) {
+      elem.style.display = "block";
+    };
+
+    if (userInput) {
+      show(resultsContainer);
+    } else {
+      hide(resultsContainer);
+    }
   };
-  let show = function (elem) {
-    elem.style.display = "block";
-  };
-
-  if (userInput) {
-    show(resultsContainer);
-  } else {
-    hide(resultsContainer);
-  }
-};
+}

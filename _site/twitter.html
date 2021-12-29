@@ -2,6 +2,7 @@
 <html lang="de">
 
 <head>
+
     <!-- Head -->
     <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,31 +26,31 @@
 />
 <link
   rel="shortcut icon"
-  href="/assets/img/favicon.ico"
+  href="/assets/img/pages/favicon.ico"
 />
 <link rel="stylesheet" href="/assets/css/style.css" />
-<!-- Scripts  -->
-<script
-  src="/assets/js/simple-jekyll-search.min.js"
-  type="text/javascript"
-></script>
 
+
+    
 
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <div class="grid__container">
 
-        <!-- Navbar -->
-        <header id="luxbar" class="luxbar-static">
+            <!-- Navbar -->
+            <header id="luxbar" class="luxbar-static">
   <nav role="navigation" id="luxbar" class="luxbar-static scroll">
     <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
       <ul class="luxbar-navigation">
         <li class="luxbar-header">
           <a href="/"
-            ><img class="luxbar-brand" src="./assets/img/fhgr.svg" alt=""
+            ><img
+              class="luxbar-brand"
+              src="/assets/img/pages/fhgr.svg"
+              alt=""
           /></a>
           <label
             class="luxbar-hamburger luxbar-hamburger-spin"
@@ -74,10 +75,14 @@
 </header>
 
 
-        <!-- Main content -->
-        <main role="main">
+            <!-- Main content -->
+            <main role="main">
 
-            <!-- Filter aside -->
+                
+                    <div class="post__wrapper">
+                
+
+                <!-- Filter aside -->
 <aside><!-- Filter back aside -->
 <div class="arrow__back">
   <i class="ri-arrow-left-s-line"></i>
@@ -87,16 +92,31 @@
 
 <!-- Article  -->
 <article role="article">
-  <section class="content__wrapper">
-    <h1>Twitter</h1>
-    <h2>Beschreibung</h2>
-    Twitter (seit 2006 online) ist eine Social-Media-Plattform und zählt weltweit 330 Mio. aktive Nutzerinnen und Nutzer. Sie muss sich jedoch mit sinkenden Nutzerzahlen und geringerer Popularität in Europa auseinandersetzen. Angemeldete Nutzerinnen und Nutzer können kostenlos Kurznachrichten, Bilder und Kurzvideos verbreiten. Mittels Hashtags sowie durch Verweise auf andere Nutzerinnen und Nutzer kann eine grössere Reichweite erzielt werden. Die Personen werden ganz gezielt angesprochen. Mit eingebetteten Links kann auf eigene Websites/Blogs aufmerksam gemacht werden. Ebenfalls möglich ist die Schaltung von Ads.
+  <div class="post__content__box">
+    <div class="post__header">
+      <img
+        class="post__header__img"
+        src="./assets/img/posts//twitter.jpg"
+        alt="Twitter"
+      />
+    </div>
+    <section class="content__wrapper--900">
+      <div class="post__body">
+        <h1>Twitter</h1>
+        <h2>Beschreibung</h2>
+        Twitter (seit 2006 online) ist eine Social-Media-Plattform und zählt weltweit 330 Mio. aktive Nutzerinnen und Nutzer. Sie muss sich jedoch mit sinkenden Nutzerzahlen und geringerer Popularität in Europa auseinandersetzen. Angemeldete Nutzerinnen und Nutzer können kostenlos Kurznachrichten, Bilder und Kurzvideos verbreiten. Mittels Hashtags sowie durch Verweise auf andere Nutzerinnen und Nutzer kann eine grössere Reichweite erzielt werden. Die Personen werden ganz gezielt angesprochen. Mit eingebetteten Links kann auf eigene Websites/Blogs aufmerksam gemacht werden. Ebenfalls möglich ist die Schaltung von Ads.
 
-    <h2>Kosten</h2>
-    <p>1/5</p>
-    <h2>Effektivität</h2>
-    <p>2.5/5</p>
-    <div><h2 id="vorteile">Vorteile</h2>
+        <div class="post__body__box">
+          <div>
+            <h2>Kosten</h2>
+            <p id="post-cost">1/5</p>
+          </div>
+          <div>
+            <h2>Effektivität</h2>
+            <p id="post-effect">2.5/5</p>
+          </div>
+        </div>
+        <div><h2 id="vorteile">Vorteile</h2>
 
 <ul>
   <li>Einfache und kostenlose Nutzung</li>
@@ -176,12 +196,26 @@ Die App Periscope wurde von Twitter selbst entwickelt und ist seit Mitte 2018 ve
 <p><strong>Oscar-Selfie von Ellen DeGeneres (3. März 2014)</strong><br />
 Die US-Moderatorin DeGeneres hat ein Selfie, das sie mit mehreren Hollywood-Stars an der Oscar-Verleihung zeigt, getwittert. Das Foto wurde über 3,3 Mio. mal retweetet und erhielt mehr als 2,3 Mio. Likes. Dutzende Medien haben über dieses Selfie, aber auch über das Samsung-Handy, mit welchem es aufgenommen wurde, berichtet. Die Firma Samsung hat mit diesem Tweet einen riesigen Erfolg errungen.</p>
 </div>
-  </section>
+        <hr class="post__seperator" />
+        <div class="post__navigation">
+          
+          <a class="prev" href="/unternehmens-website"
+            >&laquo; (Unternehmens-) Website</a
+          >
+           
+          <a class="next" href="/tiktok"
+            >Tiktok &raquo;</a
+          >
+          
+        </div>
+      </div>
+    </section>
+  </div>
 </article>
 
-            
-            <!-- Footer  -->
-            <!-- Footer  -->
+                
+                <!-- Footer  -->
+                <!-- Footer  -->
 <div class="footer__triangle"></div>
 <footer class="footer__wrapper">
   <div class="footer__container">
@@ -210,15 +244,19 @@ Die US-Moderatorin DeGeneres hat ein Selfie, das sie mit mehreren Hollywood-Star
 </footer>
 
 
-        </main>
+                
+                    </div>
+                
 
-    </div>
+            </main>
 
-   <!-- Scripts Body  -->
-   <script src="/assets/js/swiper-bundle.min.js"></script>
+        </div>
+
+        <!-- Scripts Body  -->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
 <script src="/assets/js/script.js"></script>
    
 
-   </body>
+    </body>
 
 </html>

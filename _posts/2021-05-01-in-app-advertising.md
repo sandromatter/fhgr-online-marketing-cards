@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /in-app-advertising
 tags: in-app-werbung, in app werbung, in-app-advertising, alle
+img: "/in-app-advertising.jpg"
 
 title: In-App-Advertising
 kosten: 4/5

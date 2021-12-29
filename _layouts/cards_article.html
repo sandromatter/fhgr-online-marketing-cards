@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<!-- Filter aside -->
+<aside>{% include back_bar.html %}</aside>
+
+<!-- Article  -->
+<article role="article">
+  <div class="post__content__box">
+    <div class="post__header">
+      <img
+        class="post__header__img"
+        src="./assets/img/posts/{{ page.img }}"
+        alt="{{ page.title }}"
+      />
+    </div>
+    <section class="content__wrapper--900">
+      <div class="post__body">
+        <h1>{{ page.title }}</h1>
+        <h2>Beschreibung</h2>
+        {{ page.description }}
+        <div class="post__body__box">
+          <div>
+            <h2>Kosten</h2>
+            <p id="post-cost">{{ page.kosten }}</p>
+          </div>
+          <div>
+            <h2>Effektivität</h2>
+            <p id="post-effect">{{ page.effektivitaet }}</p>
+          </div>
+        </div>
+        <div>{{ content }}</div>
+        <hr class="post__seperator" />
+        <div class="post__navigation">
+          {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}"
+            >&laquo; {{page.previous.title}}</a
+          >
+          {% endif %} {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}"
+            >{{page.next.title}} &raquo;</a
+          >
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </div>
+</article>

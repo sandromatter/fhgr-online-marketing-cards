@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /instagram-ads
 tags: instagram, storys, stories, reels, feed, ads, instagram ads, alle
+img: "/instagram-ads.jpg"
 
 title: Instagram Ads (Stories und Feed)
 kosten: 2.5/5

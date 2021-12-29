@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /e-mail-marketing
 tags: mailchimp, e-mail-marketing, rapidmail, cakemail, newsletter, marketing automation, alle
+img: "/e-mail-marketing.jpg"
 
 title: E-Mail-Marketing
 kosten: 1/5

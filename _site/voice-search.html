@@ -2,6 +2,7 @@
 <html lang="de">
 
 <head>
+
     <!-- Head -->
     <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,31 +26,31 @@
 />
 <link
   rel="shortcut icon"
-  href="/assets/img/favicon.ico"
+  href="/assets/img/pages/favicon.ico"
 />
 <link rel="stylesheet" href="/assets/css/style.css" />
-<!-- Scripts  -->
-<script
-  src="/assets/js/simple-jekyll-search.min.js"
-  type="text/javascript"
-></script>
 
+
+    
 
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <div class="grid__container">
 
-        <!-- Navbar -->
-        <header id="luxbar" class="luxbar-static">
+            <!-- Navbar -->
+            <header id="luxbar" class="luxbar-static">
   <nav role="navigation" id="luxbar" class="luxbar-static scroll">
     <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
       <ul class="luxbar-navigation">
         <li class="luxbar-header">
           <a href="/"
-            ><img class="luxbar-brand" src="./assets/img/fhgr.svg" alt=""
+            ><img
+              class="luxbar-brand"
+              src="/assets/img/pages/fhgr.svg"
+              alt=""
           /></a>
           <label
             class="luxbar-hamburger luxbar-hamburger-spin"
@@ -74,10 +75,14 @@
 </header>
 
 
-        <!-- Main content -->
-        <main role="main">
+            <!-- Main content -->
+            <main role="main">
 
-            <!-- Filter aside -->
+                
+                    <div class="post__wrapper">
+                
+
+                <!-- Filter aside -->
 <aside><!-- Filter back aside -->
 <div class="arrow__back">
   <i class="ri-arrow-left-s-line"></i>
@@ -87,16 +92,31 @@
 
 <!-- Article  -->
 <article role="article">
-  <section class="content__wrapper">
-    <h1>Voice Search</h1>
-    <h2>Beschreibung</h2>
-    Voice Search kommt überall zum Einsatz. Jedoch spielen dabei nicht die Smartphones die wichtigste Rolle, sondern die Home-Assistenten wie Google Home, Alexa oder Microsoft Cortana. Bei der Suche werden keine Keywords verwendet, sondern ganze Sätze. Die Sätze haben eine Struktur wie bei zwischenmenschlichen Gesprächen. Dabei wird den angezeigten Resultaten grosses Vertrauen geschenkt. Die Technologie verbessert sich laufend. Zurzeit liegt die Word Recognition Accuracy bei 90%.
+  <div class="post__content__box">
+    <div class="post__header">
+      <img
+        class="post__header__img"
+        src="./assets/img/posts//voice-search.jpg"
+        alt="Voice Search"
+      />
+    </div>
+    <section class="content__wrapper--900">
+      <div class="post__body">
+        <h1>Voice Search</h1>
+        <h2>Beschreibung</h2>
+        Voice Search kommt überall zum Einsatz. Jedoch spielen dabei nicht die Smartphones die wichtigste Rolle, sondern die Home-Assistenten wie Google Home, Alexa oder Microsoft Cortana. Bei der Suche werden keine Keywords verwendet, sondern ganze Sätze. Die Sätze haben eine Struktur wie bei zwischenmenschlichen Gesprächen. Dabei wird den angezeigten Resultaten grosses Vertrauen geschenkt. Die Technologie verbessert sich laufend. Zurzeit liegt die Word Recognition Accuracy bei 90%.
 
-    <h2>Kosten</h2>
-    <p>1/5</p>
-    <h2>Effektivität</h2>
-    <p>2.5/5</p>
-    <div><h2 id="vorteile">Vorteile</h2>
+        <div class="post__body__box">
+          <div>
+            <h2>Kosten</h2>
+            <p id="post-cost">1/5</p>
+          </div>
+          <div>
+            <h2>Effektivität</h2>
+            <p id="post-effect">2.5/5</p>
+          </div>
+        </div>
+        <div><h2 id="vorteile">Vorteile</h2>
 
 <ul>
   <li>Suchanfrage ist vergleichbar mit menschlichen Gesprächen</li>
@@ -165,12 +185,22 @@
 
 <p>Da Voice Search ziemlich «neu» ist, gibt es noch keine Best Practice, welche von allen Seiten bestätigt wird. Best Practices von Sprachassistenten sind die Home-Assistenten von Google und Amazon. Auf dem Smartphone sind es Assistenten wie Siri, Bixby und Google Assistant.</p>
 </div>
-  </section>
+        <hr class="post__seperator" />
+        <div class="post__navigation">
+           
+          <a class="next" href="/unternehmens-website"
+            >(Unternehmens-) Website &raquo;</a
+          >
+          
+        </div>
+      </div>
+    </section>
+  </div>
 </article>
 
-            
-            <!-- Footer  -->
-            <!-- Footer  -->
+                
+                <!-- Footer  -->
+                <!-- Footer  -->
 <div class="footer__triangle"></div>
 <footer class="footer__wrapper">
   <div class="footer__container">
@@ -199,15 +229,19 @@
 </footer>
 
 
-        </main>
+                
+                    </div>
+                
 
-    </div>
+            </main>
 
-   <!-- Scripts Body  -->
-   <script src="/assets/js/swiper-bundle.min.js"></script>
+        </div>
+
+        <!-- Scripts Body  -->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
 <script src="/assets/js/script.js"></script>
    
 
-   </body>
+    </body>
 
 </html>

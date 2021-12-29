@@ -54,7 +54,12 @@ footer {
 // Content styles
 //==============================================================================
 
-.content__wrapper {
+.content__wrapper--600 {
+  max-width: 600px;
+  @extend %grid-content-padding;
+}
+
+.content__wrapper--900 {
   max-width: 900px;
   @extend %grid-content-padding;
 }
@@ -63,7 +68,7 @@ footer {
   max-width: 100%;
   box-sizing: content-box;
   margin-bottom: 1rem;
-  padding: 1rem 0 1rem 1rem;
+  padding: 0;
 
   @include medium-breakpoint {
     padding: 1.5rem 0 1.5rem 1.5rem;
