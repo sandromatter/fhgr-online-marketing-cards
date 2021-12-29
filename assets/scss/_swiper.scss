@@ -1,10 +1,14 @@
 .swiper {
-  width: 500px;
+  width: 200px;
   height: 100%;
   margin: 4rem auto;
   list-style: none;
   /* Fix of Webkit flickering */
   z-index: 1;
+
+  @include large-breakpoint {
+    width: 500px;
+  }
 }
 
 .swiper-vertical > .swiper-wrapper {

@@ -4,11 +4,8 @@ title: "Online Marketing Cards"
 ---
 
 <div class="content__wrapper--swiper">
-  <!-- Slider main container -->
   <div class="swiper">
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-      <!-- Slides -->
       {% for cardsDetail in site.posts %}
       <div class="swiper-slide">
         <section class="grid__card">
@@ -16,7 +13,7 @@ title: "Online Marketing Cards"
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>{{ cardsDetail.title}}</h2>
+                <h2 class="card__title">{{ cardsDetail.title}}</h2>
                 <button
                   onClick="location.href='{{ cardsDetail.permalink }}'"
                   value="mehr erfahren"

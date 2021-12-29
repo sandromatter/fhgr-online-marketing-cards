@@ -23,10 +23,14 @@
   href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
   rel="stylesheet"
 />
+<link
+  rel="shortcut icon"
+  href="/assets/img/favicon.ico"
+/>
 <link rel="stylesheet" href="/assets/css/style.css" />
 <!-- Scripts  -->
 <script
-  src="/assets/js/search.js"
+  src="/assets/js/simple-jekyll-search.min.js"
   type="text/javascript"
 ></script>
 
@@ -79,9 +83,10 @@
     <i class="ri-search-line"></i>
     <input
       class="search__bar"
-      type="text"
       id="search-input"
       type="search"
+      name="suche"
+      autocomplete="off"
       placeholder="Suche ..."
     />
   </form>
@@ -100,11 +105,8 @@
 
 <!-- Article  -->
 <article role="article"><div class="content__wrapper--swiper">
-  <!-- Slider main container -->
   <div class="swiper">
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-      <!-- Slides -->
       
       <div class="swiper-slide">
         <section class="grid__card">
@@ -112,7 +114,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Affiliate Marketing</h2>
+                <h2 class="card__title">Affiliate Marketing</h2>
                 <button
                   onClick="location.href='/affiliate-marketing'"
                   value="mehr erfahren"
@@ -133,7 +135,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Berufsnetzwerke</h2>
+                <h2 class="card__title">Berufsnetzwerke</h2>
                 <button
                   onClick="location.href='/berufsnetzwerke'"
                   value="mehr erfahren"
@@ -154,7 +156,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Communities, Foren und Blogs</h2>
+                <h2 class="card__title">Communities, Foren und Blogs</h2>
                 <button
                   onClick="location.href='/communities-foren-und-blogs'"
                   value="mehr erfahren"
@@ -175,7 +177,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Display-Werbung</h2>
+                <h2 class="card__title">Display-Werbung</h2>
                 <button
                   onClick="location.href='/display-werbung'"
                   value="mehr erfahren"
@@ -196,7 +198,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>E-Mail-Marketing</h2>
+                <h2 class="card__title">E-Mail-Marketing</h2>
                 <button
                   onClick="location.href='/e-mail-marketing'"
                   value="mehr erfahren"
@@ -217,7 +219,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Facebook Ads</h2>
+                <h2 class="card__title">Facebook Ads</h2>
                 <button
                   onClick="location.href='/facebook-ads'"
                   value="mehr erfahren"
@@ -238,7 +240,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Facebook Page & Sponsored Content</h2>
+                <h2 class="card__title">Facebook Page & Sponsored Content</h2>
                 <button
                   onClick="location.href='/facebook-page-and-sponsored-content'"
                   value="mehr erfahren"
@@ -259,7 +261,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>In-App-Advertising</h2>
+                <h2 class="card__title">In-App-Advertising</h2>
                 <button
                   onClick="location.href='/in-app-advertising'"
                   value="mehr erfahren"
@@ -280,7 +282,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Influencer-Marketing</h2>
+                <h2 class="card__title">Influencer-Marketing</h2>
                 <button
                   onClick="location.href='/influencer-marketing'"
                   value="mehr erfahren"
@@ -301,7 +303,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Instagram Ads (Stories und Feed)</h2>
+                <h2 class="card__title">Instagram Ads (Stories und Feed)</h2>
                 <button
                   onClick="location.href='/instagram-ads'"
                   value="mehr erfahren"
@@ -322,7 +324,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Instagram Profile & Content (Stories und Feed)</h2>
+                <h2 class="card__title">Instagram Profile & Content (Stories und Feed)</h2>
                 <button
                   onClick="location.href='/instagram-profile-and-content'"
                   value="mehr erfahren"
@@ -343,7 +345,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Landingpages</h2>
+                <h2 class="card__title">Landingpages</h2>
                 <button
                   onClick="location.href='/landingpages'"
                   value="mehr erfahren"
@@ -364,7 +366,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Native Advertising (News Platforms)</h2>
+                <h2 class="card__title">Native Advertising (News Platforms)</h2>
                 <button
                   onClick="location.href='/native-advertising'"
                   value="mehr erfahren"
@@ -385,7 +387,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Pinterest (Profil und Ads)</h2>
+                <h2 class="card__title">Pinterest (Profil und Ads)</h2>
                 <button
                   onClick="location.href='/pinterest-profile-und-ads'"
                   value="mehr erfahren"
@@ -406,7 +408,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Programmatic Advertising</h2>
+                <h2 class="card__title">Programmatic Advertising</h2>
                 <button
                   onClick="location.href='/programmatic-advertising'"
                   value="mehr erfahren"
@@ -427,7 +429,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Search Engine Advertising (SEA)</h2>
+                <h2 class="card__title">Search Engine Advertising (SEA)</h2>
                 <button
                   onClick="location.href='/search-engine-advertising'"
                   value="mehr erfahren"
@@ -448,7 +450,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Search Engine Optimization (SEO)</h2>
+                <h2 class="card__title">Search Engine Optimization (SEO)</h2>
                 <button
                   onClick="location.href='/search-engine-optimization'"
                   value="mehr erfahren"
@@ -469,7 +471,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Snapchat</h2>
+                <h2 class="card__title">Snapchat</h2>
                 <button
                   onClick="location.href='/snapchat'"
                   value="mehr erfahren"
@@ -490,7 +492,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Tiktok</h2>
+                <h2 class="card__title">Tiktok</h2>
                 <button
                   onClick="location.href='/tiktok'"
                   value="mehr erfahren"
@@ -511,7 +513,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Twitter</h2>
+                <h2 class="card__title">Twitter</h2>
                 <button
                   onClick="location.href='/twitter'"
                   value="mehr erfahren"
@@ -532,7 +534,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>(Unternehmens-) Website</h2>
+                <h2 class="card__title">(Unternehmens-) Website</h2>
                 <button
                   onClick="location.href='/unternehmens-webseite'"
                   value="mehr erfahren"
@@ -553,7 +555,7 @@
             <div class="card">
               <div class="card__header"><img src="" alt="" /></div>
               <div class="card__body">
-                <h2>Voice Search</h2>
+                <h2 class="card__title">Voice Search</h2>
                 <button
                   onClick="location.href='/voice-search'"
                   value="mehr erfahren"
@@ -586,7 +588,7 @@
         Kundeninteraktionen über die gesamte Kundenbeziehung schematisch zu
         planen und darzustellen. Die Karten werden von Studierenden-Teams der
         Studienangebote Digital Business Management und Information Science im
-        Rahmen des Vertiefungsmoduls Digital Merketing entwickelt.
+        Rahmen des Vertiefungsmoduls Digital Marketing entwickelt.
       </p>
     </div>
     <div class="footer__links">

@@ -21,8 +21,7 @@
 .footer__container {
   @extend %grid-content-padding;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
 
   h3 {
     color: $background;
@@ -49,13 +48,33 @@
       text-decoration: underline;
     }
   }
-}
 
-.footer__project {
-  flex: 2;
-}
+  @include small-breakpoint {
+    h3 {
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
 
-.footer__links {
-  flex: 1;
-  margin-left: 2rem;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @include medium-breakpoint {
+    flex-direction: row;
+    .footer__project {
+      flex: 2;
+    }
+
+    .footer__links {
+      flex: 1;
+      margin-left: 2rem;
+    }
+  }
+
+  @include large-breakpoint {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
