@@ -2,12 +2,21 @@
   <div class="card__wrapper">
     <div class="card">
       <div class="card__header">
-        <img class="card__header__img" src="./assets/img/posts/{{ cards.img }}" alt="{{ cards.title }}" />
+        <img
+          class="card__header__img"
+          src="./assets/img/posts/{{ cards.img }}"
+          alt="{{ cards.title }}"
+        />
       </div>
       <div class="card__body">
         <h2 class="card__body__title">{{ cards.title }}</h2>
-        <button tabindex="0" onClick="location.href='{{ cards.permalink }}'" value="mehr erfahren" type="button"
-          class="card__button--light">
+        <button
+          tabindex="0"
+          onClick="location.href='{{ cards.permalink }}'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
           Mehr erfahren
         </button>
       </div>
