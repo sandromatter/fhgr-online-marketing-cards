@@ -25,7 +25,7 @@ if (typeof SimpleJekyllSearch === "function") {
   let searchInput = document.getElementById("search-input");
   let resultsContainer = document.getElementById("results-container");
 
-  searchInput.onkeyup = (elem) => {
+  searchInput.oninput = (elem) => {
     let userInput = elem.target.value;
 
     let hide = function (elem) {
@@ -37,7 +37,8 @@ if (typeof SimpleJekyllSearch === "function") {
 
     if (userInput) {
       show(resultsContainer);
-    } else {
+    }
+    else {
       hide(resultsContainer);
     }
   };

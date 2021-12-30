@@ -6,7 +6,7 @@ title: "Online Marketing Cards"
 <div class="content__wrapper--swiper">
   <div class="swiper">
     <div class="swiper-wrapper">
-      {% for cardsDetail in site.posts %}
+      {% for cards in site.posts %}
       <div class="swiper-slide">{% include single_card.html %}</div>
       {% endfor %}
     </div>
