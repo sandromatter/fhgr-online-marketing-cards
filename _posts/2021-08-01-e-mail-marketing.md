@@ -80,4 +80,4 @@ Nebst dem Versenden von Textnachrichten gibt es hier auch die Möglichkeit, Vide
 Zalando betreibt im Bereich der Follow-up-Newsletters sehr erfolgreiche Kampagnen. Dabei setzt das Unternehmen auf eine sorgfältige Segmentierung der verschiedenen Gruppen. Basierend auf dem Geschlecht, den bisherigen Einkäufen und Interessen werden den Kundinnen und Kunden via Newsletter passende Angebote zugeschickt.
 
 **Sammlung**  
-[www.mailbakery.com/blog/email-marketing-campaign-examples](https://mailbakery.com/blog/email-marketing-campaign-examples/)
+[www.mailbakery.com/blog/email-marketing-campaign-examples](https://mailbakery.com/blog/email-marketing-campaign-examples/){:target="\_blank"}

@@ -72,8 +72,11 @@ Vom Einsatz von Bots für automatisiertes Liken, Kommentieren, Followen etc. sol
 
 ## Best Practice
 
-National Geographic betreibt einen informativen Micro-Blog mit Bildern und naturwissenschaftlichen Erklärungen in der Bildunterschrift. [www.instagram.com/natgeo](https://www.instagram.com/natgeo)
+National Geographic betreibt einen informativen Micro-Blog mit Bildern und naturwissenschaftlichen Erklärungen in der Bildunterschrift.  
+[www.instagram.com/natgeo](https://www.instagram.com/natgeo){:target="\_blank"}
 
-Mercedes erstellte 2014 einen Auto-Konfigurator auf Instagram. [www.instagram.com/gla_build_your_own](https://www.instagram.com/gla_build_your_own)
+Mercedes erstellte 2014 einen Auto-Konfigurator auf Instagram.  
+[www.instagram.com/gla_build_your_own](https://www.instagram.com/gla_build_your_own){:target="\_blank"}
 
-ZDF Info veröffentlichte bereits zwei Staffeln einer Instagramserie: [www.instagram.com/zdfinfo](https://www.instagram.com/zdfinfo)
+ZDF Info veröffentlichte bereits zwei Staffeln einer Instagramserie:  
+[www.instagram.com/zdfinfo](https://www.instagram.com/zdfinfo){:target="\_blank"}

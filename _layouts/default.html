@@ -15,13 +15,16 @@
 
     <body>
 
+        <a tabindex="0" class="skip__navigation__link" href="#main-content" >Skip navigation</a>
+
         <div class="grid__container">
+
 
             <!-- Navbar -->
             {% include nav_bar.html %}
 
             <!-- Main content -->
-            <main role="main">
+            <main id="main-content" role="main">
 
                 {% if page.layout != "page" %}
                     <div class="post__wrapper">

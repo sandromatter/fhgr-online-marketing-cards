@@ -66,6 +66,6 @@ Es gibt verschiedene SEO-Tools wie XOVI oder Searchmetrics, welche die Arbeiten 
 
 ## Best Practice
 
-Microspot hat mit der Content-Marketingkampagne «Die Legoslative» das SEO-Ranking der Lego-Verkaufsseite verbessert: [www.blueglass.ch/case-studies/legoslative](https://www.blueglass.ch/case-studies/legoslative)
+Microspot hat mit der Content-Marketingkampagne «Die Legoslative» das SEO-Ranking der Lego-Verkaufsseite verbessert: [www.blueglass.ch/case-studies/legoslative](https://www.blueglass.ch/case-studies/legoslative){:target="\_blank"}
 
-Auf [www.moz.com](https://moz.com) finden sich laufend Tipps rund um das Thema SEO.
+Auf [www.moz.com](https://moz.com){:target="\_blank"} finden sich laufend Tipps rund um das Thema SEO.

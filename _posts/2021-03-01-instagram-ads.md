@@ -77,4 +77,4 @@ Die Instagram Ads können auch direkt über die App erstellt werden (z.B. mittel
 McDonald's experimentierte mit animierten Videoanzeigen in Stories, um engagierte Millennials zu erreichen und den Bekanntheitsgrad zu erhöhen. Zusätzlich wollte das Unternehmen den Verkauf der McFlurry- und McCafé-Angebote im Geschäft steigern. Um die Aufmerksamkeit der Millennials auf sich zu ziehen, kombinierte McDonald's lustiges Storytelling und Branding mit spielerischen Elementen. So integrierte die Marke beispielsweise die Zeitleiste in das kreative Design der Anzeige. Die Kampagne erreichte 60% der Zielgruppe und verdreifachte den Verkauf.
 
 Weitere Tipps:  
-[business.instagram.com](https://business.instagram.com/)
+[business.instagram.com](https://business.instagram.com/){:target="\_blank"}

@@ -82,4 +82,4 @@ Diverse Content-Management-Systeme bieten eine vereinfachte Administration der I
 
 **Best of Swiss Web**  
 Das Best of Swiss Web verleiht jedes Jahr Awards für herausragende Arbeiten bezüglich Websites in der Schweiz.  
-[www.bestofswissweb.ch/de/hall-of-fame/bestever](https://www.bestofswissweb.ch/de/hall-of-fame/bestever)
+[www.bestofswissweb.ch/de/hall-of-fame/bestever](https://www.bestofswissweb.ch/de/hall-of-fame/bestever){:target="\_blank"}

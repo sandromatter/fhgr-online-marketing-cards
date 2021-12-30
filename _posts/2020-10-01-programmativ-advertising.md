@@ -84,8 +84,8 @@ Eine Data-Management-Plattform ist eine technische Infrastruktur. Sie unterstüt
 
 **SBB**  
 Dank einer PA-Kampagne konnte die SBB über mehrere Touchpoints effizient und gezielt ein breites, hochrelevantes Publikum erreichen. Ziel: eine möglichst hohe Teilnahmequote von SBB-Kundinnen und -Kunden an einer Online-Umfrage. Fazit: Conversion Rate 75%.  
-[www.bit.ly/2zu68sj](https://bit.ly/2zu68sj)
+[www.bit.ly/2zu68sj](https://bit.ly/2zu68sj){:target="\_blank"}
 
 **Tchibo**  
 PA-Testkampagne mit einer Kombination aus Wetter-Targeting und dynamischen Werbemitteln. Wetter-Targeting bezeichnet die Werbeausstrahlung zu festgelegten Wetterlagen. Ziel: Die Produktkategorie Garten bewerben und den Verkauf steigern. Fazit: Click-Rate Frauen +43%, Männer +53% und Warenkorbwert +29%.  
-[www.bit.ly/2Odnyi5](https://bit.ly/2Odnyi5)
+[www.bit.ly/2Odnyi5](https://bit.ly/2Odnyi5){:target="\_blank"}

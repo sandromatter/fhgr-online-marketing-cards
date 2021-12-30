@@ -31,10 +31,8 @@ $primary-color: #7a7760;
 $secondary-color: #4b92a4;
 $accent-color: #c60219;
 $alternate-background: #f7f8fb;
-$link-color: $black;
-$link-hover-color: lighten($link-color, 15%);
-$highlight: lighten($primary-color, 15%);
-$error: #c60219;
+$link-color: $primary-color;
+$error: $secondary-color;
 
 //==============================================================================
 // Typography
@@ -98,5 +96,4 @@ $luxbar-transition: 0.6s ease;
 $hamburger-line-height: 2px;
 $hamburger-width: 26px;
 $luxbar-bg: $background;
-$luxbar-hl: $highlight;
 $luxbar-fg: $black;

@@ -76,7 +76,7 @@ Der Events Manager bietet drei Tools: Eines, um den Erfolg der Facebook Werbung 
 
 ## Best Practice
 
-[www.benjaminseuss.de/10-facebook-ads-beispiele](https://benjaminseuss.de/10-facebook-ads-beispiele) Eine private Website, die zehn gelungene Beispiele aufzählt. Link zu einer anderen Website mit über 1200 Beispielen.
+[www.benjaminseuss.de/10-facebook-ads-beispiele](https://benjaminseuss.de/10-facebook-ads-beispiele){:target="\_blank"} Eine private Website, die zehn gelungene Beispiele aufzählt. Link zu einer anderen Website mit über 1200 Beispielen.
 
 Eigendarstellung von Facebook:  
-[www.facebook.com/business/success](https://www.facebook.com/business/success)
+[www.facebook.com/business/success](https://www.facebook.com/business/success){:target="\_blank"}

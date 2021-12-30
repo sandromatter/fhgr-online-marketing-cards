@@ -75,8 +75,8 @@ Die Tracking-Überprüfung ist ein wichtiges Tool für das Affiliate-Marketing. 
 
 **Amazon**  
 Das wohl bekannteste Unternehmen, das Affiliate-Marketing betreibt und als Pionier dafür gilt, ist Amazon. Es stellt eine Vielzahl an Affiliate-Links zur Verfügung, welche sowohl von anderen Unternehmen als auch von Privatpersonen eingebettet werden können. Vergütet wird bei Amazon jeweils mit dem Modell «Pay-per-Sale».  
-[partnernet.amazon.de](https://partnernet.amazon.de/)
+[partnernet.amazon.de](https://partnernet.amazon.de/){:target="\_blank"}
 
 **This is why I'm broke**  
 thisiswhyimbroke.com ist ein gutes Beispiel für einen Publisher. Auf dessen Website werden unzählige Amazon-Angebote gelistet, alle als Affiliate-Links.  
-[www.thisiswhyimbroke.com/new](https://www.thisiswhyimbroke.com/new/)
+[www.thisiswhyimbroke.com/new](https://www.thisiswhyimbroke.com/new/){:target="\_blank"}
