@@ -87,9 +87,11 @@ function getRatings(elem) {
   } else {
     rating = 0
   }
+  
+}
 
 function displayRatings(elem){
-  for (i=0; i<=rating, i++) {
-
+  for (i=0; i<=rating; i++) {
+    console.log()
   }
 }
