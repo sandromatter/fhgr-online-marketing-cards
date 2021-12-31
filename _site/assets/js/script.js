@@ -44,38 +44,52 @@ if (typeof SimpleJekyllSearch === "function") {
 }
 
 // Display rating as icons
-let costRating = document.getElementById("post-cost").textContent;
-let effectRating = document.getElementById("post-effect").textContent;
+
 
 console.log(costRating);
 console.log(effectRating);
 console.log(typeof effectRating);
 console.log(effectRating * 100);
 
-let rating = costRating.indexOf("/");
-
-console.log(rating);
-
-// Total Stars
-const starsTotal = 5;
+let costRating = document.getElementById("post-cost");
+let effectRating = document.getElementById("post-effect");
 
 // Get ratings
-function showRatings(elem) {
-  for (let rating in ratings) {
-    // Get percentage
-    const starPercentage = (ratings[rating] / starsTotal) * 100;
+showRatings(costRating)
+showRatings(effectRating)
 
-    // Round to nearest 10
-    const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`;
+function getRatings(elem) {
 
-    // Set width of stars-inner to percentage
-    document.querySelector(`.${rating} .stars-inner`).style.width =
-      starPercentageRounded;
+  rating = elem
 
-    // Add number rating
-    document.querySelector(`.${rating} .number-rating`).innerHTML =
-      ratings[rating];
+  if (rating == "0/5") {
+    rating = 0
+  } else if (rating == "0.5/5") {
+    rating = 0.5
+  } else if (rating == "1/5") {
+    rating = 1
+  } else if (rating == "1.5/5") {
+    rating = 1.5
+  } else if (rating == "2/5") {
+    rating = 1.5
+  } else if (rating == "2.5/5") {
+    rating = 2.5
+  } else if (rating == "3/5") {
+    rating = 3
+  } else if (rating == "3.5/5") {
+    rating = 3.5
+  } else if (rating == "4/5") {
+    rating = 4
+  } else if (rating == "4.5/5") {
+    rating = 4.5
+  } else if (rating == "5/5") {
+    rating = 5
+  } else {
+    rating = 0
+  }
+
+function displayRatings(elem){
+  for (i=0; i<=rating, i++) {
+
   }
 }
-
-showRatings();

@@ -30,7 +30,11 @@
   font-size: $h2;
   color: $grey;
 
-  .rated {
+  .rated--half {
+    color: linear-gradient(to right, $black 50%, $grey 0%); 
+  }
+
+  .rated--full {
     color: $black;
   }
 }
