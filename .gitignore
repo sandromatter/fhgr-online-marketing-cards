@@ -1,4 +1,5 @@
 node_modules
 .jekyll-cache
 .prettierignore
+.vscode
 ._*

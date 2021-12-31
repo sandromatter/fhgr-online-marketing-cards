@@ -21,12 +21,18 @@ layout: default
         <h2>Beschreibung</h2>
         {{ page.description }}
         <div class="post__body__box">
-          <div class="post__body__icon">
+          <div class="post__costs">
             <h2>Kosten</h2>
-            <p id="post-cost">{{ page.kosten }}</p>
+            <div class="post__costs--empty">
+              <div class="post__costs--filled"></div>
+            </div>
+            <p id="post-costs">{{ page.kosten }}</p>
           </div>
-          <div class="post__body__icon">
+          <div div="post__effect">
             <h2>Effektivität</h2>
+            <div class="post__stars--empty">
+              <div class="post__stars--filled"></div>
+            </div>
             <p id="post-effect">{{ page.effektivitaet }}</p>
           </div>
         </div>

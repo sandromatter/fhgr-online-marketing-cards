@@ -43,49 +43,29 @@ if (typeof SimpleJekyllSearch === "function") {
   };
 }
 
-// // Display rating as icons
+// Display rating as icons
+let costRating = parseFloat(document.getElementById("post-costs").textContent);
+let effectRating = parseFloat(
+  document.getElementById("post-effect").textContent
+);
 
-// console.log(costRating);
-// console.log(effectRating);
-// console.log(typeof effectRating);
-// console.log(effectRating * 100);
+displayCosts = (costs) => {
+  const costsTotal = 5;
+  const costsPercentage = (costs / costsTotal) * 100;
+  const costsPercentageRounded = `${Math.round(costsPercentage / 10) * 10}%`;
+  document.querySelector(`.post__costs--filled`).style.width =
+    costsPercentageRounded;
+  document.getElementById(`post-costs`).style.display = "none";
+};
 
-// let costRating = document.getElementById("post-cost");
-// let effectRating = document.getElementById("post-effect");
+displayStars = (stars) => {
+  const starsTotal = 5;
+  const starsPercentage = (stars / starsTotal) * 100;
+  const starsPercentageRounded = `${Math.round(starsPercentage / 10) * 10}%`;
+  document.querySelector(`.post__stars--filled`).style.width =
+    starsPercentageRounded;
+  document.getElementById(`post-effect`).style.display = "none";
+};
 
-// // Get ratings
-// showRatings(costRating);
-// showRatings(effectRating);
-
-// function getRatings(elem) {
-//   rating = elem;
-
-//   if (rating == "0/5") {
-//     rating = 0;
-//   } else if (rating == "0.5/5") {
-//     rating = 0.5;
-//   } else if (rating == "1/5") {
-//     rating = 1;
-//   } else if (rating == "1.5/5") {
-//     rating = 1.5;
-//   } else if (rating == "2/5") {
-//     rating = 1.5;
-//   } else if (rating == "2.5/5") {
-//     rating = 2.5;
-//   } else if (rating == "3/5") {
-//     rating = 3;
-//   } else if (rating == "3.5/5") {
-//     rating = 3.5;
-//   } else if (rating == "4/5") {
-//     rating = 4;
-//   } else if (rating == "4.5/5") {
-//     rating = 4.5;
-//   } else if (rating == "5/5") {
-//     rating = 5;
-//   } else {
-//     rating = 0;
-//   }
-// }
-// function displayRatings(elem) {
-//   for (i = 0; i <= rating, i++; ) {}
-// }
+displayCosts(costRating);
+displayStars(effectRating);

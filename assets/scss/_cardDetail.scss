@@ -26,16 +26,77 @@
   }
 }
 
-.post__body__icon {
-  font-size: $h2;
-  color: $grey;
+.post__costs {
+  &--empty {
+    position: relative;
+    display: inline-block;
+    font-size: $h2;
+    padding-bottom: 1rem;
 
-  .rated--half {
-    color: $black;
+    @include medium-breakpoint {
+      padding-bottom: 2rem;
+    }
+
+    &::before {
+      content: "\f53a  \f53a  \f53a  \f53a  \f53a";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $grey;
+    }
   }
 
-  .rated--full {
-    color: $black;
+  &--filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: $h2;
+
+    &::before {
+      content: "\f53a  \f53a  \f53a  \f53a  \f53a";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $black;
+    }
+  }
+}
+
+.post__stars {
+  &--empty {
+    position: relative;
+    display: inline-block;
+    font-size: $h2;
+    padding-bottom: 1rem;
+
+    @include medium-breakpoint {
+      padding-bottom: 2rem;
+    }
+
+    &::before {
+      content: "\f005  \f005  \f005  \f005  \f005";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $grey;
+    }
+  }
+
+  &--filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: $h2;
+
+    &::before {
+      content: "\f005  \f005  \f005  \f005  \f005";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $black;
+    }
   }
 }
 
