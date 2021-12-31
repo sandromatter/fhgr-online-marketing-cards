@@ -86,7 +86,6 @@ if (typeof SimpleJekyllSearch === "function") {
 //     rating = 0;
 //   }
 // }
-
 // function displayRatings(elem) {
 //   for (i = 0; i <= rating, i++; ) {}
 // }
