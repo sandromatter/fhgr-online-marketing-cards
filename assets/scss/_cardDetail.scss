@@ -26,6 +26,15 @@
   }
 }
 
+.post__body__icon {
+  font-size: $h2;
+  color: $grey;
+
+  .rated {
+    color: $black;
+  }
+}
+
 .post__header {
   width: 100%;
   display: flex;
@@ -80,20 +89,25 @@
 }
 
 .post__navigation {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: auto;
   overflow: hidden;
-}
+  color: $primary-color;
 
-.post__navigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
+  i {
+    position: relative;
+    top: 2px;
+  }
 
-.post__navigation .next {
-  text-align: right;
+  .prev {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .next {
+    align-self: flex-end;
+  }
 }
 
 .post__seperator {

@@ -14,7 +14,7 @@ Es besteht ein technisches Problem auf der Webseite? Gerne dürfen Sie dieses di
 
 **Prof**
 
-**Bereich:** Departement Angewandte Zukunftstechnologien, Schweizerisches Institut für Informationswissenschaft
+**Bereich:** Departement Angewandte Zukunftstechnologien, Schweizerisches Institut für Informationswissenschaft  
 **Funktion:** Studienleiter  
 **Kontakt:** [fhgr.ch](https://www.fhgr.ch/personen/person/schaer-armando/){:target="\_blank"}  
 **E-Mail:** [armando.schaer@fhgr.ch](mailto: armando.schaer@fhgr.ch)  
@@ -32,6 +32,6 @@ Es besteht ein technisches Problem auf der Webseite? Gerne dürfen Sie dieses di
 
 ## Robin Mark
 
-**Bereich:** Departement Angewandte Zukunftstechnologien, Schweizerisches Institut für Informationswissenschaft
+**Bereich:** Departement Angewandte Zukunftstechnologien, Schweizerisches Institut für Informationswissenschaft  
 **Funktion:** Dozent Digital Marketing  
 **E-Mail:** [robin.mark@fhgr.ch](mailto: robin.mark@fhgr.ch)

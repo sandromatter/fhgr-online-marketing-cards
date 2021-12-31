@@ -37,9 +37,45 @@ if (typeof SimpleJekyllSearch === "function") {
 
     if (userInput) {
       show(resultsContainer);
-    }
-    else {
+    } else {
       hide(resultsContainer);
     }
   };
 }
+
+// Display rating as icons
+let costRating = document.getElementById("post-cost").textContent;
+let effectRating = document.getElementById("post-effect").textContent;
+
+console.log(costRating);
+console.log(effectRating);
+console.log(typeof effectRating);
+console.log(effectRating * 100);
+
+let rating = costRating.indexOf("/");
+
+console.log(rating);
+
+// Total Stars
+const starsTotal = 5;
+
+// Get ratings
+function showRatings(elem) {
+  for (let rating in ratings) {
+    // Get percentage
+    const starPercentage = (ratings[rating] / starsTotal) * 100;
+
+    // Round to nearest 10
+    const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`;
+
+    // Set width of stars-inner to percentage
+    document.querySelector(`.${rating} .stars-inner`).style.width =
+      starPercentageRounded;
+
+    // Add number rating
+    document.querySelector(`.${rating} .number-rating`).innerHTML =
+      ratings[rating];
+  }
+}
+
+showRatings();
