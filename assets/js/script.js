@@ -43,53 +43,50 @@ if (typeof SimpleJekyllSearch === "function") {
   };
 }
 
-// Display rating as icons
+// // Display rating as icons
 
+// console.log(costRating);
+// console.log(effectRating);
+// console.log(typeof effectRating);
+// console.log(effectRating * 100);
 
-console.log(costRating);
-console.log(effectRating);
-console.log(typeof effectRating);
-console.log(effectRating * 100);
+// let costRating = document.getElementById("post-cost");
+// let effectRating = document.getElementById("post-effect");
 
-let costRating = document.getElementById("post-cost");
-let effectRating = document.getElementById("post-effect");
+// // Get ratings
+// showRatings(costRating);
+// showRatings(effectRating);
 
-// Get ratings
-showRatings(costRating)
-showRatings(effectRating)
+// function getRatings(elem) {
+//   rating = elem;
 
-function getRatings(elem) {
+//   if (rating == "0/5") {
+//     rating = 0;
+//   } else if (rating == "0.5/5") {
+//     rating = 0.5;
+//   } else if (rating == "1/5") {
+//     rating = 1;
+//   } else if (rating == "1.5/5") {
+//     rating = 1.5;
+//   } else if (rating == "2/5") {
+//     rating = 1.5;
+//   } else if (rating == "2.5/5") {
+//     rating = 2.5;
+//   } else if (rating == "3/5") {
+//     rating = 3;
+//   } else if (rating == "3.5/5") {
+//     rating = 3.5;
+//   } else if (rating == "4/5") {
+//     rating = 4;
+//   } else if (rating == "4.5/5") {
+//     rating = 4.5;
+//   } else if (rating == "5/5") {
+//     rating = 5;
+//   } else {
+//     rating = 0;
+//   }
+// }
 
-  rating = elem
-
-  if (rating == "0/5") {
-    rating = 0
-  } else if (rating == "0.5/5") {
-    rating = 0.5
-  } else if (rating == "1/5") {
-    rating = 1
-  } else if (rating == "1.5/5") {
-    rating = 1.5
-  } else if (rating == "2/5") {
-    rating = 1.5
-  } else if (rating == "2.5/5") {
-    rating = 2.5
-  } else if (rating == "3/5") {
-    rating = 3
-  } else if (rating == "3.5/5") {
-    rating = 3.5
-  } else if (rating == "4/5") {
-    rating = 4
-  } else if (rating == "4.5/5") {
-    rating = 4.5
-  } else if (rating == "5/5") {
-    rating = 5
-  } else {
-    rating = 0
-  }
-
-function displayRatings(elem){
-  for (i=0; i<=rating, i++) {
-
-  }
-}
+// function displayRatings(elem) {
+//   for (i = 0; i <= rating, i++; ) {}
+// }

@@ -31,7 +31,7 @@
   color: $grey;
 
   .rated--half {
-    color: linear-gradient(to right, $black 50%, $grey 0%); 
+    color: $black;
   }
 
   .rated--full {
@@ -101,7 +101,6 @@
 
   i {
     position: relative;
-    top: 2px;
   }
 
   .prev {

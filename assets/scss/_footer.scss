@@ -51,10 +51,6 @@
 
   .footer__links {
     color: $background;
-    i {
-      position: relative;
-      top: 2px;
-    }
   }
 
   @include small-breakpoint {

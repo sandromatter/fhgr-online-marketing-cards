@@ -9,7 +9,11 @@ layout: default
 <article role="article">
   <div class="post__content__box">
     <div class="post__header">
-      <img class="post__header__img" src="./assets/img/posts/{{ page.img }}" alt="{{ page.title }}" />
+      <img
+        class="post__header__img"
+        src="./assets/img/posts/{{ page.img }}"
+        alt="{{ page.title }}"
+      />
     </div>
     <section class="content__wrapper--900">
       <div class="post__body">
@@ -19,20 +23,10 @@ layout: default
         <div class="post__body__box">
           <div class="post__body__icon">
             <h2>Kosten</h2>
-            <i class="ri-coin-fill rated--full"></i>
-            <i class="ri-coin-fill rated--full"></i>
-            <i class="ri-coin-fill"></i>
-            <i class="ri-coin-fill"></i>
-            <i class="ri-coin-fill"></i>
             <p id="post-cost">{{ page.kosten }}</p>
           </div>
           <div class="post__body__icon">
             <h2>Effektivität</h2>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
             <p id="post-effect">{{ page.effektivitaet }}</p>
           </div>
         </div>
@@ -41,13 +35,13 @@ layout: default
         <div class="post__navigation">
           {% if page.previous.url %}
           <div class="prev">
-            <i class="ri-arrow-left-s-fill"></i>
+            <i class="fa-solid fa-caret-left"></i>
             <a href="{{page.previous.url}}">{{page.previous.title}}</a>
           </div>
           {% endif %} {% if page.next.url %}
           <div class="next">
             <a href="{{page.next.url}}">{{page.next.title}}</a>
-            <i class="ri-arrow-right-s-fill"></i>
+            <i class="fa-solid fa-caret-right"></i>
           </div>
           {% endif %}
         </div>
