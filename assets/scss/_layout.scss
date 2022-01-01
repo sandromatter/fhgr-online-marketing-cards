@@ -4,7 +4,7 @@
 //==============================================================================
 */
 
-%grid-content-padding {
+%content--padding {
   padding: 0.75rem 1.25rem;
   margin: 0 auto;
 
@@ -13,33 +13,17 @@
   }
 }
 
-.grid__container {
-  display: grid;
-  height: 100vh;
-  grid-template-areas:
-    "header"
-    "aside"
-    "article"
-    "footer";
-  grid-template-rows: 0.2fr 0.2fr auto 0.15fr;
+body {
+  position: relative;
+  min-height: 100vh;
 }
 
 header {
-  grid-area: header;
-  @extend %grid-content-padding;
-}
-
-aside {
-  grid-area: aside;
+  @extend %content--padding;
 }
 
 article {
-  grid-area: article;
-  @extend %grid-content-padding;
-}
-
-footer {
-  grid-area: footer;
+  @extend %content--padding;
 }
 
 //==============================================================================
@@ -56,12 +40,12 @@ footer {
 
 .content__wrapper--600 {
   max-width: 600px;
-  @extend %grid-content-padding;
+  @extend %content--padding;
 }
 
 .content__wrapper--900 {
   max-width: 900px;
-  @extend %grid-content-padding;
+  @extend %content--padding;
 }
 
 .content__wrapper--swiper {

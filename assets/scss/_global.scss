@@ -27,7 +27,7 @@ a {
 }
 
 .arrow__back {
-  @extend %grid-content-padding;
+  @extend %content--padding;
   display: flex;
   justify-items: center;
   align-items: center;

@@ -19,7 +19,7 @@ aside {
   max-width: 600px;
   margin: 0 auto;
   height: inherit;
-  @extend %grid-content-padding;
+  @extend %content--padding;
 }
 
 select {
