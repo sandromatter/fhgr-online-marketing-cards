@@ -18,4 +18,4 @@ Die Onlineausgabe der Online Marketing Cards wurde im Rahmen des Moduls «Webpro
 
 ### Updates
 
-Die Webseite wird in Zukunft regelmässig von den Autoren und Studierenden der Fachhochschule Graubünden aktualisiert und auf dem neuesten Stand gehalten. Sollten Sie eine Anmerkung haben oder eine Anpassunge wünschen, treten Sie mit den Autoren des Projektes in [Kontakt](/kontakt) oder beteiligen Sie sich direkt [hier](https://github.com/sandromatter/fhgr-online-marketing-cards){:target="\_blank"} am Open Source Projekt auf GitHub. Wir freuen uns über Ihr Mitwirken!
+Die Webseite wird in Zukunft regelmässig von den Autoren und Studierenden der Fachhochschule Graubünden aktualisiert und auf dem neuesten Stand gehalten. Sollten Sie eine Anmerkung haben oder eine Anpassunge wünschen, treten Sie mit den Autoren des Projektes in [Kontakt]({{ site.baseurl }}/kontakt) oder beteiligen Sie sich direkt [hier](https://github.com/sandromatter/fhgr-online-marketing-cards){:target="\_blank"} am Open Source Projekt auf GitHub. Wir freuen uns über Ihr Mitwirken!
