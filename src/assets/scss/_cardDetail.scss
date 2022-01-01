@@ -161,17 +161,30 @@
   overflow: hidden;
   color: $primary-color;
 
-  i {
-    position: relative;
-  }
-
   .prev {
-    align-self: flex-start;
-    text-align: left;
+    align-self: flex-end;
+    margin-left: 0.25rem;
+    flex: 50%;
+    text-align: end;
+
+    &::after {
+      content: "\f0da";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+    }
   }
 
   .next {
-    align-self: flex-end;
+    align-self: flex-start;
+    text-align: start;
+    margin-right: 0.25rem;
+    flex: 50%;
+
+    &::before {
+      content: "\f0d9";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+    }
   }
 }
 
