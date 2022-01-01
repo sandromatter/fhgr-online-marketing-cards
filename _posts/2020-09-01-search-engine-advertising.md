@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /search-engine-advertising
 tags: google ads, ads, paid ads, bing ads, apple ads, alle
+img: "/search-engine-advertising.jpg"
 
 title: Search Engine Advertising (SEA)
 kosten: 3/5
@@ -80,10 +81,10 @@ Neben Google Ads gibt es auch andere Anbieter wie Bing Ads oder Yahoo! Search Ma
 
 Das Google Help Center bietet einen umfassenden Leitfaden für Google Ads. Das Gleiche gilt für Bing Ads.
 
-[www.onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen](https://onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen)
+[www.onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen](https://onlinemarketing.de/news/5-teure-fehler-adwords-kampagnen){:target="\_blank"}
 
-[www.salesfusion.com/resource/8-best-practices-using-google-adwords](https://www.salesfusion.com/resource/8-best-practices-using-google-adwords)
+[www.salesfusion.com/resource/8-best-practices-using-google-adwords](https://www.salesfusion.com/resource/8-best-practices-using-google-adwords){:target="\_blank"}
 
-[www.robnicolas.ch/blog/adwords-kickstart-tipps](https://robnicolas.ch/blog/adwords-kickstart-tipps)
+[www.robnicolas.ch/blog/adwords-kickstart-tipps](https://robnicolas.ch/blog/adwords-kickstart-tipps){:target="\_blank"}
 
-[www.robnicolas.ch/blog/google-ads-qualitaetsfaktor](https://robnicolas.ch/blog/google-ads-qualitaetsfaktor)
+[www.robnicolas.ch/blog/google-ads-qualitaetsfaktor](https://robnicolas.ch/blog/google-ads-qualitaetsfaktor){:target="\_blank"}

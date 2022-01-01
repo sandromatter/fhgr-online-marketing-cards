@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<!-- Filter aside -->
+<aside>{% include back_bar.html %}</aside>
+
+<!-- Article  -->
+<article role="article">
+  <div class="post__content__box">
+    <div class="post__header">
+      <img
+        class="post__header__img"
+        src="./assets/img/posts/{{ page.img }}"
+        alt="{{ page.title }}"
+      />
+    </div>
+    <section class="content__wrapper--900">
+      <div class="post__body">
+        <h1>{{ page.title }}</h1>
+        <h2>Beschreibung</h2>
+        {{ page.description }}
+        <div class="post__body__box">
+          <div class="post__costs">
+            <h2>Kosten</h2>
+            <div class="post__costs--empty">
+              <div class="post__costs--filled"></div>
+            </div>
+            <p id="post-costs">{{ page.kosten }}</p>
+          </div>
+          <div div="post__effect">
+            <h2>Effektivität</h2>
+            <div class="post__stars--empty">
+              <div class="post__stars--filled"></div>
+            </div>
+            <p id="post-effect">{{ page.effektivitaet }}</p>
+          </div>
+        </div>
+        <div>{{ content }}</div>
+        <hr class="post__seperator" />
+        <div class="post__navigation">
+          {% if page.previous.url %}
+          <div class="prev">
+            <i class="fa-solid fa-caret-left"></i>
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+          </div>
+          {% endif %} {% if page.next.url %}
+          <div class="next">
+            <a href="{{page.next.url}}">{{page.next.title}}</a>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </div>
+</article>

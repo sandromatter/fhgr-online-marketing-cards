@@ -1,6 +1,6 @@
 <div class="filter__container">
   <form class="search__container" id="search-container">
-    <i class="ri-search-line"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
     <input
       class="search__bar"
       id="search-input"
@@ -12,12 +12,3 @@
   </form>
 </div>
 <ul class="results__container" id="results-container"></ul>
-
-<!-- Configuration -->
-<script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById("search-input"),
-    resultsContainer: document.getElementById("results-container"),
-    json: "/search.json",
-  });
-</script>

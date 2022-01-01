@@ -19,7 +19,7 @@ aside {
   max-width: 600px;
   margin: 0 auto;
   height: inherit;
-  @extend %grid-content-padding;
+  @extend %content--padding;
 }
 
 select {
@@ -58,6 +58,18 @@ select {
   border-bottom: 1px solid #535151;
   width: 80%;
   color: $primary-color;
+
+  &::-webkit-search-cancel-button {
+    position: relative;
+    right: 20px;
+
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    margin-left: 0.4em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z'/%3E%3C/svg%3E");
+    cursor: pointer;
+  }
   &:focus {
     transition: 0.35s ease;
     color: $black;
@@ -80,7 +92,6 @@ select {
   display: none;
   list-style: none;
   position: relative;
-  top: -2px;
   width: 80%;
   max-height: 60vh;
   overflow-y: scroll;
@@ -110,7 +121,8 @@ select {
   li {
     margin: 0;
     padding: 4px 0 4px 36px;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: #f4eee3;
       text-decoration: underline;
     }

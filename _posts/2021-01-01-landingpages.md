@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /landingpages
 tags: zielseiten, landing pages, landingpages, alle
+img: "/landingpages.jpg"
 
 title: Landingpages
 kosten: 3.5/5

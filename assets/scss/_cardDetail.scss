@@ -3,3 +3,177 @@
 // Card Detail Styles
 //==============================================================================
 */
+
+.post__wrapper {
+  background: url(/assets/img/pages/bg-pattern-dbm.svg) repeat;
+  background-attachment: fixed;
+  background-color: #f6f6f6;
+}
+
+.post__content__box {
+  width: 98%;
+  max-width: 1280px;
+  margin: 1.25rem auto 0.75rem;
+  background-color: $background;
+  border: $borders;
+
+  @include medium-breakpoint {
+    margin: 2rem auto 1rem;
+  }
+
+  @include large-breakpoint {
+    margin: 3rem auto 1.5rem;
+  }
+}
+
+.post__costs {
+  &--empty {
+    position: relative;
+    display: inline-block;
+    font-size: $h2;
+    padding-bottom: 1rem;
+
+    @include medium-breakpoint {
+      padding-bottom: 2rem;
+    }
+
+    &::before {
+      content: "\f53a  \f53a  \f53a  \f53a  \f53a";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $grey;
+    }
+  }
+
+  &--filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: $h2;
+
+    &::before {
+      content: "\f53a  \f53a  \f53a  \f53a  \f53a";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $black;
+    }
+  }
+}
+
+.post__stars {
+  &--empty {
+    position: relative;
+    display: inline-block;
+    font-size: $h2;
+    padding-bottom: 1rem;
+
+    @include medium-breakpoint {
+      padding-bottom: 2rem;
+    }
+
+    &::before {
+      content: "\f005  \f005  \f005  \f005  \f005";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $grey;
+    }
+  }
+
+  &--filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: $h2;
+
+    &::before {
+      content: "\f005  \f005  \f005  \f005  \f005";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: $black;
+    }
+  }
+}
+
+.post__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-color;
+  padding: 0;
+
+  &__img {
+    width: 50%;
+    border-radius: 50%;
+    padding: 0.75rem;
+
+    @include medium-breakpoint {
+      width: 40%;
+      padding: 1rem;
+    }
+
+    @include large-breakpoint {
+      width: 30%;
+      padding: 2.5rem;
+    }
+  }
+}
+
+.post__body {
+  padding: 1rem;
+
+  @include medium-breakpoint {
+    padding: 1.5rem;
+  }
+
+  @include large-breakpoint {
+    padding: 2rem;
+  }
+}
+
+.post__body__box {
+  background-color: #f4eee3;
+  padding: 0.25rem 1rem;
+  margin: 1rem 0;
+
+  @include medium-breakpoint {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+  }
+
+  @include medium-breakpoint {
+    margin: 2.5rem 0;
+  }
+}
+
+.post__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  overflow: hidden;
+  color: $primary-color;
+
+  i {
+    position: relative;
+  }
+
+  .prev {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .next {
+    align-self: flex-end;
+  }
+}
+
+.post__seperator {
+  margin: 3rem 0;
+}

@@ -2,10 +2,27 @@
 <html lang="de">
 
 <head>
+
     <!-- Head -->
     <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta content="FHGR Online Marketing Cards" property="og:site_name" />
+
+<meta content="Online Marketing Cards" property="og:title" />
+ 
+<meta content="article" property="og:type" />
+ 
+<meta content="Die Onlineausgabe der Online Marketing Cards der FH Graubünden. Die Lernkarten, welche die Vorzüge und Nachteile der meistgebrauchten Tools und Plattformen im digitalen Marketing erklären." property="og:description" />
+ 
+<meta content="/" property="og:url" />
+  
+<meta
+  content="/assets/img/pages/og_fhgr-online-marketing-cards.jpg"
+  property="og:image"
+/>
+  
+
 <title>Online Marketing Cards - FHGR Online Marketing Cards</title>
 <link
   rel="sitemap"
@@ -20,36 +37,43 @@
   rel="stylesheet"
 />
 <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-<link
   rel="shortcut icon"
-  href="/assets/img/favicon.ico"
+  href="/assets/img/pages/favicon.ico"
 />
 <link rel="stylesheet" href="/assets/css/style.css" />
-<!-- Scripts  -->
 <script
+  src="https://kit.fontawesome.com/d1e06be6f8.js"
+  crossorigin="anonymous"
+></script>
+ <script
   src="/assets/js/simple-jekyll-search.min.js"
   type="text/javascript"
 ></script>
 
 
+
+
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <a tabindex="0" class="skip__navigation__link" href="#main-content" >Skip navigation</a>
 
-        <!-- Navbar -->
-        <header id="luxbar" class="luxbar-static">
+        <div class="grid__container">
+
+
+            <!-- Navbar -->
+            <header id="luxbar" class="luxbar-static">
   <nav role="navigation" id="luxbar" class="luxbar-static scroll">
     <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
       <ul class="luxbar-navigation">
         <li class="luxbar-header">
-          <a href="/"
-            ><img class="luxbar-brand" src="./assets/img/fhgr.svg" alt=""
+          <a tabindex="0" href="/"
+            ><img
+              class="luxbar-brand"
+              src="/assets/img/pages/fhgr.svg"
+              alt=""
           /></a>
           <label
             class="luxbar-hamburger luxbar-hamburger-spin"
@@ -60,13 +84,15 @@
           </label>
         </li>
         <li class="luxbar-item">
-          <a href="/" title="Online Marketing Cards">Online Marketing Cards</a>
+          <a tabindex="0" href="/" title="Online Marketing Cards"
+            >Online Marketing Cards</a
+          >
         </li>
         <li class="luxbar-item">
-          <a href="/projekt" title="Projekt">Projekt</a>
+          <a tabindex="0" href="/projekt" title="Projekt">Projekt</a>
         </li>
         <li class="luxbar-item">
-          <a href="/kontakt" title="Kontakt">Kontakt</a>
+          <a tabindex="0" href="/kontakt" title="Kontakt">Kontakt</a>
         </li>
       </ul>
     </div>
@@ -74,13 +100,17 @@
 </header>
 
 
-        <!-- Main content -->
-        <main role="main">
+            <!-- Main content -->
+            <main id="main-content" role="main">
 
-            <!-- Filter aside -->
+                
+                    <div class="post__wrapper">
+                
+
+                <!-- Filter aside -->
 <aside><div class="filter__container">
   <form class="search__container" id="search-container">
-    <i class="ri-search-line"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
     <input
       class="search__bar"
       id="search-input"
@@ -92,15 +122,6 @@
   </form>
 </div>
 <ul class="results__container" id="results-container"></ul>
-
-<!-- Configuration -->
-<script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById("search-input"),
-    resultsContainer: document.getElementById("results-container"),
-    json: "/search.json",
-  });
-</script>
 </aside>
 
 <!-- Article  -->
@@ -108,478 +129,608 @@
   <div class="swiper">
     <div class="swiper-wrapper">
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Affiliate Marketing</h2>
-                <button
-                  onClick="location.href='/affiliate-marketing'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//affiliate-marketing.jpg"
+          alt="Affiliate Marketing"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Affiliate Marketing</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/affiliate-marketing'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Berufsnetzwerke</h2>
-                <button
-                  onClick="location.href='/berufsnetzwerke'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//berufsnetzwerke.jpg"
+          alt="Berufsnetzwerke"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Berufsnetzwerke</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/berufsnetzwerke'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Communities, Foren und Blogs</h2>
-                <button
-                  onClick="location.href='/communities-foren-und-blogs'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//communities-foren-und-blogs.jpg"
+          alt="Communities, Foren und Blogs"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Communities, Foren und Blogs</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/communities-foren-und-blogs'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Display-Werbung</h2>
-                <button
-                  onClick="location.href='/display-werbung'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//display-werbung.jpg"
+          alt="Display-Werbung"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Display-Werbung</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/display-werbung'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">E-Mail-Marketing</h2>
-                <button
-                  onClick="location.href='/e-mail-marketing'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//e-mail-marketing.jpg"
+          alt="E-Mail-Marketing"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">E-Mail-Marketing</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/e-mail-marketing'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Facebook Ads</h2>
-                <button
-                  onClick="location.href='/facebook-ads'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//facebook-ads.jpg"
+          alt="Facebook Ads"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Facebook Ads</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/facebook-ads'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Facebook Page & Sponsored Content</h2>
-                <button
-                  onClick="location.href='/facebook-page-and-sponsored-content'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//facebook-page-and-sponsored-content.jpg"
+          alt="Facebook Page & Sponsored Content"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Facebook Page & Sponsored Content</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/facebook-page-and-sponsored-content'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">In-App-Advertising</h2>
-                <button
-                  onClick="location.href='/in-app-advertising'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//in-app-advertising.jpg"
+          alt="In-App-Advertising"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">In-App-Advertising</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/in-app-advertising'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Influencer-Marketing</h2>
-                <button
-                  onClick="location.href='/influencer-marketing'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//influencer-marketing.jpg"
+          alt="Influencer-Marketing"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Influencer-Marketing</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/influencer-marketing'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Instagram Ads (Stories und Feed)</h2>
-                <button
-                  onClick="location.href='/instagram-ads'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//instagram-ads.jpg"
+          alt="Instagram Ads (Stories und Feed)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Instagram Ads (Stories und Feed)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/instagram-ads'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Instagram Profile & Content (Stories und Feed)</h2>
-                <button
-                  onClick="location.href='/instagram-profile-and-content'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//instagram-profile-and-content.jpg"
+          alt="Instagram Profile & Content (Stories und Feed)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Instagram Profile & Content (Stories und Feed)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/instagram-profile-and-content'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Landingpages</h2>
-                <button
-                  onClick="location.href='/landingpages'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//landingpages.jpg"
+          alt="Landingpages"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Landingpages</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/landingpages'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Native Advertising (News Platforms)</h2>
-                <button
-                  onClick="location.href='/native-advertising'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//native-advertising.jpg"
+          alt="Native Advertising (News Platforms)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Native Advertising (News Platforms)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/native-advertising'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Pinterest (Profil und Ads)</h2>
-                <button
-                  onClick="location.href='/pinterest-profile-und-ads'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//pinterest-profile-und-ads.jpg"
+          alt="Pinterest (Profil und Ads)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Pinterest (Profil und Ads)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/pinterest-profile-und-ads'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Programmatic Advertising</h2>
-                <button
-                  onClick="location.href='/programmatic-advertising'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//programmatic-advertising.jpg"
+          alt="Programmatic Advertising"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Programmatic Advertising</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/programmatic-advertising'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Search Engine Advertising (SEA)</h2>
-                <button
-                  onClick="location.href='/search-engine-advertising'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//search-engine-advertising.jpg"
+          alt="Search Engine Advertising (SEA)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Search Engine Advertising (SEA)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/search-engine-advertising'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Search Engine Optimization (SEO)</h2>
-                <button
-                  onClick="location.href='/search-engine-optimization'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//search-engine-optimization.jpg"
+          alt="Search Engine Optimization (SEO)"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Search Engine Optimization (SEO)</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/search-engine-optimization'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Snapchat</h2>
-                <button
-                  onClick="location.href='/snapchat'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//snapchat.jpg"
+          alt="Snapchat"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Snapchat</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/snapchat'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Tiktok</h2>
-                <button
-                  onClick="location.href='/tiktok'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//tiktok.jpg"
+          alt="Tiktok"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Tiktok</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/tiktok'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Twitter</h2>
-                <button
-                  onClick="location.href='/twitter'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//twitter.jpg"
+          alt="Twitter"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Twitter</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/twitter'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">(Unternehmens-) Website</h2>
-                <button
-                  onClick="location.href='/unternehmens-webseite'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//unternehmens-website.jpg"
+          alt="(Unternehmens-) Website"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">(Unternehmens-) Website</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/unternehmens-website'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
-      <div class="swiper-slide">
-        <section class="grid__card">
-          <div class="card__wrapper">
-            <div class="card">
-              <div class="card__header"><img src="" alt="" /></div>
-              <div class="card__body">
-                <h2 class="card__title">Voice Search</h2>
-                <button
-                  onClick="location.href='/voice-search'"
-                  value="mehr erfahren"
-                  type="button"
-                  class="card__button--light"
-                >
-                  Mehr erfahren
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="swiper-slide"><section class="grid__card">
+  <div class="card__wrapper">
+    <div class="card">
+      <div class="card__header">
+        <img
+          class="card__header__img"
+          src="./assets/img/posts//voice-search.jpg"
+          alt="Voice Search"
+        />
       </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Voice Search</h2>
+        <button
+          tabindex="0"
+          onClick="location.href='/voice-search'"
+          value="mehr erfahren"
+          type="button"
+          class="card__button--light"
+        >
+          Mehr erfahren
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
       
     </div>
   </div>
-</div>
-</article>
+</div></article>
 
-            
-            <!-- Footer  -->
-            <!-- Footer  -->
-<div class="footer__triangle"></div>
-<footer class="footer__wrapper">
+                
+                <!-- Footer  -->
+                <footer class="footer__wrapper">
+  <div class="footer__triangle"></div>
   <div class="footer__container">
     <div class="footer__project">
       <h3>Das Projekt</h3>
@@ -594,9 +745,18 @@
     <div class="footer__links">
       <h3>Service Links</h3>
       <ul>
-        <li><a href="https://www.fhgr.ch">FH Graubünden</a></li>
         <li>
-          <a href="https://github.com/sandromatter/fhgr-online-marketing-cards"
+          <i class="fa-solid fa-globe"></i>
+          <a tabindex="0" target="_blank" href="https://www.fhgr.ch"
+            >FH Graubünden</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            tabindex="0"
+            target="_blank"
+            href="https://github.com/sandromatter/fhgr-online-marketing-cards"
             >GitHub «Online Marketing Cards»</a
           >
         </li>
@@ -606,15 +766,19 @@
 </footer>
 
 
-        </main>
+                
+                    </div>
+                
 
-    </div>
+            </main>
 
-   <!-- Scripts Body  -->
-   <script src="/assets/js/swiper-bundle.min.js"></script>
+        </div>
+
+        <!-- Scripts  -->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
 <script src="/assets/js/script.js"></script>
-   
 
-   </body>
+
+    </body>
 
 </html>

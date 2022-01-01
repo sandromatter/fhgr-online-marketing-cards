@@ -14,8 +14,8 @@ Die Online Marketing Cards verwenden SIe, um Ihre Kundeninteraktionen über die 
 
 ## Webprojekt
 
-Die Onlineausgabe der Online Marketing Cards wurde im Rahmen des Moduls «Webprogrammierung» im Studiengang Digital Business Management von den Studierenden [Danilo Rosini](https://ch.linkedin.com/in/danilo-rosini), [Elias Pfändler](https://www.linkedin.com/in/elias-pf%C3%A4ndler-37196aa9), [Sandro Matter](https://www.linkedin.com/in/sandromatter/) und [Thomas Kamber](https://www.linkedin.com/in/thomas-kamber) erstellt.
+Die Onlineausgabe der Online Marketing Cards wurde im Rahmen des Moduls «Webprogrammierung» im Studiengang Digital Business Management von den Studierenden [Danilo Rosini](https://ch.linkedin.com/in/danilo-rosini){:target="\_blank"}, [Elias Pfändler](https://www.linkedin.com/in/elias-pf%C3%A4ndler-37196aa9){:target="\_blank"}, [Sandro Matter](https://www.linkedin.com/in/sandromatter/){:target="\_blank"} und [Thomas Kamber](https://www.linkedin.com/in/thomas-kamber){:target="\_blank"} erstellt.
 
 ### Updates
 
-Die Webseite wird in Zukunft regelmässig von den Autoren und Studierenden der Fachhochschule Graubünden aktualisiert und auf dem neuesten Stand gehalten. Sollten Sie eine Anmerkung haben oder eine Anpassunge wünschen, treten Sie mit den Autoren des Projektes in [Kontakt](/kontakt) oder beteiligen Sie sich direkt [hier](https://github.com/sandromatter/fhgr-online-marketing-cards) am Open Source Projekt auf GitHub. Wir freuen uns über Ihr Mitwirken!
+Die Webseite wird in Zukunft regelmässig von den Autoren und Studierenden der Fachhochschule Graubünden aktualisiert und auf dem neuesten Stand gehalten. Sollten Sie eine Anmerkung haben oder eine Anpassunge wünschen, treten Sie mit den Autoren des Projektes in [Kontakt](/kontakt) oder beteiligen Sie sich direkt [hier](https://github.com/sandromatter/fhgr-online-marketing-cards){:target="\_blank"} am Open Source Projekt auf GitHub. Wir freuen uns über Ihr Mitwirken!

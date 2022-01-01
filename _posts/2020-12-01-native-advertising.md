@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /native-advertising
 tags: pr, public relations, native advertising, bezahlte werbung, alle
+img: "/native-advertising.jpg"
 
 title: Native Advertising (News Platforms)
 kosten: 3.5/5

@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /berufsnetzwerke
 tags: linkedin, xing, polywork, business platform, business social network, alle
+img: "/berufsnetzwerke.jpg"
 
 title: Berufsnetzwerke
 kosten: 2/5
@@ -68,7 +69,7 @@ Für einen erfolgreichen Auftritt in einem Berufsnetzwerk sollte ein Unternehmen
 Beispiele für LinkedIn:
 
 **LinkedIn Kampagnenmanager**  
-Geeignet zum Erstellen und Bearbeiten von Kampa- gnen. Damit können Anzeigen erstellt, Nutzerzugriffe verwaltet und Zielgruppen gesucht werden. Zudem sind mehrere Werbekonten möglich. Hierfür gibt es ein breitgefächertes Angebot an Marketing-Service-Paketen zu den unterschiedlichsten Preisen.
+Geeignet zum Erstellen und Bearbeiten von Kampagnen. Damit können Anzeigen erstellt, Nutzerzugriffe verwaltet und Zielgruppen gesucht werden. Zudem sind mehrere Werbekonten möglich. Hierfür gibt es ein breitgefächertes Angebot an Marketing-Service-Paketen zu den unterschiedlichsten Preisen.
 
 **Dux-Soup**  
 Der Rechner übernimmt einen Grossteil der Arbeit selbst und automatisiert verschiedene Schritte wie z.B. die Konversationsbildung. Die Nutzerinnen und Nutzer können Notizen und Tags auf den Profilen erstellen und Profildaten herunterladen. Die Startversion ist gratis. Bessere Versionen, welche bei der Akquisition helfen, sind ab $15/Monat erhältlich.

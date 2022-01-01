@@ -2,32 +2,45 @@
 <html lang="{{ site.lang | default: "de" }}">
 
 <head>
+
     <!-- Head -->
     {% include head.html %}
+
 </head>
 
-<body>
+    <body>
 
-    <div class="grid__container">
+        <a tabindex="0" class="skip__navigation__link" href="#main-content" >Skip navigation</a>
 
-        <!-- Navbar -->
-        {% include nav_bar.html %}
+        <div class="grid__container">
 
-        <!-- Main content -->
-        <main role="main">
 
-            {{ content }}
-            
-            <!-- Footer  -->
-            {% include footer.html%}
+            <!-- Navbar -->
+            {% include nav_bar.html %}
 
-        </main>
+            <!-- Main content -->
+            <main id="main-content" role="main">
 
-    </div>
+                {% if page.layout != "page" %}
+                    <div class="post__wrapper">
+                {% endif %}
 
-   <!-- Scripts Body  -->
-   {% include scripts_body.html%}   
+                {{ content }}
+                
+                <!-- Footer  -->
+                {% include footer.html%}
 
-   </body>
+                {% if page.layout != "page" %}
+                    </div>
+                {% endif %}
+
+            </main>
+
+        </div>
+
+        <!-- Scripts  -->
+        {% include scripts_body.html%}
+
+    </body>
 
 </html>

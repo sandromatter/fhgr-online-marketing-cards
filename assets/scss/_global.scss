@@ -5,11 +5,29 @@
 */
 
 a {
-  color: $primary-color;
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.skip__navigation__link {
+  background-color: $alternate-background;
+  position: absolute;
+  transform: translateY(-120%);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  border-radius: 0 0 0.25rem 0.25rem;
+
+  &:focus {
+    transform: translateY(0);
+  }
 }
 
 .arrow__back {
-  @extend %grid-content-padding;
+  @extend %content--padding;
   display: flex;
   justify-items: center;
   align-items: center;

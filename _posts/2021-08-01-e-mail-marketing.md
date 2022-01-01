@@ -1,7 +1,8 @@
 ---
-layout: cardsDetail
+layout: cards_article
 permalink: /e-mail-marketing
 tags: mailchimp, e-mail-marketing, rapidmail, cakemail, newsletter, marketing automation, alle
+img: "/e-mail-marketing.jpg"
 
 title: E-Mail-Marketing
 kosten: 1/5
@@ -79,4 +80,4 @@ Nebst dem Versenden von Textnachrichten gibt es hier auch die Möglichkeit, Vide
 Zalando betreibt im Bereich der Follow-up-Newsletters sehr erfolgreiche Kampagnen. Dabei setzt das Unternehmen auf eine sorgfältige Segmentierung der verschiedenen Gruppen. Basierend auf dem Geschlecht, den bisherigen Einkäufen und Interessen werden den Kundinnen und Kunden via Newsletter passende Angebote zugeschickt.
 
 **Sammlung**  
-[www.mailbakery.com/blog/email-marketing-campaign-examples](https://mailbakery.com/blog/email-marketing-campaign-examples/)
+[www.mailbakery.com/blog/email-marketing-campaign-examples](https://mailbakery.com/blog/email-marketing-campaign-examples/){:target="\_blank"}
