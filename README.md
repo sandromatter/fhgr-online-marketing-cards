@@ -1,7 +1,7 @@
 # Fachhochschule Graubünden Online Marketing Cards  
 Das Code Projekt wurde im Modul *«Webprogrammierung»* an der Fachhochschule Graubünden umgesetzt.   
 
-**zum Projekt**: https://github.com/sandromatter/fhgr-online-marketing-cards/
+**zum Projekt**: https://sandromatter.github.io/fhgr-online-marketing-cards
 
 ---
 
