@@ -11,7 +11,7 @@ layout: default
     <div class="post__header">
       <img
         class="post__header__img"
-        src="./assets/img/posts/{{ page.img }}"
+        src='{{ "assets/img/posts/" | prepend: site.baseurl }}{{ page.img }}'
         alt="{{ page.title }}"
       />
     </div>

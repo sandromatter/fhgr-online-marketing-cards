@@ -4,7 +4,7 @@
       <div class="card__header">
         <img
           class="card__header__img"
-          src="./assets/img/posts/{{ cards.img }}"
+          src='{{ "assets/img/posts/" | prepend: site.baseurl }}{{ cards.img }}'
           alt="{{ cards.title }}"
         />
       </div>
