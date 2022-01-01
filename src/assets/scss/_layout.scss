@@ -13,16 +13,12 @@
   }
 }
 
-body {
-  position: relative;
-  min-height: 100vh;
-}
-
 header {
   @extend %content--padding;
 }
 
 article {
+  min-height: 52vh;
   @extend %content--padding;
 }
 
