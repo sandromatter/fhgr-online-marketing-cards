@@ -17,12 +17,9 @@
 />
 <link
   rel="shortcut icon"
-  href='{{ "assets/img/pages/favicon.ico" | prepend: site.baseurl }}'
+  href='{{ "assets/img/pages/favicon.ico" | relative_url }}'
 />
-<link
-  rel="stylesheet"
-  href='{{ baseurl }}{{ "assets/css/style.css" | prepend: site.baseurl }}'
-/>
+<link rel="stylesheet" href='{{ "assets/css/style.css" | relative_url }}' />
 <script
   src="https://kit.fontawesome.com/d1e06be6f8.js"
   crossorigin="anonymous"

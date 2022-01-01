@@ -4,7 +4,7 @@
       <div class="card__header">
         <img
           class="card__header__img"
-          src='{{ "assets/img/posts/" | prepend: site.baseurl }}{{ cards.img }}'
+          src='{{ "assets/img/posts/" | relative_url }}{{ cards.img }}'
           alt="{{ cards.title }}"
         />
       </div>
@@ -12,7 +12,7 @@
         <h2 class="card__body__title">{{ cards.title }}</h2>
         <button
           tabindex="0"
-          onClick="location.href='{{ cards.permalink }}'"
+          onClick="location.href='{{ site.baseurl }}/{{ cards.permalink }}'"
           value="mehr erfahren"
           type="button"
           class="card__button--light"

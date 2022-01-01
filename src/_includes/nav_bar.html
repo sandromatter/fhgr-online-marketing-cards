@@ -4,10 +4,10 @@
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
       <ul class="luxbar-navigation">
         <li class="luxbar-header">
-          <a tabindex="0" href="/"
+          <a tabindex="0" href="{{ site.baseurl }}/"
             ><img
               class="luxbar-brand"
-              src='{{ "assets/img/pages/fhgr.svg" | prepend: site.baseurl }}'
+              src='{{ "assets/img/pages/fhgr.svg" | relative_url }}'
               alt=""
           /></a>
           <label
@@ -19,15 +19,22 @@
           </label>
         </li>
         <li class="luxbar-item">
-          <a tabindex="0" href="/" title="Online Marketing Cards"
+          <a
+            tabindex="0"
+            href="{{ site.baseurl }}/"
+            title="Online Marketing Cards"
             >Online Marketing Cards</a
           >
         </li>
         <li class="luxbar-item">
-          <a tabindex="0" href="/projekt" title="Projekt">Projekt</a>
+          <a tabindex="0" href="{{ site.baseurl }}/projekt" title="Projekt"
+            >Projekt</a
+          >
         </li>
         <li class="luxbar-item">
-          <a tabindex="0" href="/kontakt" title="Kontakt">Kontakt</a>
+          <a tabindex="0" href="{{ site.baseurl }}/kontakt" title="Kontakt"
+            >Kontakt</a
+          >
         </li>
       </ul>
     </div>

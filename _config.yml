@@ -1,8 +1,8 @@
 # _config.yml
 source: src
 destination: docs
-url: "https://sandromatter.github.io/fhgr-online-marketing-cards" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sandromatter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/fhgr-online-marketing-cards" # the subpath of your site, e.g. /blog
 title: "FHGR Online Marketing Cards" # the name of your site, e.g. ACME Corp.
 description: "Die Onlineausgabe der Online Marketing Cards der FH Graubünden. Die Lernkarten, welche die Vorzüge und Nachteile der meistgebrauchten Tools und Plattformen im digitalen Marketing erklären."
 organization-name: "Fachhochschule Graubünden"

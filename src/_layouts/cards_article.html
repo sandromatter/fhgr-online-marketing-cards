@@ -11,7 +11,7 @@ layout: default
     <div class="post__header">
       <img
         class="post__header__img"
-        src='{{ "assets/img/posts/" | prepend: site.baseurl }}{{ page.img }}'
+        src='{{ "assets/img/posts/" | relative_url }}{{ page.img }}'
         alt="{{ page.title }}"
       />
     </div>
@@ -42,11 +42,15 @@ layout: default
           {% if page.previous.url %}
           <div class="prev">
             <i class="fa-solid fa-caret-left"></i>
-            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+            <a href="{{ site.baseurl }}/{{page.previous.url}}"
+              >{{page.previous.title}}</a
+            >
           </div>
           {% endif %} {% if page.next.url %}
           <div class="next">
-            <a href="{{page.next.url}}">{{page.next.title}}</a>
+            <a href="{{ site.baseurl }}/{{page.next.url}}"
+              >{{page.next.title}}</a
+            >
             <i class="fa-solid fa-caret-right"></i>
           </div>
           {% endif %}
