@@ -6,7 +6,7 @@ description: "Die Onlineausgabe der Online Marketing Cards der FH Graubünden. D
 organization-name: "Fachhochschule Graubünden"
 organization-link: "https://www.fhgr.ch"
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-source: src
+source: docs
 sass:
   sass_dir: "assets/scss"
   style: "compressed"
