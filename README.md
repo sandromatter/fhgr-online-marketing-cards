@@ -16,12 +16,11 @@ Das Projekt wurde mit dem statischen Site-Generator Jekyll umgesetzt. Um das Pro
 Klonen Sie dazu das GitHub Repository auf Ihren Rechner und installieren Sie Ruby und <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> im Repo (ohne Erstellen einer neuen Seite), um anschliessend mit folgenden Befehlen die Seite zu generieren.
 
 ```
-$ jekyll build
+$ bundler install
+$ build exec jekyll build
 // or
-$ jekyll serve
+$ build exec jekyll serve
 ```
-
-**Wichtig**: Das Projekt befindet sich momentan in Entwicklung.
 
 Die Dependencies um das Projekt lokal zu testen befinden sich im Gemfile.
 
