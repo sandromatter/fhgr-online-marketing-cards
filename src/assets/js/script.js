@@ -1,11 +1,16 @@
 // Swiper JS
-const swiper = new Swiper(".swiper", {
-  effect: "cards",
-  grabCursor: true,
-  keyboard: {
-    enabled: true,
-  },
-});
+let contentWrapperSwiper = document.getElementById("content-wrapper-swiper");
+
+if (contentWrapperSwiper != null) {
+  contentWrapperSwiper.style.display = "block";
+  const swiper = new Swiper(".swiper", {
+    effect: "cards",
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+    },
+  });
+}
 
 // Jekyll Search
 if (typeof SimpleJekyllSearch === "function") {
@@ -44,28 +49,32 @@ if (typeof SimpleJekyllSearch === "function") {
 }
 
 // Display rating as icons
-let costRating = parseFloat(document.getElementById("post-costs").textContent);
-let effectRating = parseFloat(
-  document.getElementById("post-effect").textContent
-);
+if (document.getElementById("post-costs") != null) {
+  let costRating = parseFloat(
+    document.getElementById("post-costs").textContent
+  );
+  let effectRating = parseFloat(
+    document.getElementById("post-effect").textContent
+  );
 
-displayCosts = (costs) => {
-  const costsTotal = 5;
-  const costsPercentage = (costs / costsTotal) * 100;
-  const costsPercentageRounded = `${Math.round(costsPercentage / 10) * 10}%`;
-  document.querySelector(`.post__costs--filled`).style.width =
-    costsPercentageRounded;
-  document.getElementById(`post-costs`).style.display = "none";
-};
+  displayCosts = (costs) => {
+    const costsTotal = 5;
+    const costsPercentage = (costs / costsTotal) * 100;
+    const costsPercentageRounded = `${Math.round(costsPercentage / 10) * 10}%`;
+    document.querySelector(`.post__costs--filled`).style.width =
+      costsPercentageRounded;
+    document.getElementById(`post-costs`).style.display = "none";
+  };
 
-displayStars = (stars) => {
-  const starsTotal = 5;
-  const starsPercentage = (stars / starsTotal) * 100;
-  const starsPercentageRounded = `${Math.round(starsPercentage / 10) * 10}%`;
-  document.querySelector(`.post__stars--filled`).style.width =
-    starsPercentageRounded;
-  document.getElementById(`post-effect`).style.display = "none";
-};
+  displayStars = (stars) => {
+    const starsTotal = 5;
+    const starsPercentage = (stars / starsTotal) * 100;
+    const starsPercentageRounded = `${Math.round(starsPercentage / 10) * 10}%`;
+    document.querySelector(`.post__stars--filled`).style.width =
+      starsPercentageRounded;
+    document.getElementById(`post-effect`).style.display = "none";
+  };
 
-displayCosts(costRating);
-displayStars(effectRating);
+  displayCosts(costRating);
+  displayStars(effectRating);
+}
