@@ -1,6 +1,7 @@
 # _config.yml
+environment: production
 source: src
-destination: docs
+destination: ._site
 url: "https://sandromatter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/fhgr-online-marketing-cards" # the subpath of your site, e.g. /blog
 title: "FHGR Online Marketing Cards" # the name of your site, e.g. ACME Corp.
@@ -11,3 +12,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 sass:
   sass_dir: "assets/scss"
   style: "compressed"
+
+plugins:
+  - jekyll-minifier
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
