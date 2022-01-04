@@ -3,3 +3,4 @@ node_modules
 .prettierignore
 .vscode
 ._*
+.docs
