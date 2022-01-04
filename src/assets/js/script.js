@@ -1,3 +1,8 @@
+---
+layout: js_minifier
+replace_names: false
+---
+
 // Swiper JS
 let contentWrapperSwiper = document.getElementById("content-wrapper-swiper");
 
