@@ -9,6 +9,7 @@
 }
 
 .card__wrapper {
+  display: flex;
   position: relative;
   width: 250px;
   height: 400px;
@@ -28,7 +29,7 @@
   }
 }
 
-.card {
+.single__card {
   position: relative;
   top: 0;
   left: 0;

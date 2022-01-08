@@ -1,12 +1,13 @@
 /**
 //==============================================================================
-// Layout and CSS-Grid properties
+// Layout properties
 //==============================================================================
 */
 
 %content--padding {
   padding: 0.75rem 1.25rem;
   margin: 0 auto;
+  justify-items: center;
 
   @include large-breakpoint {
     padding: 1rem 2.5rem;
@@ -20,14 +21,6 @@ header {
 article {
   min-height: 60vh;
   @extend %content--padding;
-}
-
-//==============================================================================
-// Card grid
-//==============================================================================
-
-.grid__card {
-  display: grid;
 }
 
 //==============================================================================
@@ -47,6 +40,10 @@ article {
 .content__wrapper--swiper {
   max-width: 100%;
   box-sizing: content-box;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
   margin-bottom: 1rem;
   padding: 0;
 
