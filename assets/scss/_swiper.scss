@@ -1,34 +1,16 @@
 .swiper {
-  width: 200px;
   height: 100%;
-  margin: 4rem auto;
-  list-style: none;
+  width: 250px;
+
   /* Fix of Webkit flickering */
   z-index: 1;
 
-  @include large-breakpoint {
-    width: 500px;
+  @include medium-breakpoint {
+    width: 400px;
   }
-}
 
-.swiper-vertical > .swiper-wrapper {
-  flex-direction: column;
-}
-
-.swiper-wrapper {
-  display: flex;
-  transition-property: transform;
-}
-
-.swiper-android .swiper-slide,
-.swiper-wrapper {
-  transform: translate3d(0px, 0, 0);
-}
-
-.swiper-pointer-events {
-  touch-action: pan-y;
-  &.swiper-vertical {
-    touch-action: pan-x;
+  @include large-breakpoint {
+    width: 425px;
   }
 }
 
@@ -38,6 +20,8 @@
   align-items: center;
   flex-shrink: 0;
   transition-property: transform;
+  -webkit-transition-property: transform;
+  -moz-transition-property: transform;
 
   img {
     height: 60vh;
@@ -48,19 +32,6 @@
   }
 }
 
-.swiper-slide-invisible-blank {
-  visibility: hidden;
-}
-
-/* Auto Height */
-.swiper-autoheight {
-  &,
-  .swiper-slide {
-    height: auto;
-  }
-
-  .swiper-wrapper {
-    align-items: flex-start;
-    transition-property: transform, height;
-  }
+.swiper-slide-shadow {
+  border-radius: 10px;
 }

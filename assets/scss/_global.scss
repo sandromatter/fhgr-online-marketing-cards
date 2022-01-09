@@ -4,6 +4,10 @@
 //==============================================================================
 */
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: $link-color;
   text-decoration: none;
