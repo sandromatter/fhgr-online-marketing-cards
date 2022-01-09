@@ -28,19 +28,6 @@
   p {
     color: $background;
   }
-
-  width: 250px;
-  height: 400px;
-
-  @include medium-breakpoint {
-    width: 400px;
-    height: 600px;
-  }
-
-  @include large-breakpoint {
-    width: 425px;
-    height: 650px;
-  }
 }
 
 .card__button--light {
