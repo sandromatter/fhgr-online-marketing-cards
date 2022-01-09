@@ -4,47 +4,27 @@ layout: html_minifier
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "de" }}">
-
 <head>
-
     <!-- Head -->
     {% include head.html %}
-
 </head>
-
     <body>
-
         <a tabindex="0" class="skip__navigation__link" href="{{ site.baseurl }}#main-content" >Skip navigation</a>
-
-        <div class="grid__container">
-
-
-            <!-- Navbar -->
-            {% include nav_bar.html %}
-
-            <!-- Main content -->
-            <main id="main-content" role="main">
-
-                {% if page.layout != "page" %}
-                    <div class="post__wrapper">
-                {% endif %}
-
-                {{ content }}
-                
-                <!-- Footer  -->
-                {% include footer.html%}
-
-                {% if page.layout != "page" %}
-                    </div>
-                {% endif %}
-
-            </main>
-
-        </div>
-
+        <!-- Navbar -->
+        {% include nav_bar.html %}
+        <!-- Main content -->
+        <main id="main-content" role="main">
+            {% if page.layout != "page" %}
+                <div class="post__wrapper">
+            {% endif %}
+            {{ content }} 
+            <!-- Footer  -->
+            {% include footer.html%}
+            {% if page.layout != "page" %}
+                </div>
+            {% endif %}
+        </main>
         <!-- Scripts  -->
         {% include scripts_body.html%}
-
     </body>
-
 </html>
