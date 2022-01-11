@@ -11,6 +11,7 @@ if (contentWrapperSwiper != null) {
   const swiper = new Swiper(".swiper", {
     effect: "cards",
     grabCursor: true,
+    preventClicks: false,
     keyboard: {
       enabled: true,
     },
